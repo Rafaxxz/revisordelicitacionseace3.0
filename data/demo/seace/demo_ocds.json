@@ -1,0 +1,16 @@
+{
+  "uri": "demo",
+  "publisher": {"name": "DATOS FICTICIOS DE DEMOSTRACION"},
+  "releases": [
+    {
+      "ocid": "ocds-demo-000001",
+      "date": "2026-09-25T10:00:00Z",
+      "buyer": {"name": "MUNICIPALIDAD DISTRITAL DEMO SEIS"},
+      "tender": {"id": "AS-SM-3-2026-DEMO-6", "title": "Adquisicion de avena enriquecida",
+                 "description": "Adquisicion de avena enriquecida con kiwicha para beneficiarios del PVL"},
+      "awards": [{"id": "1", "status": "active", "date": "2026-09-25T10:00:00Z",
+                  "value": {"amount": 78500.0, "currency": "PEN"},
+                  "suppliers": [{"name": "PRODUCTOS DEMO LA CAMPINA S.A.C.", "id": "PE-RUC-20000000066"}]}]
+    }
+  ]
+}

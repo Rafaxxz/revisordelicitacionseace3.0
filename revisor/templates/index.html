@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Revisor de licitaciones SEACE</title>
+<style>
+  :root { --azul:#1d3f73; --verde:#1f7a3a; --rojo:#b3261e; --gris:#6b6b6b; --fondo:#f4f6fa; --borde:#dde3ec; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--fondo); color:#1c1c1c; }
+  header { background:var(--azul); color:#fff; padding:18px 24px; }
+  header h1 { margin:0; font-size:20px; }
+  header p { margin:4px 0 0; opacity:.85; font-size:13px; }
+  main { max-width:1150px; margin:0 auto; padding:20px 16px 60px; }
+  .panel { background:#fff; border:1px solid var(--borde); border-radius:10px; padding:16px 18px; margin-bottom:18px; }
+  form .fila { display:flex; flex-wrap:wrap; gap:14px 22px; align-items:flex-end; }
+  label { font-size:13px; color:#333; display:flex; flex-direction:column; gap:4px; }
+  label.check { flex-direction:row; align-items:center; gap:6px; }
+  input[type=date], input[type=file] { font:inherit; font-size:13px; }
+  button, .boton { background:var(--azul); color:#fff; border:0; border-radius:7px; padding:9px 16px; font-size:14px; cursor:pointer; text-decoration:none; display:inline-block; }
+  .boton.pdf { background:var(--rojo); }
+  .ayuda { font-size:12px; color:var(--gris); margin:10px 0 0; }
+  .resumen { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:10px; margin:14px 0; }
+  .tarjeta { background:#fff; border:1px solid var(--borde); border-radius:10px; padding:12px 14px; }
+  .tarjeta b { font-size:24px; display:block; }
+  .tarjeta span { font-size:12px; color:var(--gris); }
+  .avisos { background:#fff8e1; border:1px solid #f0d98a; border-radius:8px; padding:8px 14px; font-size:13px; }
+  .tabs { display:flex; flex-wrap:wrap; gap:6px; margin:16px 0 0; }
+  .tabs button { background:#e4e9f2; color:var(--azul); }
+  .tabs button.activo { background:var(--azul); color:#fff; }
+  .categoria { display:none; }
+  .categoria.activa { display:block; }
+  details.ganador { background:#fff; border:1px solid var(--borde); border-radius:10px; margin:10px 0; }
+  details.ganador > summary { list-style:none; cursor:pointer; padding:12px 16px; display:grid; grid-template-columns: 1fr auto; gap:6px 14px; align-items:center; }
+  details.ganador > summary::-webkit-details-marker { display:none; }
+  .nombre::before { content:"▸ "; color:var(--gris); }
+  details.ganador[open] .nombre::before { content:"▾ "; }
+  .nombre { font-weight:600; }
+  .sub { font-size:12px; color:var(--gris); }
+  .badge { font-size:11px; font-weight:700; padding:4px 9px; border-radius:20px; white-space:nowrap; }
+  .badge.si { background:#e3f3e8; color:var(--verde); }
+  .badge.no { background:#fbe6e4; color:var(--rojo); }
+  .badge.nv { background:#ececec; color:var(--gris); }
+  .cuerpo { border-top:1px solid var(--borde); padding:12px 16px 16px; font-size:13px; }
+  .cuerpo dl { display:grid; grid-template-columns:150px 1fr; gap:4px 12px; margin:0 0 12px; }
+  .cuerpo dt { color:var(--gris); }
+  .cuerpo dd { margin:0; }
+  table { width:100%; border-collapse:collapse; font-size:12.5px; }
+  th, td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--borde); vertical-align:top; }
+  th { background:#eef2f8; }
+  .nota { background:#f7f7f7; border-left:3px solid var(--gris); padding:6px 10px; margin-top:10px; }
+  .vacio { color:var(--gris); font-size:13px; padding:10px 2px; }
+  @media (max-width: 640px) { .cuerpo dl { grid-template-columns:1fr; } details.ganador > summary { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Revisor diario de licitaciones SEACE</h1>
+  <p>Avena · Arroz símil · Arroz fortificado · Programa del Vaso de Leche · ganadores y registro sanitario DIGESA</p>
+</header>
+<main>
+  <form class="panel" method="post" action="{{ url_for('ejecutar') }}" enctype="multipart/form-data">
+    <div class="fila">
+      <label>Buena pro desde <input type="date" name="desde" value="{{ desde.isoformat() }}"></label>
+      <label>hasta <input type="date" name="hasta" value="{{ hasta.isoformat() }}"></label>
+      <label class="check"><input type="checkbox" name="en_linea" value="1" {% if en_linea %}checked{% endif %}> Consultar OECE en línea</label>
+      <label class="check"><input type="checkbox" name="demo" value="1" {% if demo %}checked{% endif %}> Usar datos de demostración</label>
+    </div>
+    <div class="fila" style="margin-top:12px">
+      <label>Archivos SEACE / OECE (CSV, XLSX, JSON OCDS)
+        <input type="file" name="seace" multiple accept=".csv,.txt,.xlsx,.xlsm,.json"></label>
+      <label>Base de registros sanitarios DIGESA (CSV, XLSX)
+        <input type="file" name="digesa" multiple accept=".csv,.txt,.xlsx,.xlsm"></label>
+      <button type="submit">Revisar</button>
+    </div>
+    <p class="ayuda">También se leen automáticamente los archivos de <code>data/seace/</code> y <code>data/digesa/</code>.
+      Los datos de demostración son ficticios y solo sirven para probar el sistema.</p>
+  </form>
+
+  {% if reporte %}
+  {% set conteo = reporte.conteo() %}
+  <div class="panel">
+    <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;align-items:center">
+      <div>
+        <b>Resultados {{ reporte.desde.strftime('%d/%m/%Y') }}{% if reporte.hasta != reporte.desde %} al {{ reporte.hasta.strftime('%d/%m/%Y') }}{% endif %}</b>
+        <div class="sub">Fuentes: {{ reporte.fuentes|join('; ') or 'ninguna' }}</div>
+        <div class="sub">Base DIGESA: {{ reporte.base_registros|join(', ') or 'no cargada' }}</div>
+      </div>
+      <a class="boton pdf" href="{{ url_for('descargar_pdf', rid=rid) }}">⬇ Descargar PDF</a>
+    </div>
+    <div class="resumen">
+      <div class="tarjeta"><b>{{ reporte.resultados|length }}</b><span>Ganadores</span></div>
+      <div class="tarjeta"><b style="color:var(--verde)">{{ conteo[CON_REGISTRO] }}</b><span>Con registro sanitario</span></div>
+      <div class="tarjeta"><b style="color:var(--rojo)">{{ conteo[SIN_REGISTRO] }}</b><span>Sin registro sanitario</span></div>
+      <div class="tarjeta"><b style="color:var(--gris)">{{ conteo[NO_VERIFICADO] }}</b><span>No verificado</span></div>
+    </div>
+    {% if reporte.avisos %}
+    <div class="avisos">{% for a in reporte.avisos %}<div>⚠ {{ a }}</div>{% endfor %}</div>
+    {% endif %}
+
+    {% set grupos = reporte.por_categoria() %}
+    <div class="tabs" role="tablist">
+      {% for cat in grupos %}
+      <button type="button" class="{% if loop.first %}activo{% endif %}" data-tab="cat{{ loop.index }}">{{ cat }} ({{ grupos[cat]|length }})</button>
+      {% endfor %}
+    </div>
+
+    {% for cat, resultados in grupos.items() %}
+    <section class="categoria {% if loop.first %}activa{% endif %}" id="cat{{ loop.index }}">
+      {% if not resultados %}<p class="vacio">Sin ganadores de {{ cat|lower }} en el periodo.</p>{% endif %}
+      {% for r in resultados %}
+      {% set a = r.adjudicacion %}{% set v = r.verificacion %}
+      <details class="ganador">
+        <summary>
+          <div>
+            <div class="nombre">{{ a.ganador }}</div>
+            <div class="sub">RUC {{ a.ruc_ganador or '-' }} · {{ a.entidad }} · {{ formato_monto(a.monto, a.moneda) }}{% if a.fecha_buena_pro %} · B.P. {{ a.fecha_buena_pro.strftime('%d/%m/%Y') }}{% endif %}</div>
+          </div>
+          <span class="badge {% if v.estado == CON_REGISTRO %}si{% elif v.estado == SIN_REGISTRO %}no{% else %}nv{% endif %}">{{ v.estado }}</span>
+        </summary>
+        <div class="cuerpo">
+          <dl>
+            <dt>Procedimiento</dt><dd>{{ a.nomenclatura or '-' }}{% if a.url %} · <a href="{{ a.url }}" target="_blank" rel="noopener">ver</a>{% endif %}</dd>
+            <dt>Entidad</dt><dd>{{ a.entidad or '-' }}</dd>
+            <dt>Descripción</dt><dd>{{ a.descripcion or '-' }}</dd>
+            <dt>Monto adjudicado</dt><dd>{{ formato_monto(a.monto, a.moneda) }}</dd>
+            <dt>Fuente</dt><dd>{{ a.fuente }}</dd>
+          </dl>
+          <b>Registro sanitario</b>
+          {% set regs = v.relacionados or v.registros %}
+          {% if regs %}
+          <table>
+            <thead><tr><th>N.º registro</th><th>Producto</th><th>Marca</th><th>Titular</th><th>Vencimiento</th><th>Estado</th></tr></thead>
+            <tbody>
+            {% for x in regs %}
+              <tr>
+                <td>{{ x.codigo }}</td><td>{{ x.producto }}</td><td>{{ x.marca or '-' }}</td><td>{{ x.titular }}</td>
+                <td>{{ x.fecha_vencimiento.strftime('%d/%m/%Y') if x.fecha_vencimiento else '-' }}</td>
+                <td>{% if x.vigente is sameas true %}<span style="color:var(--verde)">Vigente</span>{% elif x.vigente is sameas false %}<span style="color:var(--rojo)">{{ x.estado or 'Vencido' }}</span>{% else %}{{ x.estado or '-' }}{% endif %}</td>
+              </tr>
+            {% endfor %}
+            </tbody>
+          </table>
+          {% if v.relacionados and v.registros|length > v.relacionados|length %}
+          <p class="sub">Se muestran {{ v.relacionados|length }} registros relacionados con {{ cat|lower }} de {{ v.registros|length }} a nombre de la empresa.</p>
+          {% endif %}
+          {% else %}
+          <p class="vacio">No se encontraron registros sanitarios para este ganador.</p>
+          {% endif %}
+          {% if v.nota %}<div class="nota">{{ v.nota }}</div>{% endif %}
+          <p class="sub">Confirmar en la consulta oficial de DIGESA: <a href="{{ URL_CONSULTA_DIGESA }}" target="_blank" rel="noopener">{{ URL_CONSULTA_DIGESA }}</a></p>
+        </div>
+      </details>
+      {% endfor %}
+    </section>
+    {% endfor %}
+  </div>
+  {% endif %}
+</main>
+<script>
+  document.querySelectorAll('.tabs button').forEach(function (b) {
+    b.addEventListener('click', function () {
+      document.querySelectorAll('.tabs button').forEach(function (x) { x.classList.remove('activo'); });
+      document.querySelectorAll('.categoria').forEach(function (s) { s.classList.remove('activa'); });
+      b.classList.add('activo');
+      document.getElementById(b.dataset.tab).classList.add('activa');
+    });
+  });
+</script>
+</body>
+</html>

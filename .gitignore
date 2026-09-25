@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+reportes/*.pdf
+data/seace/*
+data/digesa/*
+!data/seace/.gitkeep
+!data/digesa/.gitkeep
