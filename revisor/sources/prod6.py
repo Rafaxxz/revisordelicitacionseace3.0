@@ -38,7 +38,7 @@ _ALIMENTO_PVL = re.compile(r"\b(leche|avena|hojuela|cereal|alimento|alimentari|i
                            r"mezcla|quinua|kiwicha|trigo|arroz|harina|producto)s?\b")
 _NO_ALIMENTO_PVL = re.compile(r"\b(servicio|alquiler|tinta|menaje|refaccion|mantenimiento|impresion|utiles|"
                               r"camioneta|combustible|asesoria|consultoria|kit|pintura|impresora|material|papeleria|oficina|"
-                              r"escritorio|limpieza|mueble|equipo)(e?s)?\b")
+                              r"escritorio|limpieza|mueble|equipo|archivador|folder|documento|archivo)(e?s)?\b")
 
 
 @dataclass
@@ -68,13 +68,12 @@ def _fecha(s: object) -> Optional[datetime]:
 
 def categorias_de(descripcion: str, objeto: str = "") -> list[str]:
     t = normalizar(descripcion)
-    if _EXCLUIR.search(t):
+    # Solo compras de bienes (no servicios de análisis, transporte, etc.).
+    if _EXCLUIR.search(t) or (objeto and normalizar(objeto) != "bien"):
         return []
     cats = clasificar(descripcion)
-    if VASO_DE_LECHE in cats:
-        es_bien = not objeto or normalizar(objeto) == "bien"
-        if not es_bien or _NO_ALIMENTO_PVL.search(t) or not _ALIMENTO_PVL.search(t):
-            cats.remove(VASO_DE_LECHE)
+    if VASO_DE_LECHE in cats and (_NO_ALIMENTO_PVL.search(t) or not _ALIMENTO_PVL.search(t)):
+        cats.remove(VASO_DE_LECHE)
     return cats
 
 

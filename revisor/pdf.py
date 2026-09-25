@@ -8,7 +8,7 @@ from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4, landscape
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import cm
-from reportlab.platypus import (KeepTogether, Paragraph, SimpleDocTemplate, Spacer, Table,
+from reportlab.platypus import (CondPageBreak, KeepTogether, Paragraph, SimpleDocTemplate, Spacer, Table,
                                 TableStyle)
 
 from .modelos import CON_REGISTRO, SIN_REGISTRO
@@ -44,8 +44,7 @@ def generar_pdf(rep: Reporte, proximas: list | None = None) -> bytes:
     normal = ParagraphStyle("n", parent=est["Normal"], fontSize=8, leading=10)
     pequeno = ParagraphStyle("p", parent=normal, fontSize=7, leading=9, textColor=GRIS)
     h1 = ParagraphStyle("h1", parent=est["Title"], fontSize=16, textColor=AZUL, alignment=0)
-    h2 = ParagraphStyle("h2", parent=est["Heading2"], fontSize=12, textColor=AZUL, spaceBefore=10,
-                        keepWithNext=1)
+    h2 = ParagraphStyle("h2", parent=est["Heading2"], fontSize=12, textColor=AZUL, spaceBefore=10)
 
     def p(texto: object, estilo=normal) -> Paragraph:
         return Paragraph(escape(str(texto or "")), estilo)
@@ -79,7 +78,7 @@ def generar_pdf(rep: Reporte, proximas: list | None = None) -> bytes:
 
     anchos = [3.2 * cm, 4.2 * cm, 5.0 * cm, 4.6 * cm, 2.2 * cm, 2.6 * cm, 4.9 * cm]
     for categoria, resultados in rep.por_categoria().items():
-        historia.append(Paragraph(f"{escape(categoria)} ({len(resultados)})", h2))
+        historia += [CondPageBreak(4 * cm), Paragraph(f"{escape(categoria)} ({len(resultados)})", h2)]
         if not resultados:
             historia.append(p("Sin ganadores en el periodo.", pequeno))
             continue
@@ -125,7 +124,7 @@ def generar_pdf(rep: Reporte, proximas: list | None = None) -> bytes:
         historia.append(tabla)
 
     if proximas is not None:
-        historia.append(Paragraph(f"Próximas contrataciones ({len(proximas)})", h2))
+        historia += [CondPageBreak(4 * cm), Paragraph(f"Próximas contrataciones ({len(proximas)})", h2)]
         if not proximas:
             historia.append(p("No hay contrataciones abiertas de estos productos.", pequeno))
         else:

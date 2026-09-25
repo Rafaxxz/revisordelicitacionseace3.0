@@ -97,3 +97,9 @@ def test_sigue_abierta():
 
 def test_excluye_papeleria_pvl():
     assert prod6.categorias_de("MATERIALES, PAPELERIA EN GENERAL PARA LA OFICINA DEL PROGRAMA VASO DE LECHE", "Bien") == []
+
+
+def test_excluye_servicios_y_utiles():
+    assert prod6.categorias_de("SERVICIO DE ANALISIS FISICOQUIMICO DE HOJUELA DE AVENA", "Servicio") == []
+    assert prod6.categorias_de("ADQUISICION DE ARCHIVADORES Y FOLDER PARA EL PROGRAMA DE VASO DE LECHE", "Bien") == []
+    assert prod6.categorias_de("COMPRA DE SUMINISTROS PARA EL PROGRAMA VASO DE LECHE: HOJUELAS DE QUINUA Y AVENA", "Bien") == [AVENA, VASO_DE_LECHE]

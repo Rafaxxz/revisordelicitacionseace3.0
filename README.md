@@ -2,15 +2,20 @@
 
 Revisa las licitaciones del SEACE para **avena**, **arroz símil**, **arroz fortificado** y el **Programa del Vaso de Leche**. Para cada procedimiento lista a los **ganadores (buena pro)** y verifica si tienen **registro sanitario de DIGESA**. Los resultados se ven en una página web con **pestañas por producto**. Cada ganador es una **pestaña desplegable** que muestra el detalle de su registro sanitario. El reporte completo se puede **descargar en PDF**.
 
-## Página web (sin instalar nada)
+## Página web (se actualiza sola cada día)
 
 **https://rafaxxz.github.io/revisordelicitacionseace3.0/**
 
-1. Descarga del [buscador del SEACE](https://prod2.seace.gob.pe/seacebus-uiwd-pub/buscadorPublico/buscadorPublico.xhtml) (o de OECE/CONOSCE) el Excel con los procesos de avena, arroz o vaso de leche.
-2. Súbelo en la página y pulsa **Revisar**: verás los ganadores por producto (cada uno en un desplegable con su registro sanitario) y las **próximas contrataciones** (procesos aún sin buena pro).
-3. Pulsa **Descargar PDF**.
+Todos los días a las 6:17 a. m. (hora de Lima), GitHub Actions ejecuta el workflow `.github/workflows/pagina.yml`, que:
 
-Todo se procesa en el navegador. El SEACE y el OECE bloquean las conexiones desde fuera del Perú (también desde los servidores de GitHub), por eso el archivo se descarga desde tu PC. La página se publica sola desde la carpeta `web/` con el workflow `.github/workflows/pagina.yml`.
+1. Consulta la API pública del **buscador de contrataciones del SEACE** (`prod6.seace.gob.pe`) con los términos avena, arroz, símil, vaso de leche, leche, hojuela y cereal. Filtra lo que no es alimento para personas (heno, forraje, útiles de oficina, servicios…).
+2. Toma a los **ganadores** del detalle de cada contratación culminada (ítems "ADJUDICADO": RUC, razón social y monto) y las **próximas contrataciones** (vigentes o en evaluación).
+3. Verifica el **registro sanitario** de cada ganador en la consulta oficial de **DIGESA** por RUC (`revisor/digesa.py`).
+4. Publica `datos/ultimo.json` y `datos/reporte.pdf` junto con la página en la rama `gh-pages`.
+
+Para lanzarlo a mano: pestaña **Actions → Revisión diaria y página web → Run workflow** (se puede cambiar el número de días).
+
+**Límite importante:** la fuente automática cubre las **contrataciones de hasta 8 UIT**. Las licitaciones y adjudicaciones mayores están en el buscador antiguo (`prod2.seace.gob.pe`) y en el OECE, que **bloquean las conexiones desde fuera del Perú** (incluidos los servidores de GitHub) y además piden captcha. Para esas, la página permite subir el Excel exportado del SEACE desde una PC en el Perú.
 
 ## Versión Python (opcional)
 
