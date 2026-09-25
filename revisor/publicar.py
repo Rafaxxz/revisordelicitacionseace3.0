@@ -1,6 +1,6 @@
 """Revisión automática diaria (GitHub Actions) → datos para la página web.
 
-    python -m revisor.publicar --salida sitio/datos --dias 30
+    python -m revisor.publicar --salida sitio/datos --dias 365
 
 Consulta el SEACE (prod6), obtiene ganadores y contrataciones abiertas,
 verifica el registro sanitario de cada ganador en DIGESA y escribe:
@@ -105,7 +105,7 @@ def ejecutar(salida: Path, dias: int, verificar_digesa: bool = True) -> dict:
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--salida", type=Path, default=Path("sitio/datos"))
-    ap.add_argument("--dias", type=int, default=30)
+    ap.add_argument("--dias", type=int, default=365)
     ap.add_argument("--sin-digesa", action="store_true")
     args = ap.parse_args(argv)
     ejecutar(args.salida, args.dias, verificar_digesa=not args.sin_digesa)

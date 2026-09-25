@@ -9,7 +9,7 @@ on:
     inputs:
       dias:
         description: "Días hacia atrás para buscar ganadores"
-        default: "30"
+        default: "365"
 permissions:
   contents: write
 concurrency:
@@ -29,7 +29,7 @@ jobs:
       - name: Revisar SEACE y DIGESA
         id: revision
         continue-on-error: true
-        run: python -m revisor.publicar --salida /tmp/sitio/datos --dias "${{ github.event.inputs.dias || '30' }}"
+        run: python -m revisor.publicar --salida /tmp/sitio/datos --dias "${{ github.event.inputs.dias || '365' }}"
       - name: Conservar los datos anteriores si la revisión falló
         if: steps.revision.outcome != 'success'
         run: |

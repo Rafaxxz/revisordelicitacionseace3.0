@@ -78,3 +78,22 @@ def test_recolectar_corta_por_fecha():
 
     culminadas, _ = prod6.recolectar(Viejo(), dias=30, terminos=["x"], log=lambda *_: None)
     assert culminadas == []
+
+
+def test_sigue_abierta():
+    hoy = date(2026, 9, 25)
+    base = prod6._a_contratacion(fila(7, "HOJUELA DE AVENA", estado=2))
+    from datetime import datetime as dt
+    base.fin_cotizacion = dt(2026, 9, 26, 17)
+    assert prod6.sigue_abierta(base, hoy)
+    base.fin_cotizacion = dt(2025, 5, 16, 15)
+    assert not prod6.sigue_abierta(base, hoy)          # "Vigente" de hace meses
+    base.estado = "En Evaluación"
+    base.fin_cotizacion = dt(2026, 9, 1)
+    assert prod6.sigue_abierta(base, hoy)
+    base.fin_cotizacion = dt(2025, 12, 18)
+    assert not prod6.sigue_abierta(base, hoy)
+
+
+def test_excluye_papeleria_pvl():
+    assert prod6.categorias_de("MATERIALES, PAPELERIA EN GENERAL PARA LA OFICINA DEL PROGRAMA VASO DE LECHE", "Bien") == []

@@ -37,7 +37,8 @@ _EXCLUIR = re.compile(r"\b(heno|forraje|pasto|animal|capibara|caballo|ganado|sem
 _ALIMENTO_PVL = re.compile(r"\b(leche|avena|hojuela|cereal|alimento|alimentari|insumo|enriquecid|fortificad|"
                            r"mezcla|quinua|kiwicha|trigo|arroz|harina|producto)s?\b")
 _NO_ALIMENTO_PVL = re.compile(r"\b(servicio|alquiler|tinta|menaje|refaccion|mantenimiento|impresion|utiles|"
-                              r"camioneta|combustible|asesoria|consultoria|kit|pintura|impresora)(e?s)?\b")
+                              r"camioneta|combustible|asesoria|consultoria|kit|pintura|impresora|material|papeleria|oficina|"
+                              r"escritorio|limpieza|mueble|equipo)(e?s)?\b")
 
 
 @dataclass
@@ -162,7 +163,19 @@ def recolectar(cliente: ClienteSEACE, dias: int = 30, terminos: list[str] = TERM
                 destino[c.id] = c
                 n += 1
             log(f"  SEACE '{termino}' estado {estado}: {n} nuevas")
-    return list(culminadas.values()), list(abiertas.values())
+    return list(culminadas.values()), [c for c in abiertas.values() if sigue_abierta(c)]
+
+
+def sigue_abierta(c: Contratacion, hoy: date | None = None, dias_evaluacion: int = 60) -> bool:
+    """El SEACE deja procesos "Vigente"/"En Evaluación" de meses atrás sin cerrar.
+    Solo se consideran próximas las que aún reciben cotizaciones o cerraron hace poco."""
+    hoy = hoy or date.today()
+    cierre = (c.fin_cotizacion or c.fecha_publicacion)
+    if cierre is None:
+        return False
+    if normalizar(c.estado) == "vigente":
+        return cierre.date() >= hoy - timedelta(days=1)
+    return cierre.date() >= hoy - timedelta(days=dias_evaluacion)
 
 
 def ganadores(cliente: ClienteSEACE, contrataciones: list[Contratacion], log=print) -> list[Adjudicacion]:
