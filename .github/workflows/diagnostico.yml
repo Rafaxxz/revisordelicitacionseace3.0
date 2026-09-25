@@ -1,8 +1,6 @@
-name: Diagnóstico de conexión SEACE/OECE
+name: Diagnóstico de conexión
 on:
   workflow_dispatch:
-  push:
-    paths: [".github/workflows/diagnostico.yml", "scripts/diagnostico.sh"]
 jobs:
   probar:
     runs-on: ubuntu-latest

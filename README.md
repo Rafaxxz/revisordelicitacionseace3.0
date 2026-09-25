@@ -2,7 +2,19 @@
 
 Revisa las licitaciones del SEACE para **avena**, **arroz símil**, **arroz fortificado** y el **Programa del Vaso de Leche**. Para cada procedimiento lista a los **ganadores (buena pro)** y verifica si tienen **registro sanitario de DIGESA**. Los resultados se ven en una página web con **pestañas por producto**. Cada ganador es una **pestaña desplegable** que muestra el detalle de su registro sanitario. El reporte completo se puede **descargar en PDF**.
 
-## Instalación (una sola vez)
+## Página web (sin instalar nada)
+
+**https://rafaxxz.github.io/revisordelicitacionseace3.0/**
+
+1. Descarga del [buscador del SEACE](https://prod2.seace.gob.pe/seacebus-uiwd-pub/buscadorPublico/buscadorPublico.xhtml) (o de OECE/CONOSCE) el Excel con los procesos de avena, arroz o vaso de leche.
+2. Súbelo en la página y pulsa **Revisar**: verás los ganadores por producto (cada uno en un desplegable con su registro sanitario) y las **próximas contrataciones** (procesos aún sin buena pro).
+3. Pulsa **Descargar PDF**.
+
+Todo se procesa en el navegador. El SEACE y el OECE bloquean las conexiones desde fuera del Perú (también desde los servidores de GitHub), por eso el archivo se descarga desde tu PC. La página se publica sola desde la carpeta `web/` con el workflow `.github/workflows/pagina.yml`.
+
+## Versión Python (opcional)
+
+### Instalación (una sola vez)
 
 Necesitas Python 3.10 o superior.
 
