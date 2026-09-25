@@ -283,6 +283,31 @@ async function revisar(archivosSeace, archivosDigesa, desde, hasta, etiqueta) {
 /* ---------- interfaz ---------- */
 const claseEstado = (e) => (e.startsWith("CON") ? "si" : e.startsWith("SIN") ? "no" : "nv");
 
+function filasContacto(c) {
+  if (!c) return "";
+  const tel = (c.telefonos || []).map((t) => `<a href="tel:${esc(t)}">${esc(t)}</a>`).join(", ");
+  const mail = (c.correos || []).map((m) => `<a href="mailto:${esc(m)}">${esc(m)}</a>`).join(", ");
+  const nada = !tel && !mail ? `<span class="rojo">No declaró teléfono ni correo en el RNP</span>` : "";
+  return `
+      <dt>Teléfono</dt><dd>${tel || nada || "-"}</dd>
+      <dt>Correo</dt><dd>${mail || "-"}</dd>
+      ${c.representante ? `<dt>Representante legal</dt><dd>${esc(c.representante)}</dd>` : ""}
+      ${c.direccion ? `<dt>Dirección</dt><dd>${esc(c.direccion)}</dd>` : ""}
+      ${c.ubicacion ? `<dt>Ubicación (SUNAT)</dt><dd>${esc(c.ubicacion)}${c.estado_sunat ? " · " + esc(c.estado_sunat) : ""}</dd>` : ""}
+      <dt>Ficha del proveedor</dt><dd><a href="${esc(c.ficha_url)}" target="_blank" rel="noopener">ver en el OECE</a></dd>`;
+}
+
+function textoContacto(c) {
+  if (!c) return "";
+  const l = [];
+  if ((c.telefonos || []).length) l.push("Tel: " + c.telefonos.join(", "));
+  if ((c.correos || []).length) l.push(c.correos.join(", "));
+  if (!l.length) l.push("Sin teléfono ni correo en el RNP");
+  if (c.representante) l.push("Rep.: " + c.representante);
+  if (c.direccion || c.ubicacion) l.push((c.direccion || c.ubicacion).slice(0, 110));
+  return "\n" + l.join("\n");
+}
+
 function tarjetaGanador(g) {
   const v = g.verif;
   const regs = v.relacionados.length ? v.relacionados : v.registros;
@@ -295,13 +320,14 @@ function tarjetaGanador(g) {
     </tbody></table></div>` : `<p class="vacio">No se encontraron registros sanitarios para este ganador.</p>`;
   return `<details class="item"><summary>
       <div><div class="nombre">${esc(g.ganador)}</div>
-      <div class="sub">RUC ${esc(g.ruc || "-")} · ${esc(g.entidad)} · ${fmtMonto(g.monto, g.moneda)}${g.fechaBP ? " · B.P. " + fmtFecha(g.fechaBP) : ""}</div></div>
+      <div class="sub">RUC ${esc(g.ruc || "-")}${g.contacto && (g.contacto.telefonos || []).length ? " · ☎ " + esc(g.contacto.telefonos[0]) : ""} · ${esc(g.entidad)} · ${fmtMonto(g.monto, g.moneda)}${g.fechaBP ? " · B.P. " + fmtFecha(g.fechaBP) : ""}</div></div>
       <span class="badge ${claseEstado(v.estado)}">${esc(v.estado)}</span></summary>
     <div class="cuerpo"><dl>
       <dt>Procedimiento</dt><dd>${esc(g.nomenclatura || "-")}${g.url ? ` · <a href="${esc(g.url)}" target="_blank" rel="noopener">ver en el SEACE</a>` : ""}</dd>
       <dt>Entidad</dt><dd>${esc(g.entidad || "-")}</dd>
       <dt>Descripción</dt><dd>${esc(g.descripcion || "-")}</dd>
       <dt>Monto adjudicado</dt><dd>${fmtMonto(g.monto, g.moneda)}</dd>
+      ${filasContacto(g.contacto)}
       <dt>Fuente</dt><dd>${esc(g.fuente)}</dd></dl>
       <b>Registro sanitario</b>${aviso}${tabla}
       ${v.nota ? `<div class="nota">${esc(v.nota)}</div>` : ""}
@@ -374,11 +400,11 @@ function descargarPDF() {
     const items = R.ganadores.filter((g) => g.categoria === cat);
     doc.autoTable({
       startY: y, head: [[{ content: `${cat} (${items.length})`, colSpan: 7, styles: { fillColor: azul, fontSize: 11 } }],
-        ["Procedimiento", "Entidad", "Descripción", "Ganador / RUC", "Fecha B.P.", "Monto", "Registro sanitario"]],
+        ["Procedimiento", "Entidad", "Descripción", "Ganador / RUC / contacto", "Fecha B.P.", "Monto", "Registro sanitario"]],
       body: items.length ? items.map((g) => {
         const regs = g.verif.relacionados.length ? g.verif.relacionados : g.verif.registros;
         const det = regs.slice(0, 4).map((r) => `${r.codigo} - ${r.producto.length > 90 ? r.producto.slice(0, 89) + "…" : r.producto}${r.vence ? " (vence " + fmtFecha(r.vence) + ")" : ""}${r.vigente === false ? " [NO VIGENTE]" : ""}`).join("\n");
-        return [g.nomenclatura, g.entidad, g.descripcion.slice(0, 250), `${g.ganador}\nRUC ${g.ruc || "-"}`, fmtFecha(g.fechaBP),
+        return [g.nomenclatura, g.entidad, g.descripcion.slice(0, 250), `${g.ganador}\nRUC ${g.ruc || "-"}${textoContacto(g.contacto)}`, fmtFecha(g.fechaBP),
           fmtMonto(g.monto, g.moneda), [g.verif.estado, det, g.verif.nota].filter(Boolean).join("\n")];
       }) : [[{ content: "Sin ganadores en el periodo.", colSpan: 7 }]],
       styles: { fontSize: 7.5, cellPadding: 3, valign: "top" }, headStyles: { fillColor: [221, 228, 240], textColor: 20 },

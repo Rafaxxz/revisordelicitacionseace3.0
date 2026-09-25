@@ -16,6 +16,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from .modelos import Adjudicacion, RegistroSanitario, ResultadoGanador
+from .contactos import BuscadorContactos
 from .pdf import generar_pdf
 from .registro_sanitario import BaseRegistros
 from .revisor import Reporte
@@ -44,6 +45,7 @@ def _ganador(res: ResultadoGanador) -> dict:
         "categoria": a.categoria, "nomenclatura": a.nomenclatura, "entidad": a.entidad,
         "descripcion": a.descripcion, "ganador": a.ganador, "ruc": a.ruc_ganador, "monto": a.monto,
         "moneda": a.moneda, "fechaBP": _iso(a.fecha_buena_pro), "url": a.url, "fuente": a.fuente,
+        "contacto": a.contacto,
         # Algunas empresas tienen cientos de registros: se envían los relacionados
         # con el producto y una muestra del resto.
         "verif": {"estado": v.estado, "nota": v.nota, "totalRegistros": len(v.registros),
@@ -82,6 +84,17 @@ def ejecutar(salida: Path, dias: int, verificar_digesa: bool = True) -> dict:
             except Exception as exc:  # DIGESA caído o formato cambiado
                 avisos.append(f"DIGESA no respondió para el RUC {ruc}: {exc}")
         base.archivos.append("Consulta en línea DIGESA (por RUC)")
+    print("Buscando datos de contacto (OECE)…")
+    buscador = BuscadorContactos()
+    for a in adjs:
+        if not a.ruc_ganador:
+            continue
+        regs = base.por_ruc.get(a.ruc_ganador, [])
+        direccion = next((r.direccion for r in regs if r.direccion), "")
+        try:
+            a.contacto = buscador.buscar(a.ruc_ganador, direccion).a_dict()
+        except Exception as exc:
+            avisos.append(f"No se pudo obtener el contacto del RUC {a.ruc_ganador}: {exc}")
     resultados = []
     for a in adjs:
         v = base.verificar(a)

@@ -11,7 +11,8 @@ Todos los días a las 6:17 a. m. (hora de Lima), GitHub Actions ejecuta el workf
 1. Consulta la API pública del **buscador de contrataciones del SEACE** (`prod6.seace.gob.pe`) con los términos avena, arroz, símil, vaso de leche, leche, hojuela y cereal. Filtra lo que no es alimento para personas (heno, forraje, útiles de oficina, servicios…).
 2. Toma a los **ganadores** del detalle de cada contratación culminada (ítems "ADJUDICADO": RUC, razón social y monto) y las **próximas contrataciones** (vigentes o en evaluación).
 3. Verifica el **registro sanitario** de cada ganador en la consulta oficial de **DIGESA** por RUC (`revisor/digesa.py`).
-4. Publica `datos/ultimo.json` y `datos/reporte.pdf` junto con la página en la rama `gh-pages`.
+4. Busca los **datos de contacto** de cada ganador en fuentes oficiales del OECE (`revisor/contactos.py`): teléfonos y correos declarados en el RNP (ficha del proveedor), ubicación y estado SUNAT, y representante legal. Si el RNP no tiene teléfono, se muestra la dirección de los registros de DIGESA y el enlace a la ficha del proveedor.
+5. Publica `datos/ultimo.json` y `datos/reporte.pdf` junto con la página en la rama `gh-pages`.
 
 Para lanzarlo a mano: pestaña **Actions → Revisión diaria y página web → Run workflow** (se puede cambiar el número de días).
 

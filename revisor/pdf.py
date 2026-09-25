@@ -31,6 +31,26 @@ def formato_monto(monto: float | None, moneda: str = "PEN") -> str:
     return f"{simbolo} {monto:,.2f}"
 
 
+def _contacto_html(c: dict | None) -> str:
+    if not c:
+        return ""
+    partes = []
+    if c.get("telefonos"):
+        partes.append("Tel: " + escape(", ".join(c["telefonos"])))
+    if c.get("correos"):
+        partes.append(escape(", ".join(c["correos"])))
+    if not partes:
+        partes.append('<font color="#b3261e">Sin teléfono ni correo en el RNP</font>')
+    if c.get("representante"):
+        partes.append("Rep.: " + escape(c["representante"]))
+    lugar = c.get("direccion") or c.get("ubicacion")
+    if lugar:
+        partes.append(escape(lugar[:110]))
+    if c.get("estado_sunat"):
+        partes.append("SUNAT: " + escape(c["estado_sunat"]))
+    return '<br/><font size="7">' + "<br/>".join(partes) + "</font>"
+
+
 def generar_pdf(rep: Reporte, proximas: list | None = None) -> bytes:
     """proximas: contrataciones abiertas (objetos con categorias, nomenclatura, entidad,
     descripcion, estado, fecha_publicacion y fin_cotizacion)."""
@@ -76,13 +96,13 @@ def generar_pdf(rep: Reporte, proximas: list | None = None) -> bytes:
     ]))
     historia += [Spacer(1, 8), resumen]
 
-    anchos = [3.2 * cm, 4.2 * cm, 5.0 * cm, 4.6 * cm, 2.2 * cm, 2.6 * cm, 4.9 * cm]
+    anchos = [2.9 * cm, 3.6 * cm, 4.6 * cm, 5.9 * cm, 2.0 * cm, 2.4 * cm, 5.3 * cm]
     for categoria, resultados in rep.por_categoria().items():
         historia += [CondPageBreak(4 * cm), Paragraph(f"{escape(categoria)} ({len(resultados)})", h2)]
         if not resultados:
             historia.append(p("Sin ganadores en el periodo.", pequeno))
             continue
-        filas = [[p(t) for t in ("Procedimiento", "Entidad", "Descripción", "Ganador / RUC",
+        filas = [[p(t) for t in ("Procedimiento", "Entidad", "Descripción", "Ganador / RUC / contacto",
                                  "Fecha B.P.", "Monto", "Registro sanitario")]]
         estilos = []
         for i, r in enumerate(resultados, start=1):
@@ -107,7 +127,8 @@ def generar_pdf(rep: Reporte, proximas: list | None = None) -> bytes:
                 celda_rs += f'<br/><font color="#6b6b6b">{escape(v.nota[:300])}</font>'
             filas.append([
                 p(a.nomenclatura), p(a.entidad[:120]), p(a.descripcion[:300]),
-                Paragraph(f"<b>{escape(a.ganador)}</b><br/>RUC {escape(a.ruc_ganador or '-')}", normal),
+                Paragraph(f"<b>{escape(a.ganador)}</b><br/>RUC {escape(a.ruc_ganador or '-')}"
+                          + _contacto_html(a.contacto), normal),
                 p(a.fecha_buena_pro.strftime("%d/%m/%Y") if a.fecha_buena_pro else "-"),
                 p(formato_monto(a.monto, a.moneda)),
                 Paragraph(celda_rs, normal),

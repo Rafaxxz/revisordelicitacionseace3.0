@@ -21,6 +21,7 @@ class Adjudicacion:
     fecha_buena_pro: Optional[date] = None
     url: str = ""
     fuente: str = ""
+    contacto: Optional[dict] = None
 
 
 @dataclass
@@ -32,6 +33,7 @@ class RegistroSanitario:
     ruc_titular: str = ""
     fecha_vencimiento: Optional[date] = None
     estado: str = ""
+    direccion: str = ""
 
     @property
     def vigente(self) -> Optional[bool]:

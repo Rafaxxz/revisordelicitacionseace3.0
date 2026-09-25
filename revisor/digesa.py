@@ -95,6 +95,7 @@ def leer_grilla(html: str) -> tuple[list[RegistroSanitario], list[int]]:
             titular=col.get("EMPRESA", ""),
             fecha_vencimiento=_fecha(col.get("FECHA VENCIMIENTO", "")),
             estado="",
+            direccion=col.get("DIRECCION", ""),
         ))
     return registros, paginas
 
