@@ -18,6 +18,19 @@ Para lanzarlo a mano: pestaña **Actions → Revisión diaria y página web → 
 
 **Límite importante:** la fuente automática cubre las **contrataciones de hasta 8 UIT**. Las licitaciones y adjudicaciones mayores están en el buscador antiguo (`prod2.seace.gob.pe`) y en el OECE, que **bloquean las conexiones desde fuera del Perú** (incluidos los servidores de GitHub) y además piden captcha. Para esas, la página permite subir el Excel exportado del SEACE desde una PC en el Perú.
 
+## Licitaciones grandes (prod2) — robot en tu PC
+
+El buscador de procedimientos de selección (`prod2.seace.gob.pe`) solo acepta conexiones desde el Perú y usa reCAPTCHA, así que no puede correr en GitHub. Para esas licitaciones hay un robot que corre en tu computadora:
+
+1. Instala Python (marca "Add Python to PATH") y descarga este repositorio (botón **Code → Download ZIP**).
+2. Doble clic en **`revisar_licitaciones_grandes.bat`**.
+3. Se abre Chrome y el robot hace lo mismo que harías a mano: busca avena, arroz y vaso de leche → abre la ficha → descarga "Documentos de Otorgamiento de Buena Pro" → lee el "Reporte de otorgamiento de buena pro" (RUC y nombre del ganador, monto por ítem). Si aparece un captcha, resuélvelo en la ventana y presiona Enter en la consola.
+4. A cada ganador le busca el registro sanitario (DIGESA) y el contacto (OECE), lo junta con la revisión automática de la página y deja en `reportes/`:
+   - `ganadores_FECHA.pdf` — el reporte completo.
+   - `ganadores_FECHA.json` — súbelo en la página (sección "Revisar un Excel…") para verlo con pestañas y desplegables.
+
+Guarda un caché (`reportes/prod2_cache.json`) para no volver a descargar lo que ya revisó. Si algún paso falla, deja capturas y HTML en `reportes/diagnostico/`: envíalos para ajustar el robot.
+
 ## Versión Python (opcional)
 
 ### Instalación (una sola vez)

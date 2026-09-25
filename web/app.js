@@ -366,7 +366,7 @@ function pintar(desplazar = true) {
     <div class="tarjeta"><b class="rojo">${c.no}</b><span>Sin registro sanitario</span></div>
     <div class="tarjeta"><b class="gris">${c.nv}</b><span>No verificado</span></div>
     <div class="tarjeta"><b class="azul">${R.proximas.length}</b><span>Próximas contrataciones</span></div>`;
-  $("#actualizado").textContent = R.automatico ? `Revisión automática del ${fmtFechaHora(R.generado)} · ganadores de los últimos ${R.dias} días` : "";
+  $("#actualizado").textContent = R.dias ? `${R.automatico ? "Revisión automática" : "Revisión de licitaciones"} del ${fmtFechaHora(R.generado)} · ganadores de los últimos ${R.dias} días` : "";
   $("#fuentes").textContent = `Fuentes: ${R.fuentes.join("; ") || "ninguna"} · Base DIGESA: ${R.baseDigesa.join(", ") || "no cargada"}`;
   $("#avisos").innerHTML = R.avisos.map((a) => `<div>⚠ ${esc(a)}</div>`).join("");
   $("#avisos").hidden = !R.avisos.length;
@@ -440,6 +440,13 @@ const valorFecha = (id) => ($(id).value ? aFecha($(id).value) : null);
 $("#form").addEventListener("submit", async (ev) => {
   ev.preventDefault();
   const seace = [...$("#seace").files], digesa = [...$("#digesa").files];
+  // Reporte ya procesado (p. ej. el que genera el robot de licitaciones en la PC).
+  if (seace.length === 1 && seace[0].name.toLowerCase().endsWith(".json")) {
+    try {
+      const d = JSON.parse(await seace[0].text());
+      if (Array.isArray(d.ganadores) && d.generado) { cargarDatos(d, false); return; }
+    } catch { /* se procesa como OCDS abajo */ }
+  }
   if (!seace.length) { alert("Sube al menos un archivo descargado del SEACE (Excel o CSV)."); return; }
   await revisar(seace, digesa, valorFecha("#desde"), valorFecha("#hasta"), "");
 });
@@ -458,16 +465,21 @@ async function cargarAutomatico() {
     if (!r.ok) return;
     d = await r.json();
   } catch { return; }
+  cargarDatos(d, true);
+}
+
+/* Datos con el formato del revisor (ultimo.json o el .json que genera el robot de licitaciones). */
+function cargarDatos(d, automatico) {
   const reg = (x) => ({ ...x, vence: aFechaISO(x.fecha_vencimiento) });
   REPORTE = {
-    automatico: true, dias: d.dias, fuentes: d.fuentes || [], avisos: d.avisos || [], baseDigesa: d.baseDigesa || [],
-    desde: aFechaISO(d.desde), hasta: aFechaISO(d.hasta), etiqueta: "Revisión automática", generado: aFechaISO(d.generado) || new Date(),
+    automatico, dias: d.dias, fuentes: d.fuentes || [], avisos: d.avisos || [], baseDigesa: d.baseDigesa || [],
+    desde: aFechaISO(d.desde), hasta: aFechaISO(d.hasta), etiqueta: automatico ? "Revisión automática" : "Revisión de licitaciones", generado: aFechaISO(d.generado) || new Date(),
     ganadores: (d.ganadores || []).map((g) => ({ ...g, fechaBP: aFechaISO(g.fechaBP),
       verif: { ...g.verif, registros: g.verif.registros.map(reg), relacionados: g.verif.relacionados.map(reg) } })),
     proximas: (d.proximas || []).map((p) => ({ ...p, fechaPub: aFechaISO(p.fechaPub), fechaIniCot: aFechaISO(p.fechaIniCot),
       fechaOfertas: aFechaISO(p.fechaOfertas) })),
   };
-  pintar(false);
+  pintar(!automatico);
 }
 
 $("#demo").addEventListener("click", async () => {

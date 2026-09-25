@@ -8,3 +8,6 @@ data/seace/*
 data/digesa/*
 !data/seace/.gitkeep
 !data/digesa/.gitkeep
+reportes/perfil_navegador/
+reportes/diagnostico/
+reportes/*.json

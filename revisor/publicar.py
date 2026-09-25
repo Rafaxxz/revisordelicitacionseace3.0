@@ -54,24 +54,19 @@ def _ganador(res: ResultadoGanador) -> dict:
     }
 
 
-def _proxima(c: prod6.Contratacion) -> dict:
+def _proxima(c) -> dict:
     return {
         "categoria": " · ".join(c.categorias), "nomenclatura": c.nomenclatura, "entidad": c.entidad,
         "descripcion": c.descripcion, "monto": None, "moneda": "PEN", "estado": c.estado,
         "fechaPub": _iso(c.fecha_publicacion), "fechaIniCot": _iso(c.inicio_cotizacion),
-        "fechaOfertas": _iso(c.fin_cotizacion), "url": c.url, "fuente": "SEACE (contrataciones hasta 8 UIT)",
+        "fechaOfertas": _iso(c.fin_cotizacion), "url": c.url,
+        "fuente": getattr(c, "fuente", "") or "SEACE (contrataciones hasta 8 UIT)",
     }
 
 
-def ejecutar(salida: Path, dias: int, verificar_digesa: bool = True) -> dict:
-    avisos: list[str] = []
-    cliente = prod6.ClienteSEACE()
-    print(f"Consultando SEACE (últimos {dias} días)…")
-    culminadas, abiertas = prod6.recolectar(cliente, dias=dias)
-    print(f"  {len(culminadas)} culminadas y {len(abiertas)} abiertas de interés")
-    adjs: list[Adjudicacion] = filtrar(prod6.ganadores(cliente, culminadas))
-    print(f"  {len(adjs)} ganadores")
-
+def enriquecer(adjs: list[Adjudicacion], avisos: list[str], verificar_digesa: bool = True
+               ) -> tuple[list[ResultadoGanador], BaseRegistros]:
+    """Registro sanitario (DIGESA) y datos de contacto (OECE) de cada ganador."""
     base = BaseRegistros()
     if verificar_digesa:
         from .digesa import ConsultaDIGESA
@@ -95,33 +90,44 @@ def ejecutar(salida: Path, dias: int, verificar_digesa: bool = True) -> dict:
             a.contacto = buscador.buscar(a.ruc_ganador, direccion).a_dict()
         except Exception as exc:
             avisos.append(f"No se pudo obtener el contacto del RUC {a.ruc_ganador}: {exc}")
-    resultados = []
-    for a in adjs:
-        v = base.verificar(a)
-        resultados.append(ResultadoGanador(a, v))
+    return [ResultadoGanador(a, base.verificar(a)) for a in adjs], base
 
-    hoy = date.today()
-    rep = Reporte(desde=hoy - timedelta(days=dias), hasta=hoy, resultados=resultados,
-                  fuentes=["SEACE – buscador de contrataciones (prod6.seace.gob.pe)"], avisos=avisos,
-                  base_registros=list(base.archivos))
+
+def escribir(salida: Path, rep: Reporte, abiertas: list, dias: int,
+             nombre_json: str = "ultimo.json", nombre_pdf: str = "reporte.pdf") -> dict:
     rep.resultados.sort(key=lambda r: r.adjudicacion.fecha_buena_pro or date.min, reverse=True)
     abiertas.sort(key=lambda c: c.fin_cotizacion or c.fecha_publicacion or datetime.min, reverse=True)
-
     datos = {
         "generado": datetime.now().isoformat(timespec="seconds"),
         "desde": _iso(rep.desde), "hasta": _iso(rep.hasta), "dias": dias,
-        "fuentes": rep.fuentes, "avisos": avisos, "baseDigesa": rep.base_registros,
+        "fuentes": rep.fuentes, "avisos": rep.avisos, "baseDigesa": rep.base_registros,
         "ganadores": [_ganador(r) for r in rep.resultados],
         "proximas": [_proxima(c) for c in abiertas],
     }
     salida.mkdir(parents=True, exist_ok=True)
-    (salida / "ultimo.json").write_text(json.dumps(datos, ensure_ascii=False, indent=1), encoding="utf-8")
+    (salida / nombre_json).write_text(json.dumps(datos, ensure_ascii=False, indent=1), encoding="utf-8")
     try:
-        (salida / "reporte.pdf").write_bytes(generar_pdf(rep, proximas=abiertas))
+        (salida / nombre_pdf).write_bytes(generar_pdf(rep, proximas=abiertas))
     except Exception as exc:  # los datos de la página se publican igual
         print(f"  ! No se pudo generar el PDF: {exc}")
     print(f"Listo: {len(datos['ganadores'])} ganadores, {len(datos['proximas'])} próximas → {salida}")
     return datos
+
+
+def ejecutar(salida: Path, dias: int, verificar_digesa: bool = True) -> dict:
+    avisos: list[str] = []
+    cliente = prod6.ClienteSEACE()
+    print(f"Consultando SEACE (últimos {dias} días)…")
+    culminadas, abiertas = prod6.recolectar(cliente, dias=dias)
+    print(f"  {len(culminadas)} culminadas y {len(abiertas)} abiertas de interés")
+    adjs: list[Adjudicacion] = filtrar(prod6.ganadores(cliente, culminadas))
+    print(f"  {len(adjs)} ganadores")
+    resultados, base = enriquecer(adjs, avisos, verificar_digesa)
+    hoy = date.today()
+    rep = Reporte(desde=hoy - timedelta(days=dias), hasta=hoy, resultados=resultados,
+                  fuentes=["SEACE – buscador de contrataciones (prod6.seace.gob.pe)"], avisos=avisos,
+                  base_registros=list(base.archivos))
+    return escribir(salida, rep, abiertas, dias)
 
 
 def main(argv: list[str] | None = None) -> int:

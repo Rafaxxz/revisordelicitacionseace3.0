@@ -55,6 +55,7 @@ class Contratacion:
     fin_cotizacion: Optional[datetime] = None
     url: str = ""
     items: list[dict] = field(default_factory=list)
+    fuente: str = ""
 
 
 def _fecha(s: object) -> Optional[datetime]:
