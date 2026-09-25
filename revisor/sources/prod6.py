@@ -32,12 +32,12 @@ ESTADOS_ABIERTOS = {2: "Vigente", 3: "En Evaluación"}
 CULMINADO = 4
 
 # Productos que no son alimento para personas.
-_EXCLUIR = re.compile(r"\b(heno|forraje|pasto|animal(es)?|capibara|caball|ganado|semilla|aves|cuy(es)?|mascota)\b")
+_EXCLUIR = re.compile(r"\b(heno|forraje|pasto|animal|capibara|caballo|ganado|semilla|ave|cuy|mascota)(e?s)?\b")
 # Para "Vaso de Leche" solo interesan los insumos alimenticios del programa.
 _ALIMENTO_PVL = re.compile(r"\b(leche|avena|hojuela|cereal|alimento|alimentari|insumo|enriquecid|fortificad|"
                            r"mezcla|quinua|kiwicha|trigo|arroz|harina|producto)s?\b")
 _NO_ALIMENTO_PVL = re.compile(r"\b(servicio|alquiler|tinta|menaje|refaccion|mantenimiento|impresion|utiles|"
-                              r"camioneta|combustible|asesoria|consultoria|kit|pintura)\b")
+                              r"camioneta|combustible|asesoria|consultoria|kit|pintura|impresora)(e?s)?\b")
 
 
 @dataclass

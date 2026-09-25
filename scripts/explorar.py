@@ -9,9 +9,10 @@ with sync_playwright() as p:
     b = p.chromium.launch()
     pg = b.new_page()
     pg.goto(U, wait_until="networkidle", timeout=90000)
-    tabs = pg.locator(".ajax__tab_tab").all_inner_texts()
-    print("pestañas:", tabs)
-    pg.locator(".ajax__tab_tab", has_text=re.compile("RUC", re.I)).first.click()
+    print("titulo:", pg.title())
+    print("cabeceras:", pg.eval_on_selector_all("[id^='__tab_']", "els => els.map(e => e.id + '=' + e.innerText.trim())"))
+    pg.click("#__tab_ctl00_ContentPlaceHolder1_TabContainer1_TabPanel_ConsultaRUC")
+    pg.wait_for_timeout(800)
     for anio in ("2026", "2015"):
         pg.fill(PFX + "TextBox_ConsultaRUC", "20100055237")
         pg.select_option(PFX + "ddlEstado_RUC", "%")

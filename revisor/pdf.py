@@ -31,7 +31,9 @@ def formato_monto(monto: float | None, moneda: str = "PEN") -> str:
     return f"{simbolo} {monto:,.2f}"
 
 
-def generar_pdf(rep: Reporte) -> bytes:
+def generar_pdf(rep: Reporte, proximas: list | None = None) -> bytes:
+    """proximas: contrataciones abiertas (objetos con categorias, nomenclatura, entidad,
+    descripcion, estado, fecha_publicacion y fin_cotizacion)."""
     buf = io.BytesIO()
     doc = SimpleDocTemplate(
         buf, pagesize=landscape(A4), leftMargin=1.5 * cm, rightMargin=1.5 * cm,
@@ -118,6 +120,27 @@ def generar_pdf(rep: Reporte) -> bytes:
             *estilos,
         ]))
         historia.append(tabla)
+
+    if proximas is not None:
+        historia.append(Paragraph(f"Próximas contrataciones ({len(proximas)})", h2))
+        if not proximas:
+            historia.append(p("No hay contrataciones abiertas de estos productos.", pequeno))
+        else:
+            fmt = lambda d: d.strftime("%d/%m/%Y %H:%M") if d else "-"
+            filas = [[p(t) for t in ("Producto", "Procedimiento", "Entidad", "Descripción", "Estado",
+                                     "Publicado", "Cierre de cotización")]]
+            for c in proximas:
+                filas.append([p(" · ".join(c.categorias)), p(c.nomenclatura), p(c.entidad),
+                              p(c.descripcion[:300]), p(c.estado), p(fmt(c.fecha_publicacion)),
+                              p(fmt(c.fin_cotizacion))])
+            tabla = Table(filas, colWidths=[2.6 * cm, 3.4 * cm, 4.4 * cm, 8.2 * cm, 2.4 * cm, 2.6 * cm, 3.1 * cm],
+                          repeatRows=1)
+            tabla.setStyle(TableStyle([
+                ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#dde4f0")),
+                ("VALIGN", (0, 0), (-1, -1), "TOP"),
+                ("GRID", (0, 0), (-1, -1), 0.3, colors.lightgrey),
+            ]))
+            historia.append(tabla)
 
     historia.append(Spacer(1, 12))
     historia.append(KeepTogether([p(
