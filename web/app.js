@@ -449,4 +449,5 @@ $("#demo").addEventListener("click", async () => {
 
 $("#pdf").addEventListener("click", descargarPDF);
 
+$("#volver").addEventListener("click", () => cargarAutomatico());
 cargarAutomatico();

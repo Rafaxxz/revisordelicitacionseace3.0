@@ -63,11 +63,22 @@
   <p>Avena · Arroz símil · Arroz fortificado · Vaso de Leche — ganadores, próximas contrataciones y registro sanitario DIGESA</p>
 </header>
 <main>
-  <form id="form" class="caja">
+  <section class="caja" id="intro">
+    <p style="margin:0 0 6px"><b>Se actualiza sola todos los días (6:17 a. m., hora de Lima).</b> Cada mañana se revisa el SEACE,
+      se buscan los ganadores de avena, arroz símil, arroz fortificado y Vaso de Leche, y se verifica su registro sanitario
+      en DIGESA. Abajo verás los resultados; cada ganador se despliega con su detalle.</p>
+    <p class="sub" style="margin:0">Fuente automática: buscador público de contrataciones del SEACE (prod6), que cubre las
+      contrataciones de hasta 8 UIT. Las licitaciones mayores (buscador prod2) bloquean las consultas desde fuera del Perú:
+      para esas, usa la opción de subir el Excel.</p>
+  </section>
+
+  <details class="caja" id="subir">
+    <summary style="cursor:pointer"><b>Revisar un Excel del SEACE / OECE (licitaciones mayores)</b></summary>
+    <form id="form" style="margin-top:12px">
     <ol class="pasos">
       <li>Entra al <a href="https://prod2.seace.gob.pe/seacebus-uiwd-pub/buscadorPublico/buscadorPublico.xhtml" target="_blank" rel="noopener">buscador del SEACE</a>, busca <b>avena</b>, <b>arroz</b> o <b>vaso de leche</b> y exporta los resultados a Excel. También sirven los datos de adjudicaciones del OECE / CONOSCE (Excel, CSV o JSON).</li>
       <li>Súbelos aquí (puedes subir varios a la vez).</li>
-      <li>Opcional: sube la relación de registros sanitarios de DIGESA para verificar a los ganadores automáticamente.</li>
+      <li>Opcional: sube la relación de registros sanitarios de DIGESA para verificar a los ganadores.</li>
     </ol>
     <div class="fila">
       <label>Archivos del SEACE / OECE <input id="seace" type="file" multiple accept=".xlsx,.xls,.csv,.txt,.json"></label>
@@ -78,9 +89,11 @@
       <label>hasta <input id="hasta" type="date"></label>
       <button type="submit">Revisar</button>
       <button type="button" class="sec" id="demo">Ver ejemplo (datos ficticios)</button>
+      <button type="button" class="sec" id="volver">Volver a la revisión automática</button>
     </div>
     <p class="sub">Los archivos se procesan en tu navegador; no se envían a ningún servidor.</p>
-  </form>
+    </form>
+  </details>
 
   <section id="resultado" class="caja" hidden>
     <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;align-items:center">
