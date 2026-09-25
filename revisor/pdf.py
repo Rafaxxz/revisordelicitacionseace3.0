@@ -88,23 +88,26 @@ def generar_pdf(rep: Reporte, proximas: list | None = None) -> bytes:
         estilos = []
         for i, r in enumerate(resultados, start=1):
             a, v = r.adjudicacion, r.verificacion
-            regs = v.relacionados or v.registros
+            regs = v.relacionados
+            corto = lambda t, n=90: t if len(t) <= n else t[: n - 1] + "…"
             detalle = "<br/>".join(
-                escape(f"{x.codigo} - {x.producto}{' (' + x.marca + ')' if x.marca else ''}"
+                escape(f"{x.codigo} - {corto(x.producto)}{' (' + x.marca + ')' if x.marca else ''}"
                        f"{' vence ' + x.fecha_vencimiento.strftime('%d/%m/%Y') if x.fecha_vencimiento else ''}"
                        f"{' [VENCIDO/NO VIGENTE]' if x.vigente is False else ''}")
                 for x in regs[:4]
             )
             if len(regs) > 4:
                 detalle += f"<br/>… y {len(regs) - 4} más"
+            if v.registros and not v.relacionados:
+                detalle = escape(f"{len(v.registros)} registros a nombre de la empresa (ninguno del producto)")
             color = _color_estado(v.estado).hexval()[2:]
             celda_rs = f'<font color="#{color}"><b>{escape(v.estado)}</b></font>'
             if detalle:
                 celda_rs += "<br/>" + detalle
             if v.nota:
-                celda_rs += f'<br/><font color="#6b6b6b">{escape(v.nota)}</font>'
+                celda_rs += f'<br/><font color="#6b6b6b">{escape(v.nota[:300])}</font>'
             filas.append([
-                p(a.nomenclatura), p(a.entidad), p(a.descripcion[:300]),
+                p(a.nomenclatura), p(a.entidad[:120]), p(a.descripcion[:300]),
                 Paragraph(f"<b>{escape(a.ganador)}</b><br/>RUC {escape(a.ruc_ganador or '-')}", normal),
                 p(a.fecha_buena_pro.strftime("%d/%m/%Y") if a.fecha_buena_pro else "-"),
                 p(formato_monto(a.monto, a.moneda)),

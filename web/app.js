@@ -286,6 +286,8 @@ const claseEstado = (e) => (e.startsWith("CON") ? "si" : e.startsWith("SIN") ? "
 function tarjetaGanador(g) {
   const v = g.verif;
   const regs = v.relacionados.length ? v.relacionados : v.registros;
+  const total = v.totalRegistros || v.registros.length;
+  const aviso = !v.relacionados.length && total ? `<p class="sub">La empresa tiene ${total} registros sanitarios, pero ninguno parece de ${esc(g.categoria.toLowerCase())}. ${total > regs.length ? `Se muestran ${regs.length}.` : ""}</p>` : "";
   const tabla = regs.length ? `
     <div class="tabla"><table><thead><tr><th>N.º registro</th><th>Producto</th><th>Marca</th><th>Titular</th><th>Vence</th><th>Estado</th></tr></thead><tbody>
     ${regs.map((r) => `<tr><td>${esc(r.codigo)}</td><td>${esc(r.producto)}</td><td>${esc(r.marca || "-")}</td><td>${esc(r.titular)}</td>
@@ -301,7 +303,7 @@ function tarjetaGanador(g) {
       <dt>Descripción</dt><dd>${esc(g.descripcion || "-")}</dd>
       <dt>Monto adjudicado</dt><dd>${fmtMonto(g.monto, g.moneda)}</dd>
       <dt>Fuente</dt><dd>${esc(g.fuente)}</dd></dl>
-      <b>Registro sanitario</b>${tabla}
+      <b>Registro sanitario</b>${aviso}${tabla}
       ${v.nota ? `<div class="nota">${esc(v.nota)}</div>` : ""}
       <p class="sub">Confirmar en DIGESA (pestaña "RUC"): <a href="${URL_DIGESA}" target="_blank" rel="noopener">consulta oficial de registro sanitario</a></p>
     </div></details>`;
@@ -375,7 +377,7 @@ function descargarPDF() {
         ["Procedimiento", "Entidad", "Descripción", "Ganador / RUC", "Fecha B.P.", "Monto", "Registro sanitario"]],
       body: items.length ? items.map((g) => {
         const regs = g.verif.relacionados.length ? g.verif.relacionados : g.verif.registros;
-        const det = regs.slice(0, 4).map((r) => `${r.codigo} - ${r.producto}${r.vence ? " (vence " + fmtFecha(r.vence) + ")" : ""}${r.vigente === false ? " [NO VIGENTE]" : ""}`).join("\n");
+        const det = regs.slice(0, 4).map((r) => `${r.codigo} - ${r.producto.length > 90 ? r.producto.slice(0, 89) + "…" : r.producto}${r.vence ? " (vence " + fmtFecha(r.vence) + ")" : ""}${r.vigente === false ? " [NO VIGENTE]" : ""}`).join("\n");
         return [g.nomenclatura, g.entidad, g.descripcion.slice(0, 250), `${g.ganador}\nRUC ${g.ruc || "-"}`, fmtFecha(g.fechaBP),
           fmtMonto(g.monto, g.moneda), [g.verif.estado, det, g.verif.nota].filter(Boolean).join("\n")];
       }) : [[{ content: "Sin ganadores en el periodo.", colSpan: 7 }]],

@@ -23,6 +23,9 @@ from .sources import prod6
 from .sources.ocds import filtrar
 
 
+MUESTRA_REGISTROS = 15
+
+
 def _iso(v):
     if isinstance(v, (date, datetime)):
         return v.isoformat()
@@ -41,7 +44,10 @@ def _ganador(res: ResultadoGanador) -> dict:
         "categoria": a.categoria, "nomenclatura": a.nomenclatura, "entidad": a.entidad,
         "descripcion": a.descripcion, "ganador": a.ganador, "ruc": a.ruc_ganador, "monto": a.monto,
         "moneda": a.moneda, "fechaBP": _iso(a.fecha_buena_pro), "url": a.url, "fuente": a.fuente,
-        "verif": {"estado": v.estado, "nota": v.nota, "registros": [_registro(r) for r in v.registros],
+        # Algunas empresas tienen cientos de registros: se envían los relacionados
+        # con el producto y una muestra del resto.
+        "verif": {"estado": v.estado, "nota": v.nota, "totalRegistros": len(v.registros),
+                  "registros": [_registro(r) for r in v.registros[:MUESTRA_REGISTROS]],
                   "relacionados": [_registro(r) for r in v.relacionados]},
     }
 
@@ -97,7 +103,10 @@ def ejecutar(salida: Path, dias: int, verificar_digesa: bool = True) -> dict:
     }
     salida.mkdir(parents=True, exist_ok=True)
     (salida / "ultimo.json").write_text(json.dumps(datos, ensure_ascii=False, indent=1), encoding="utf-8")
-    (salida / "reporte.pdf").write_bytes(generar_pdf(rep, proximas=abiertas))
+    try:
+        (salida / "reporte.pdf").write_bytes(generar_pdf(rep, proximas=abiertas))
+    except Exception as exc:  # los datos de la página se publican igual
+        print(f"  ! No se pudo generar el PDF: {exc}")
     print(f"Listo: {len(datos['ganadores'])} ganadores, {len(datos['proximas'])} próximas → {salida}")
     return datos
 
