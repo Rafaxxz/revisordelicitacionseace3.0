@@ -97,6 +97,7 @@ function aMonto(v) {
   return isNaN(n) ? null : n;
 }
 
+const fmtFechaHora = (d) => (d ? d.toLocaleString("es-PE", { day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit" }) : "-");
 const fmtFecha = (d) => (d ? d.toLocaleDateString("es-PE", { day: "2-digit", month: "2-digit", year: "numeric" }) : "-");
 const fmtMonto = (n, mon) => (n == null ? "-" : `${!mon || /pen|sol|s\//i.test(mon) ? "S/" : mon} ${n.toLocaleString("es-PE", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`);
 
@@ -295,7 +296,7 @@ function tarjetaGanador(g) {
       <div class="sub">RUC ${esc(g.ruc || "-")} · ${esc(g.entidad)} · ${fmtMonto(g.monto, g.moneda)}${g.fechaBP ? " · B.P. " + fmtFecha(g.fechaBP) : ""}</div></div>
       <span class="badge ${claseEstado(v.estado)}">${esc(v.estado)}</span></summary>
     <div class="cuerpo"><dl>
-      <dt>Procedimiento</dt><dd>${esc(g.nomenclatura || "-")}</dd>
+      <dt>Procedimiento</dt><dd>${esc(g.nomenclatura || "-")}${g.url ? ` · <a href="${esc(g.url)}" target="_blank" rel="noopener">ver en el SEACE</a>` : ""}</dd>
       <dt>Entidad</dt><dd>${esc(g.entidad || "-")}</dd>
       <dt>Descripción</dt><dd>${esc(g.descripcion || "-")}</dd>
       <dt>Monto adjudicado</dt><dd>${fmtMonto(g.monto, g.moneda)}</dd>
@@ -307,21 +308,24 @@ function tarjetaGanador(g) {
 }
 
 function tarjetaProxima(p) {
+  const cierre = p.fechaOfertas ? ` · cierra ${fmtFechaHora(p.fechaOfertas)}` : "";
   return `<details class="item"><summary>
       <div><div class="nombre">${esc(p.descripcion || p.nomenclatura)}</div>
-      <div class="sub">${esc(p.entidad)} · ${fmtMonto(p.monto, p.moneda)}${p.fechaPub ? " · publicado " + fmtFecha(p.fechaPub) : ""}</div></div>
-      <span class="badge nv">${esc(p.categoria)}</span></summary>
+      <div class="sub">${esc(p.entidad)}${p.monto != null ? " · " + fmtMonto(p.monto, p.moneda) : ""}${cierre}</div></div>
+      <span class="badge nv">${esc(p.estado || p.categoria)}</span></summary>
     <div class="cuerpo"><dl>
-      <dt>Procedimiento</dt><dd>${esc(p.nomenclatura || "-")}</dd>
+      <dt>Producto</dt><dd>${esc(p.categoria)}</dd>
+      <dt>Procedimiento</dt><dd>${esc(p.nomenclatura || "-")}${p.url ? ` · <a href="${esc(p.url)}" target="_blank" rel="noopener">ver en el SEACE</a>` : ""}</dd>
       <dt>Entidad</dt><dd>${esc(p.entidad || "-")}</dd>
-      <dt>Valor referencial</dt><dd>${fmtMonto(p.monto, p.moneda)}</dd>
-      <dt>Publicación</dt><dd>${fmtFecha(p.fechaPub)}</dd>
-      <dt>Presentación de ofertas</dt><dd>${fmtFecha(p.fechaOfertas)}</dd>
+      ${p.monto != null ? `<dt>Valor referencial</dt><dd>${fmtMonto(p.monto, p.moneda)}</dd>` : ""}
+      <dt>Publicación</dt><dd>${fmtFechaHora(p.fechaPub)}</dd>
+      ${p.fechaIniCot ? `<dt>Inicio de cotización</dt><dd>${fmtFechaHora(p.fechaIniCot)}</dd>` : ""}
+      <dt>Cierre de cotización / ofertas</dt><dd>${fmtFechaHora(p.fechaOfertas)}</dd>
       <dt>Estado</dt><dd>${esc(p.estado || "Sin buena pro registrada")}</dd>
       <dt>Fuente</dt><dd>${esc(p.fuente)}</dd></dl></div></details>`;
 }
 
-function pintar() {
+function pintar(desplazar = true) {
   const R = REPORTE;
   const c = { si: 0, no: 0, nv: 0 };
   R.ganadores.forEach((g) => c[claseEstado(g.verif.estado)]++);
@@ -334,6 +338,7 @@ function pintar() {
     <div class="tarjeta"><b class="rojo">${c.no}</b><span>Sin registro sanitario</span></div>
     <div class="tarjeta"><b class="gris">${c.nv}</b><span>No verificado</span></div>
     <div class="tarjeta"><b class="azul">${R.proximas.length}</b><span>Próximas contrataciones</span></div>`;
+  $("#actualizado").textContent = R.automatico ? `Revisión automática del ${fmtFechaHora(R.generado)} · ganadores de los últimos ${R.dias} días` : "";
   $("#fuentes").textContent = `Fuentes: ${R.fuentes.join("; ") || "ninguna"} · Base DIGESA: ${R.baseDigesa.join(", ") || "no cargada"}`;
   $("#avisos").innerHTML = R.avisos.map((a) => `<div>⚠ ${esc(a)}</div>`).join("");
   $("#avisos").hidden = !R.avisos.length;
@@ -345,7 +350,7 @@ function pintar() {
     b.classList.add("activo");
     document.querySelector(`.panel-tab[data-i="${b.dataset.i}"]`).classList.add("activo");
   }));
-  $("#resultado").scrollIntoView({ behavior: "smooth" });
+  if (desplazar) $("#resultado").scrollIntoView({ behavior: "smooth" });
 }
 
 /* ---------- PDF ---------- */
@@ -385,9 +390,9 @@ function descargarPDF() {
   if (y > 470) { doc.addPage(); y = 40; }
   doc.autoTable({
     startY: y, head: [[{ content: `Próximas contrataciones (${R.proximas.length})`, colSpan: 6, styles: { fillColor: azul, fontSize: 11 } }],
-      ["Producto", "Procedimiento", "Entidad", "Descripción", "Valor referencial", "Publicación / ofertas"]],
+      ["Producto", "Procedimiento", "Entidad", "Descripción", "Valor referencial", "Publicación / cierre de cotización"]],
     body: R.proximas.length ? R.proximas.map((p) => [p.categoria, p.nomenclatura, p.entidad, p.descripcion.slice(0, 250), fmtMonto(p.monto, p.moneda),
-      `${fmtFecha(p.fechaPub)} / ${fmtFecha(p.fechaOfertas)}`]) : [[{ content: "Sin procedimientos pendientes en los archivos cargados.", colSpan: 6 }]],
+      `${fmtFecha(p.fechaPub)} / ${fmtFechaHora(p.fechaOfertas)}`]) : [[{ content: "Sin procedimientos pendientes en los archivos cargados.", colSpan: 6 }]],
     styles: { fontSize: 7.5, cellPadding: 3, valign: "top" }, headStyles: { fillColor: [221, 228, 240], textColor: 20 },
     margin: { left: 40, right: 40 },
   });
@@ -411,9 +416,37 @@ $("#form").addEventListener("submit", async (ev) => {
   await revisar(seace, digesa, valorFecha("#desde"), valorFecha("#hasta"), "");
 });
 
+/* ---------- datos automáticos (GitHub Actions, cada día) ---------- */
+function aFechaISO(v) {
+  if (!v) return null;
+  const m = String(v).match(/^(\d{4})-(\d{2})-(\d{2})(?:T(\d{2}):(\d{2}))?/);
+  return m ? new Date(+m[1], +m[2] - 1, +m[3], +(m[4] || 0), +(m[5] || 0)) : null;
+}
+
+async function cargarAutomatico() {
+  let d;
+  try {
+    const r = await fetch(`datos/ultimo.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!r.ok) return;
+    d = await r.json();
+  } catch { return; }
+  const reg = (x) => ({ ...x, vence: aFechaISO(x.fecha_vencimiento) });
+  REPORTE = {
+    automatico: true, dias: d.dias, fuentes: d.fuentes || [], avisos: d.avisos || [], baseDigesa: d.baseDigesa || [],
+    desde: aFechaISO(d.desde), hasta: aFechaISO(d.hasta), etiqueta: "Revisión automática", generado: aFechaISO(d.generado) || new Date(),
+    ganadores: (d.ganadores || []).map((g) => ({ ...g, fechaBP: aFechaISO(g.fechaBP),
+      verif: { ...g.verif, registros: g.verif.registros.map(reg), relacionados: g.verif.relacionados.map(reg) } })),
+    proximas: (d.proximas || []).map((p) => ({ ...p, fechaPub: aFechaISO(p.fechaPub), fechaIniCot: aFechaISO(p.fechaIniCot),
+      fechaOfertas: aFechaISO(p.fechaOfertas) })),
+  };
+  pintar(false);
+}
+
 $("#demo").addEventListener("click", async () => {
   const bajar = async (n) => new File([await (await fetch(`demo/${n}`)).blob()], n);
   await revisar([await bajar("demo_buena_pro.csv")], [await bajar("demo_registros_digesa.csv")], null, null, "DATOS DE DEMOSTRACIÓN FICTICIOS");
 });
 
 $("#pdf").addEventListener("click", descargarPDF);
+
+cargarAutomatico();
