@@ -1,0 +1,2212 @@
+{
+ "generado": "2026-09-26T15:00:04",
+ "desde": "2025-09-26",
+ "hasta": "2026-09-26",
+ "dias": 365,
+ "fuentes": [
+  "SEACE – buscador de contrataciones (prod6.seace.gob.pe)"
+ ],
+ "avisos": [],
+ "baseDigesa": [
+  "Consulta en línea DIGESA (por RUC)"
+ ],
+ "ganadores": [
+  {
+   "categoria": "Avena",
+   "nomenclatura": "CM-326-2026-MDH/CM",
+   "entidad": "MUNICIPALIDAD DISTRITAL DE HUACHON",
+   "descripcion": "SUMINISTRO DE PRODUCTOS ALIMENTICIOS (HOJUELA DE AVENA) — Ítems: HOJUELA DE AVENA, QUINUA Y KIWICHA PRECOCIDA ENRIQUECIDA CON VITAMINAS Y MINERALES",
+   "ganador": "ALEMARO E.I.R.L.",
+   "ruc": "20611902329",
+   "monto": 145.0,
+   "moneda": "PEN",
+   "fechaBP": "2026-08-20",
+   "url": "https://prod6.seace.gob.pe/buscador-publico/contrataciones/87848",
+   "fuente": "SEACE (contrataciones hasta 8 UIT)",
+   "contacto": {
+    "ruc": "20611902329",
+    "telefonos": [
+     "988331567"
+    ],
+    "correos": [
+     "alemaroeirl@gmail.com"
+    ],
+    "ubicacion": "LIMA / LIMA / SANTIAGO DE SURCO",
+    "direccion": "",
+    "estado_sunat": "ACTIVO - HABIDO",
+    "representante": "RUAS VDA DE MONTALVAN ISOLINA DEL CARMEN",
+    "habilitado_rnp": true,
+    "ficha_url": "https://apps.oece.gob.pe/perfilprov-ui/ficha/20611902329",
+    "fuentes": [
+     "Ficha RNP (OECE)",
+     "SUNAT vía OECE"
+    ]
+   },
+   "verif": {
+    "estado": "SIN REGISTRO SANITARIO",
+    "nota": "No se encontraron registros a nombre del ganador. Puede ser distribuidor de un producto cuyo titular es otra empresa (revise la oferta).",
+    "totalRegistros": 0,
+    "registros": [],
+    "relacionados": []
+   }
+  },
+  {
+   "categoria": "Avena",
+   "nomenclatura": "CM-2-2026-RESPONSABLE DEL PVL",
+   "entidad": "MUNICIPALIDAD DISTRITAL DE COCHABAMBA - CHOTA",
+   "descripcion": "ADQUISICION DE AVENA TRADICIONAL EN BOLSA X 100 GRAMOS ENRIQUECIDA CON VITAMINAS Y MINERALES PARA ATENDER A LOS BENEDICIARIOS DEL PROGRAMA VASO DE LECHE DE LA MUNICIPALIDAD DISTRITAL DE COCHABAMBA. — Ítems: ADQUISICION DE AVENA TRADICIONAL EN BOLSA X 100 GRAMOS  ENRIQUECIDA CON VITAMINAS Y MINERALES PARA ATENDER A LOS BENEDICIARIOS DEL PROGRAMA VASO DE LECHE DE LA MUNICIPALIDAD DISTRITAL DE COCHABAMBA.",
+   "ganador": "CAMARCO E.I.R.L.",
+   "ruc": "20609195658",
+   "monto": 14941.5,
+   "moneda": "PEN",
+   "fechaBP": "2026-08-17",
+   "url": "https://prod6.seace.gob.pe/buscador-publico/contrataciones/81685",
+   "fuente": "SEACE (contrataciones hasta 8 UIT)",
+   "contacto": {
+    "ruc": "20609195658",
+    "telefonos": [
+     "930565758"
+    ],
+    "correos": [
+     "camarco.pe@gmail.com"
+    ],
+    "ubicacion": "CAJAMARCA / JAEN / JAEN",
+    "direccion": "AV.ARANA VIDAL NRO. 1201 SEC. AROMO BAJO CAJAMARCA - JAEN - JAEN",
+    "estado_sunat": "ACTIVO - HABIDO",
+    "representante": "PINEDO GUEVARA ZENAIDA",
+    "habilitado_rnp": true,
+    "ficha_url": "https://apps.oece.gob.pe/perfilprov-ui/ficha/20609195658",
+    "fuentes": [
+     "Ficha RNP (OECE)",
+     "SUNAT vía OECE",
+     "Registro sanitario DIGESA"
+    ]
+   },
+   "verif": {
+    "estado": "CON REGISTRO SANITARIO",
+    "nota": "Tiene registros sanitarios, pero ninguno parece de avena.",
+    "totalRegistros": 9,
+    "registros": [
+     {
+      "codigo": "E1563425N/MACMER",
+      "producto": "Producto 1 : ARROZ PILADO Denominación Comercial: ARROZ EXTRA - ARROZ PILADO EXTRA Marca: \"COSECHA DEL SOL\" Presentaciones: 1.- Envase primario: bolsa de polietileno (PE) de 0.1 kg a 25 kg. 2.- Envase secundario: caja de cartón corrugado de 5.0 kg a 50 kg. 3.- Envase primario: bolsa de polipropileno (PP) de 0.1 kg a 25 kg. 4.- Envase primario: bolsa de papel multipliego Kraft de 5.0 kg a 50 kg. 5.- Envase primario: saco de polipropileno de 5.0 kg a 50 kg. 6.- Envase secundario: bolsa de polietileno (PE) de 5.0 kg a 50 kg. 7.- Envase secundario: bolsa de polipropileno (PP) de 5.0 kg a 50 kg. 8.- Envase secundario: bolsa de papel multipliego Kraft de 5.0 kg a 50 kg. 9.- Envase secundario: saco de polipropileno de 5.0 kg a 50 kg. 10.- Envase secundario: bolsa de papel multipliego Kraft de 5.0 kg a 50 kg. Vida útil del Producto: 18 MESES",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2030-02-25",
+      "estado": "",
+      "direccion": "AV.ARANA VIDAL NRO. 1201 SEC. AROMO BAJO CAJAMARCA - JAEN - JAEN",
+      "vigente": true
+     },
+     {
+      "codigo": "C1312924N/MACMER",
+      "producto": "Producto 1 : ACEITE VEGETAL Denominación Comercial: ACEITE VEGETAL - ACEITE VEGETAL COMESTIBLE - ACEITE VEGETAL DE SOYA Y PALMA Marca: \"\"BERCELLI\", \"DELNORTE\", \"FINCA GRANDE\"\" Presentaciones: 1.- ENVASE PRIMARIO: BOTELLA de polietileno tereftalato (PET) de 200 ML A 5000 ML. 2.- ENVASE PRIMARIO: GALONERAS de POLIETILENO DE ALTA DENSIDAD (PAD) de 2000 ML A 5000 ML. 3.- ENVASE SECUNDARIO: CAJA de CARTON CORRUGADO DE PRIMER USO de 24 BOTELLA DE 200 ML, 12 DE 500 ML A 5000 ML, 6 BOTELLAS DE 2L, 4 BOTELLAS DE 5L. 4.- ENVASE PRIMARIO: BALDE de POLIPROPILENO (PP) de 10 LITROS A 20 LITROS. 5.- ENVASE PRIMARIO: GALONERA de POLIETILENO DE ALTA DENSIDAD de 2000 MILILITROS A 5000 MILILITROS. 6.- ENVASE PRIMARIO: CONTENEDOR BIC de POLIETILENO DE ALTA DENSIDAD de 1000 LITROS. Vida útil del Producto: 24 MESES",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2029-09-10",
+      "estado": "",
+      "direccion": "AV.ARANA VIDAL NRO. 1201 SEC. AROMO BAJO CAJAMARCA - JAEN - JAEN",
+      "vigente": true
+     },
+     {
+      "codigo": "E2652623N/MACMEI",
+      "producto": "ARROZ SUPERIOR FORTIFICADO - ARROZ PILADO FORTIFICADO CON VITAMINAS Y MINERALES - ARROZ SUPERIOR FORTIFICADO CON VITAMINAS Y MINERALES - ARROZ PILADO SUPERIOR FORTIFICADO CON VITAMINAS Y MINERALES \"?CAMARCO?, ?ASUNCION?, ?PUERTO CHIPLE?, ?CAMILA? ?CETAV?\", en envase primario: bolsa de polietileno (PE) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno (PP) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno biorientado (BOPP) bilaminado de 0.1 kg a 25 kg, envase primario: bolsa bilaminada de PEBD/BOPP de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no bioplástico compostable de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no de plástico biodegradable de 0.1 kg a 25 kg, envase primario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase primario: saco de polipropileno laminado de 5 kg a 50 kg, envase primario: saco de polipropileno plastificado de 5 kg a 50 kg, envase primario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: bolsa de polietileno (PE) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno (PP) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno biorientado (BOPP) bilaminado de 5 kg a 50 kg, envase secundario: bolsa de PEBD/BOPP de 5 kg a 50 kg, envase secundario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado de 5 kg a 50 kg, envase secundario: saco de polipropileno plastificado de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: caja de cartón corrugado de primer uso de 5 kg a 40 kg, embalaje: bolsa de polietileno (PE) de 5 kg a 50 kg, embalaje: saco de polipropileno (PP) de 5 kg a 50 kg, embalaje: bolsa de papel multipliego kraft de 5 kg a 50 kg.",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2028-08-24",
+      "estado": "",
+      "direccion": "AV.ARANA VIDAL NRO. 1201 SEC. AROMO BAJO",
+      "vigente": true
+     },
+     {
+      "codigo": "E1515823N/MCCMEI",
+      "producto": "ARROZ SUPERIOR - ARROZ PILADO - ARROZ SUPERIOR - ARROZ PILADO SUPERIOR \"?CAMARCO?, ?ASUNCION?, ?PUERTO CHIPLE?, ?CAMILA? ?CETAV?\", en envase primario: bolsa de polietileno (PE) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno (PP) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno biorientado (BOPP) bilaminado de 0.1 kg a 25 kg, envase primario: bolsa bilaminada de material PEBD/BOPP de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no bioplástico compostable de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no de plástico biodegradable de 0.1 kg a 25 kg, envase primario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase primario: saco de polipropileno laminado de 5 kg a 50 kg, envase primario: saco de polipropileno plastificado de 5 kg a 50 kg, envase primario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: bolsa de polietileno (PE) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno (PP) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno biorientado (BOPP) bilaminado de 5 kg a 50 kg, envase secundario: bolsa de material PEBD/BOPP de 5 kg a 50 kg, envase secundario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado de 5 kg a 50 kg, envase secundario: saco de polipropileno plastificado de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: caja de cartón corrugado de primer uso de 5 kg a 40 kg, embalaje: bolsa de polietileno (PE) de 5 kg a 50 kg, embalaje: saco de polipropileno de 5 kg a 50 kg, embalaje: bolsa de papel multipliego kraft de 5 kg a 50 kg.",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2028-09-05",
+      "estado": "",
+      "direccion": "AV. ARANA VIDAL NRO. 1201 SEC. AROMO BAJO",
+      "vigente": true
+     },
+     {
+      "codigo": "E4900123N/MACMEI",
+      "producto": "HARINA DE TRIGO FORTIFICADA - HARINA DE TRIGO FORTIFICADA ? HARINA DE TRIGO PREPARADA FORTIFICADA \"?CAMARCO?, ?CETAV?, ?ANCES?, ?CAMILA? \", en envase primario: bolsa de polietileno (pe) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno (pp) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno biorientado (bopp) bilaminado de 0.1 kg a 25 kg, envase primario: bolsa bilaminada de pebd/bopp de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no bioplástico compostable de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no de plástico biodegradable de 0.1 kg a 25 kg, envase primario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase primario: saco de polipropileno laminado de 5 kg a 50 kg, envase primario: saco de polipropileno plastificado de 5 kg a 50 kg, envase primario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: bolsa de polietileno (pe) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno (pp) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno biorientado (bopp) bilaminado de 5 kg a 50 kg, envase secundario: bolsa de pebd/bopp de 5 kg a 50 kg, envase secundario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado de 5 kg a 50 kg, envase secundario: saco de polipropileno plastificado de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: caja cartón corrugado de primer uso de 5 kg a 40 kg, embalaje: bolsa de polietileno (pe) de 5 kg a 50 kg, embalaje: saco de polipropileno (pp) de 5 kg a 50 kg, embalaje: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: caja cartón corrugado de primer uso de 5 kg a 40 kg",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2028-09-14",
+      "estado": "",
+      "direccion": "Av. ARANA VIDAL NRO. 1201 SEC. AROMO BAJO",
+      "vigente": true
+     },
+     {
+      "codigo": "N8201923N/MACMEI",
+      "producto": "HARINA DE TRIGO - HARINA DE TRIGO - HARINA DE TRIGO SIN PREPARAR \"CAMARCO, CETAV, ANCES, CAMILA\", en envase primario: bolsa de polietileno (pe) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno (pp) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno biorientado (bopp) bilaminado de 0.1 kg a 25 kg, envase primario: bolsa bilaminada de pebd/bopp de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no bioplástico compostable de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no de plástico biodegradable de 0.1 kg a 25 kg, envase primario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase primario: saco de polipropileno laminado de 5 kg a 50 kg, envase primario: saco de polipropileno plastificado de 5 kg a 50 kg, envase primario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: bolsa de polietileno (pe) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno (pp) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno biorientado (bopp) bilaminado de 5 kg a 50 kg, envase secundario: bolsa de pebd/bopp de 5 kg a 50 kg, envase secundario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado de 5 kg a 50 kg, envase secundario: saco de polipropileno plastificado de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: caja cartón corrugado de primer uso de 5 kg a 40 kg, embalaje: bolsa de polietileno (pe) de 5 kg a 50 kg, embalaje: saco de polipropileno (pp) de 5 kg a 50 kg, embalaje: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: caja cartón corrugado de primer uso de 5 kg a 40 kg",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2028-09-14",
+      "estado": "",
+      "direccion": "Av. ARANA VIDAL NRO. 1201 SEC. AROMO BAJO",
+      "vigente": true
+     },
+     {
+      "codigo": "E1516623N/MCCMEI",
+      "producto": "ARROZ PILADO - ARROZ PILADO AÑEJO - ARROZ SUPERIOR AÑEJO- ARROZ PILADO SUPERIOR AÑEJO \"?CAMARCO?, ?ASUNCION?, ?PUERTO CHIPLE?, ?CAMILA? ?CETAV?\", en envase primario: bolsa de polietileno (pe) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno (pp) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno biorientado (bopp) bilaminado de 0.1 kg a 25 kg, envase primario: bolsa bilaminada de pebd/bopp de 0.1 kg a 25 kg, envase primario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase primario: saco de polipropileno laminado de 5 kg a 50 kg, envase primario: saco de polipropileno plastificado de 5 kg a 50 kg, envase primario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: bolsa de polietileno (pe) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno (pp) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno biorientado (bopp) bilaminado de 5 kg a 50 kg, envase secundario: bolsa de pebd/bopp de 5 kg a 50 kg, envase secundario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado de 5 kg a 50 kg, envase secundario: saco de polipropileno plastificado de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: caja cartón corrugado de primer uso de 5 kg a 40 kg, embalaje: bolsa de polietileno (pe) de 5 kg a 50 kg, embalaje: saco de polipropileno (pp) de 5 kg a 50 kg, embalaje: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: caja cartón corrugado de primer uso de 5 kg a 40 kg",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2028-10-04",
+      "estado": "",
+      "direccion": "Av. ARANA VIDAL NRO. 1201 SEC. AROMO BAJO",
+      "vigente": true
+     },
+     {
+      "codigo": "E1517123N/MACMEI",
+      "producto": "ARROZ SUPERIOR - ARROZ PILADO - ARROZ SUPERIOR - ARROZ PILADO SUPERIOR \"?CAMARCO?, ?ASUNCION?, ?PUERTO CHIPLE?, ?CAMILA? ?CETAV?\", en envase primario: bolsa de polietileno (pe) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno (pp) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno biorientado (bopp) bilaminado de 0.1 kg a 25 kg, envase primario: bolsa bilaminada de pebd/bopp de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no bioplástico compostable de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no de plástico biodegradable de 0.1 kg a 25 kg, envase primario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase primario: saco de polipropileno laminado de 5 kg a 50 kg, envase primario: saco de polipropileno plastificado de 5 kg a 50 kg, envase primario: saco de polipropileno laminado y plastificado de polipropileno laminado y plastificado 5 kg a 50 kg, envase secundario: bolsa de polietileno (pe) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno (pp) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno biorientado (bopp) bilaminado de 5 kg a 50 kg, envase secundario: bolsa de pebd/bopp de 5 kg a 50 kg, envase secundario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado de 5 kg a 50 kg, envase secundario: saco de polipropileno plastificado de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: caja cartón corrugado de primer uso de 5 kg a 40 kg, embalaje: bolsa de polietileno (pe) de 5 kg a 50 kg, embalaje: saco de polipropileno (pp) de 5 kg a 50 kg, embalaje: bolsa de papel multipliego kraft de 5 kg a 50 kg",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2028-11-02",
+      "estado": "",
+      "direccion": "Av. ARANA VIDAL NRO. 1201 SEC. AROMO BAJO",
+      "vigente": true
+     },
+     {
+      "codigo": "E1517623N/MACMEI",
+      "producto": "ARROZ PILADO - ARROZ PILADO AÑEJO - ARROZ SUPERIOR AÑEJO- ARROZ PILADO SUPERIOR AÑEJO \"CAMARCO\", \"ASUNCION\", \"PUERTO CHIPLE\", \"CAMILA\", \"CETAV\", en envase primario: bolsa de polietileno (pe) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno (pp) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno biorientado (bopp) bilaminado de 0.1 kg a 25 kg, envase primario: bolsa bilaminada de pebd/bopp de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no de compostable de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no de plástico de 0.1 kg a 25 kg, envase primario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase primario: saco de polipropileno laminado de 5 kg a 50 kg, envase primario: saco de polipropileno plastificado de 5 kg a 50 kg, envase primario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: bolsa de polietileno (pe) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno (pp) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno biorientado (bopp) bilaminado de 5 kg a 50 kg, envase secundario: bolsa de pebd/bopp de 5 kg a 50 kg, envase secundario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado de 5 kg a 50 kg, envase secundario: saco de polipropileno plastificado de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: caja cartón corrugado de 5 kg a 40 kg, embalaje: bolsa de polietileno (pe) de 5 kg a 50 kg, embalaje: saco de polipropileno (pp) de 5 kg a 50 kg, embalaje: bolsa de papel multipliego kraft de 5 kg a 50 kg",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2028-11-20",
+      "estado": "",
+      "direccion": "Av. ARANA VIDAL NRO. 1201 SEC. AROMO BAJO",
+      "vigente": true
+     }
+    ],
+    "relacionados": []
+   }
+  },
+  {
+   "categoria": "Vaso de Leche",
+   "nomenclatura": "CM-2-2026-RESPONSABLE DEL PVL",
+   "entidad": "MUNICIPALIDAD DISTRITAL DE COCHABAMBA - CHOTA",
+   "descripcion": "ADQUISICION DE AVENA TRADICIONAL EN BOLSA X 100 GRAMOS ENRIQUECIDA CON VITAMINAS Y MINERALES PARA ATENDER A LOS BENEDICIARIOS DEL PROGRAMA VASO DE LECHE DE LA MUNICIPALIDAD DISTRITAL DE COCHABAMBA. — Ítems: ADQUISICION DE AVENA TRADICIONAL EN BOLSA X 100 GRAMOS  ENRIQUECIDA CON VITAMINAS Y MINERALES PARA ATENDER A LOS BENEDICIARIOS DEL PROGRAMA VASO DE LECHE DE LA MUNICIPALIDAD DISTRITAL DE COCHABAMBA.",
+   "ganador": "CAMARCO E.I.R.L.",
+   "ruc": "20609195658",
+   "monto": 14941.5,
+   "moneda": "PEN",
+   "fechaBP": "2026-08-17",
+   "url": "https://prod6.seace.gob.pe/buscador-publico/contrataciones/81685",
+   "fuente": "SEACE (contrataciones hasta 8 UIT)",
+   "contacto": {
+    "ruc": "20609195658",
+    "telefonos": [
+     "930565758"
+    ],
+    "correos": [
+     "camarco.pe@gmail.com"
+    ],
+    "ubicacion": "CAJAMARCA / JAEN / JAEN",
+    "direccion": "AV.ARANA VIDAL NRO. 1201 SEC. AROMO BAJO CAJAMARCA - JAEN - JAEN",
+    "estado_sunat": "ACTIVO - HABIDO",
+    "representante": "PINEDO GUEVARA ZENAIDA",
+    "habilitado_rnp": true,
+    "ficha_url": "https://apps.oece.gob.pe/perfilprov-ui/ficha/20609195658",
+    "fuentes": [
+     "Ficha RNP (OECE)",
+     "SUNAT vía OECE",
+     "Registro sanitario DIGESA"
+    ]
+   },
+   "verif": {
+    "estado": "CON REGISTRO SANITARIO",
+    "nota": "",
+    "totalRegistros": 9,
+    "registros": [
+     {
+      "codigo": "E1563425N/MACMER",
+      "producto": "Producto 1 : ARROZ PILADO Denominación Comercial: ARROZ EXTRA - ARROZ PILADO EXTRA Marca: \"COSECHA DEL SOL\" Presentaciones: 1.- Envase primario: bolsa de polietileno (PE) de 0.1 kg a 25 kg. 2.- Envase secundario: caja de cartón corrugado de 5.0 kg a 50 kg. 3.- Envase primario: bolsa de polipropileno (PP) de 0.1 kg a 25 kg. 4.- Envase primario: bolsa de papel multipliego Kraft de 5.0 kg a 50 kg. 5.- Envase primario: saco de polipropileno de 5.0 kg a 50 kg. 6.- Envase secundario: bolsa de polietileno (PE) de 5.0 kg a 50 kg. 7.- Envase secundario: bolsa de polipropileno (PP) de 5.0 kg a 50 kg. 8.- Envase secundario: bolsa de papel multipliego Kraft de 5.0 kg a 50 kg. 9.- Envase secundario: saco de polipropileno de 5.0 kg a 50 kg. 10.- Envase secundario: bolsa de papel multipliego Kraft de 5.0 kg a 50 kg. Vida útil del Producto: 18 MESES",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2030-02-25",
+      "estado": "",
+      "direccion": "AV.ARANA VIDAL NRO. 1201 SEC. AROMO BAJO CAJAMARCA - JAEN - JAEN",
+      "vigente": true
+     },
+     {
+      "codigo": "C1312924N/MACMER",
+      "producto": "Producto 1 : ACEITE VEGETAL Denominación Comercial: ACEITE VEGETAL - ACEITE VEGETAL COMESTIBLE - ACEITE VEGETAL DE SOYA Y PALMA Marca: \"\"BERCELLI\", \"DELNORTE\", \"FINCA GRANDE\"\" Presentaciones: 1.- ENVASE PRIMARIO: BOTELLA de polietileno tereftalato (PET) de 200 ML A 5000 ML. 2.- ENVASE PRIMARIO: GALONERAS de POLIETILENO DE ALTA DENSIDAD (PAD) de 2000 ML A 5000 ML. 3.- ENVASE SECUNDARIO: CAJA de CARTON CORRUGADO DE PRIMER USO de 24 BOTELLA DE 200 ML, 12 DE 500 ML A 5000 ML, 6 BOTELLAS DE 2L, 4 BOTELLAS DE 5L. 4.- ENVASE PRIMARIO: BALDE de POLIPROPILENO (PP) de 10 LITROS A 20 LITROS. 5.- ENVASE PRIMARIO: GALONERA de POLIETILENO DE ALTA DENSIDAD de 2000 MILILITROS A 5000 MILILITROS. 6.- ENVASE PRIMARIO: CONTENEDOR BIC de POLIETILENO DE ALTA DENSIDAD de 1000 LITROS. Vida útil del Producto: 24 MESES",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2029-09-10",
+      "estado": "",
+      "direccion": "AV.ARANA VIDAL NRO. 1201 SEC. AROMO BAJO CAJAMARCA - JAEN - JAEN",
+      "vigente": true
+     },
+     {
+      "codigo": "E2652623N/MACMEI",
+      "producto": "ARROZ SUPERIOR FORTIFICADO - ARROZ PILADO FORTIFICADO CON VITAMINAS Y MINERALES - ARROZ SUPERIOR FORTIFICADO CON VITAMINAS Y MINERALES - ARROZ PILADO SUPERIOR FORTIFICADO CON VITAMINAS Y MINERALES \"?CAMARCO?, ?ASUNCION?, ?PUERTO CHIPLE?, ?CAMILA? ?CETAV?\", en envase primario: bolsa de polietileno (PE) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno (PP) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno biorientado (BOPP) bilaminado de 0.1 kg a 25 kg, envase primario: bolsa bilaminada de PEBD/BOPP de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no bioplástico compostable de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no de plástico biodegradable de 0.1 kg a 25 kg, envase primario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase primario: saco de polipropileno laminado de 5 kg a 50 kg, envase primario: saco de polipropileno plastificado de 5 kg a 50 kg, envase primario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: bolsa de polietileno (PE) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno (PP) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno biorientado (BOPP) bilaminado de 5 kg a 50 kg, envase secundario: bolsa de PEBD/BOPP de 5 kg a 50 kg, envase secundario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado de 5 kg a 50 kg, envase secundario: saco de polipropileno plastificado de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: caja de cartón corrugado de primer uso de 5 kg a 40 kg, embalaje: bolsa de polietileno (PE) de 5 kg a 50 kg, embalaje: saco de polipropileno (PP) de 5 kg a 50 kg, embalaje: bolsa de papel multipliego kraft de 5 kg a 50 kg.",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2028-08-24",
+      "estado": "",
+      "direccion": "AV.ARANA VIDAL NRO. 1201 SEC. AROMO BAJO",
+      "vigente": true
+     },
+     {
+      "codigo": "E1515823N/MCCMEI",
+      "producto": "ARROZ SUPERIOR - ARROZ PILADO - ARROZ SUPERIOR - ARROZ PILADO SUPERIOR \"?CAMARCO?, ?ASUNCION?, ?PUERTO CHIPLE?, ?CAMILA? ?CETAV?\", en envase primario: bolsa de polietileno (PE) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno (PP) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno biorientado (BOPP) bilaminado de 0.1 kg a 25 kg, envase primario: bolsa bilaminada de material PEBD/BOPP de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no bioplástico compostable de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no de plástico biodegradable de 0.1 kg a 25 kg, envase primario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase primario: saco de polipropileno laminado de 5 kg a 50 kg, envase primario: saco de polipropileno plastificado de 5 kg a 50 kg, envase primario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: bolsa de polietileno (PE) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno (PP) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno biorientado (BOPP) bilaminado de 5 kg a 50 kg, envase secundario: bolsa de material PEBD/BOPP de 5 kg a 50 kg, envase secundario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado de 5 kg a 50 kg, envase secundario: saco de polipropileno plastificado de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: caja de cartón corrugado de primer uso de 5 kg a 40 kg, embalaje: bolsa de polietileno (PE) de 5 kg a 50 kg, embalaje: saco de polipropileno de 5 kg a 50 kg, embalaje: bolsa de papel multipliego kraft de 5 kg a 50 kg.",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2028-09-05",
+      "estado": "",
+      "direccion": "AV. ARANA VIDAL NRO. 1201 SEC. AROMO BAJO",
+      "vigente": true
+     },
+     {
+      "codigo": "E4900123N/MACMEI",
+      "producto": "HARINA DE TRIGO FORTIFICADA - HARINA DE TRIGO FORTIFICADA ? HARINA DE TRIGO PREPARADA FORTIFICADA \"?CAMARCO?, ?CETAV?, ?ANCES?, ?CAMILA? \", en envase primario: bolsa de polietileno (pe) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno (pp) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno biorientado (bopp) bilaminado de 0.1 kg a 25 kg, envase primario: bolsa bilaminada de pebd/bopp de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no bioplástico compostable de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no de plástico biodegradable de 0.1 kg a 25 kg, envase primario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase primario: saco de polipropileno laminado de 5 kg a 50 kg, envase primario: saco de polipropileno plastificado de 5 kg a 50 kg, envase primario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: bolsa de polietileno (pe) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno (pp) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno biorientado (bopp) bilaminado de 5 kg a 50 kg, envase secundario: bolsa de pebd/bopp de 5 kg a 50 kg, envase secundario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado de 5 kg a 50 kg, envase secundario: saco de polipropileno plastificado de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: caja cartón corrugado de primer uso de 5 kg a 40 kg, embalaje: bolsa de polietileno (pe) de 5 kg a 50 kg, embalaje: saco de polipropileno (pp) de 5 kg a 50 kg, embalaje: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: caja cartón corrugado de primer uso de 5 kg a 40 kg",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2028-09-14",
+      "estado": "",
+      "direccion": "Av. ARANA VIDAL NRO. 1201 SEC. AROMO BAJO",
+      "vigente": true
+     },
+     {
+      "codigo": "N8201923N/MACMEI",
+      "producto": "HARINA DE TRIGO - HARINA DE TRIGO - HARINA DE TRIGO SIN PREPARAR \"CAMARCO, CETAV, ANCES, CAMILA\", en envase primario: bolsa de polietileno (pe) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno (pp) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno biorientado (bopp) bilaminado de 0.1 kg a 25 kg, envase primario: bolsa bilaminada de pebd/bopp de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no bioplástico compostable de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no de plástico biodegradable de 0.1 kg a 25 kg, envase primario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase primario: saco de polipropileno laminado de 5 kg a 50 kg, envase primario: saco de polipropileno plastificado de 5 kg a 50 kg, envase primario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: bolsa de polietileno (pe) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno (pp) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno biorientado (bopp) bilaminado de 5 kg a 50 kg, envase secundario: bolsa de pebd/bopp de 5 kg a 50 kg, envase secundario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado de 5 kg a 50 kg, envase secundario: saco de polipropileno plastificado de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: caja cartón corrugado de primer uso de 5 kg a 40 kg, embalaje: bolsa de polietileno (pe) de 5 kg a 50 kg, embalaje: saco de polipropileno (pp) de 5 kg a 50 kg, embalaje: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: caja cartón corrugado de primer uso de 5 kg a 40 kg",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2028-09-14",
+      "estado": "",
+      "direccion": "Av. ARANA VIDAL NRO. 1201 SEC. AROMO BAJO",
+      "vigente": true
+     },
+     {
+      "codigo": "E1516623N/MCCMEI",
+      "producto": "ARROZ PILADO - ARROZ PILADO AÑEJO - ARROZ SUPERIOR AÑEJO- ARROZ PILADO SUPERIOR AÑEJO \"?CAMARCO?, ?ASUNCION?, ?PUERTO CHIPLE?, ?CAMILA? ?CETAV?\", en envase primario: bolsa de polietileno (pe) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno (pp) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno biorientado (bopp) bilaminado de 0.1 kg a 25 kg, envase primario: bolsa bilaminada de pebd/bopp de 0.1 kg a 25 kg, envase primario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase primario: saco de polipropileno laminado de 5 kg a 50 kg, envase primario: saco de polipropileno plastificado de 5 kg a 50 kg, envase primario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: bolsa de polietileno (pe) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno (pp) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno biorientado (bopp) bilaminado de 5 kg a 50 kg, envase secundario: bolsa de pebd/bopp de 5 kg a 50 kg, envase secundario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado de 5 kg a 50 kg, envase secundario: saco de polipropileno plastificado de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: caja cartón corrugado de primer uso de 5 kg a 40 kg, embalaje: bolsa de polietileno (pe) de 5 kg a 50 kg, embalaje: saco de polipropileno (pp) de 5 kg a 50 kg, embalaje: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: caja cartón corrugado de primer uso de 5 kg a 40 kg",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2028-10-04",
+      "estado": "",
+      "direccion": "Av. ARANA VIDAL NRO. 1201 SEC. AROMO BAJO",
+      "vigente": true
+     },
+     {
+      "codigo": "E1517123N/MACMEI",
+      "producto": "ARROZ SUPERIOR - ARROZ PILADO - ARROZ SUPERIOR - ARROZ PILADO SUPERIOR \"?CAMARCO?, ?ASUNCION?, ?PUERTO CHIPLE?, ?CAMILA? ?CETAV?\", en envase primario: bolsa de polietileno (pe) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno (pp) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno biorientado (bopp) bilaminado de 0.1 kg a 25 kg, envase primario: bolsa bilaminada de pebd/bopp de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no bioplástico compostable de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no de plástico biodegradable de 0.1 kg a 25 kg, envase primario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase primario: saco de polipropileno laminado de 5 kg a 50 kg, envase primario: saco de polipropileno plastificado de 5 kg a 50 kg, envase primario: saco de polipropileno laminado y plastificado de polipropileno laminado y plastificado 5 kg a 50 kg, envase secundario: bolsa de polietileno (pe) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno (pp) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno biorientado (bopp) bilaminado de 5 kg a 50 kg, envase secundario: bolsa de pebd/bopp de 5 kg a 50 kg, envase secundario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado de 5 kg a 50 kg, envase secundario: saco de polipropileno plastificado de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: caja cartón corrugado de primer uso de 5 kg a 40 kg, embalaje: bolsa de polietileno (pe) de 5 kg a 50 kg, embalaje: saco de polipropileno (pp) de 5 kg a 50 kg, embalaje: bolsa de papel multipliego kraft de 5 kg a 50 kg",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2028-11-02",
+      "estado": "",
+      "direccion": "Av. ARANA VIDAL NRO. 1201 SEC. AROMO BAJO",
+      "vigente": true
+     },
+     {
+      "codigo": "E1517623N/MACMEI",
+      "producto": "ARROZ PILADO - ARROZ PILADO AÑEJO - ARROZ SUPERIOR AÑEJO- ARROZ PILADO SUPERIOR AÑEJO \"CAMARCO\", \"ASUNCION\", \"PUERTO CHIPLE\", \"CAMILA\", \"CETAV\", en envase primario: bolsa de polietileno (pe) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno (pp) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno biorientado (bopp) bilaminado de 0.1 kg a 25 kg, envase primario: bolsa bilaminada de pebd/bopp de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no de compostable de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no de plástico de 0.1 kg a 25 kg, envase primario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase primario: saco de polipropileno laminado de 5 kg a 50 kg, envase primario: saco de polipropileno plastificado de 5 kg a 50 kg, envase primario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: bolsa de polietileno (pe) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno (pp) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno biorientado (bopp) bilaminado de 5 kg a 50 kg, envase secundario: bolsa de pebd/bopp de 5 kg a 50 kg, envase secundario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado de 5 kg a 50 kg, envase secundario: saco de polipropileno plastificado de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: caja cartón corrugado de 5 kg a 40 kg, embalaje: bolsa de polietileno (pe) de 5 kg a 50 kg, embalaje: saco de polipropileno (pp) de 5 kg a 50 kg, embalaje: bolsa de papel multipliego kraft de 5 kg a 50 kg",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2028-11-20",
+      "estado": "",
+      "direccion": "Av. ARANA VIDAL NRO. 1201 SEC. AROMO BAJO",
+      "vigente": true
+     }
+    ],
+    "relacionados": [
+     {
+      "codigo": "E2652623N/MACMEI",
+      "producto": "ARROZ SUPERIOR FORTIFICADO - ARROZ PILADO FORTIFICADO CON VITAMINAS Y MINERALES - ARROZ SUPERIOR FORTIFICADO CON VITAMINAS Y MINERALES - ARROZ PILADO SUPERIOR FORTIFICADO CON VITAMINAS Y MINERALES \"?CAMARCO?, ?ASUNCION?, ?PUERTO CHIPLE?, ?CAMILA? ?CETAV?\", en envase primario: bolsa de polietileno (PE) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno (PP) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno biorientado (BOPP) bilaminado de 0.1 kg a 25 kg, envase primario: bolsa bilaminada de PEBD/BOPP de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no bioplástico compostable de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no de plástico biodegradable de 0.1 kg a 25 kg, envase primario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase primario: saco de polipropileno laminado de 5 kg a 50 kg, envase primario: saco de polipropileno plastificado de 5 kg a 50 kg, envase primario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: bolsa de polietileno (PE) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno (PP) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno biorientado (BOPP) bilaminado de 5 kg a 50 kg, envase secundario: bolsa de PEBD/BOPP de 5 kg a 50 kg, envase secundario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado de 5 kg a 50 kg, envase secundario: saco de polipropileno plastificado de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: caja de cartón corrugado de primer uso de 5 kg a 40 kg, embalaje: bolsa de polietileno (PE) de 5 kg a 50 kg, embalaje: saco de polipropileno (PP) de 5 kg a 50 kg, embalaje: bolsa de papel multipliego kraft de 5 kg a 50 kg.",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2028-08-24",
+      "estado": "",
+      "direccion": "AV.ARANA VIDAL NRO. 1201 SEC. AROMO BAJO",
+      "vigente": true
+     },
+     {
+      "codigo": "E4900123N/MACMEI",
+      "producto": "HARINA DE TRIGO FORTIFICADA - HARINA DE TRIGO FORTIFICADA ? HARINA DE TRIGO PREPARADA FORTIFICADA \"?CAMARCO?, ?CETAV?, ?ANCES?, ?CAMILA? \", en envase primario: bolsa de polietileno (pe) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno (pp) de 0.1 kg a 25 kg, envase primario: bolsa de polipropileno biorientado (bopp) bilaminado de 0.1 kg a 25 kg, envase primario: bolsa bilaminada de pebd/bopp de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no bioplástico compostable de 0.1 kg a 25 kg, envase primario: bolsa bilaminada o no de plástico biodegradable de 0.1 kg a 25 kg, envase primario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase primario: saco de polipropileno laminado de 5 kg a 50 kg, envase primario: saco de polipropileno plastificado de 5 kg a 50 kg, envase primario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: bolsa de polietileno (pe) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno (pp) de 5 kg a 50 kg, envase secundario: bolsa de polipropileno biorientado (bopp) bilaminado de 5 kg a 50 kg, envase secundario: bolsa de pebd/bopp de 5 kg a 50 kg, envase secundario: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado de 5 kg a 50 kg, envase secundario: saco de polipropileno plastificado de 5 kg a 50 kg, envase secundario: saco de polipropileno laminado y plastificado de 5 kg a 50 kg, envase secundario: caja cartón corrugado de primer uso de 5 kg a 40 kg, embalaje: bolsa de polietileno (pe) de 5 kg a 50 kg, embalaje: saco de polipropileno (pp) de 5 kg a 50 kg, embalaje: bolsa de papel multipliego kraft de 5 kg a 50 kg, envase secundario: caja cartón corrugado de primer uso de 5 kg a 40 kg",
+      "marca": "",
+      "titular": "CAMARCO E.I.R.L.",
+      "ruc_titular": "20609195658",
+      "fecha_vencimiento": "2028-09-14",
+      "estado": "",
+      "direccion": "Av. ARANA VIDAL NRO. 1201 SEC. AROMO BAJO",
+      "vigente": true
+     }
+    ]
+   }
+  },
+  {
+   "categoria": "Vaso de Leche",
+   "nomenclatura": "CM-253-2026-MDJG-B",
+   "entidad": "MUNICIPALIDAD DISTRITAL DE JOSE GALVEZ",
+   "descripcion": "ADQUISICIÓN DE LECHE EVAPORADA EN TARRO PARA EL PROGRAMA DEL VASO DE LECHE PVL DE LA SUB-GERENCIA DE DESARROLLO HUMANO Y SOCIAL DE LA MUNICIPALIDAD DISTRITAL DE JOSE GAL — Ítems: ADQUISICIÓN DE LECHE EVAPORADA EN TARRO PARA EL PROGRAMA DEL VASO DE LECHE PVL DE LA SUB-GERENCIA DE DESARROLLO HUMANO Y SOCIAL DE LA MUNICIPALIDAD DISTRITAL DE JOSE GALVEZ",
+   "ganador": "VARGAS CHAVEZ JOSE ANIBAL",
+   "ruc": "10409952319",
+   "monto": 9980.82,
+   "moneda": "PEN",
+   "fechaBP": "2026-08-14",
+   "url": "https://prod6.seace.gob.pe/buscador-publico/contrataciones/85122",
+   "fuente": "SEACE (contrataciones hasta 8 UIT)",
+   "contacto": {
+    "ruc": "10409952319",
+    "telefonos": [],
+    "correos": [],
+    "ubicacion": "CAJAMARCA / CELENDIN / CELENDIN",
+    "direccion": "",
+    "estado_sunat": "ACTIVO - HABIDO",
+    "representante": "",
+    "habilitado_rnp": true,
+    "ficha_url": "https://apps.oece.gob.pe/perfilprov-ui/ficha/10409952319",
+    "fuentes": [
+     "Ficha RNP (OECE)",
+     "SUNAT vía OECE"
+    ]
+   },
+   "verif": {
+    "estado": "SIN REGISTRO SANITARIO",
+    "nota": "No se encontraron registros a nombre del ganador. Puede ser distribuidor de un producto cuyo titular es otra empresa (revise la oferta).",
+    "totalRegistros": 0,
+    "registros": [],
+    "relacionados": []
+   }
+  },
+  {
+   "categoria": "Vaso de Leche",
+   "nomenclatura": "CM-17-2026-MDS-B",
+   "entidad": "MUNICIPALIDAD DISTRITAL DE SUCRE",
+   "descripcion": "ADQUISICIÓN COMPLEMENTARIA DE 3,216 UNIDADES DE LECHE EVAPORADA ENTERA PARA EL PROGRAMA VASO DE LECHE DE LA MDS — Ítems: 3216 UNIDADES DE LECHE EVAPORADA ENTERA ",
+   "ganador": "DIAZ DEBERNARDI MARIA LUISA",
+   "ruc": "10000449119",
+   "monto": 13185.6,
+   "moneda": "PEN",
+   "fechaBP": "2026-07-23",
+   "url": "https://prod6.seace.gob.pe/buscador-publico/contrataciones/81866",
+   "fuente": "SEACE (contrataciones hasta 8 UIT)",
+   "contacto": {
+    "ruc": "10000449119",
+    "telefonos": [],
+    "correos": [],
+    "ubicacion": "UCAYALI / CORONEL PORTILLO / YARINACOCHA",
+    "direccion": "",
+    "estado_sunat": "ACTIVO - HABIDO",
+    "representante": "",
+    "habilitado_rnp": true,
+    "ficha_url": "https://apps.oece.gob.pe/perfilprov-ui/ficha/10000449119",
+    "fuentes": [
+     "Ficha RNP (OECE)",
+     "SUNAT vía OECE"
+    ]
+   },
+   "verif": {
+    "estado": "SIN REGISTRO SANITARIO",
+    "nota": "No se encontraron registros a nombre del ganador. Puede ser distribuidor de un producto cuyo titular es otra empresa (revise la oferta).",
+    "totalRegistros": 0,
+    "registros": [],
+    "relacionados": []
+   }
+  },
+  {
+   "categoria": "Vaso de Leche",
+   "nomenclatura": "CM-7-2026-MDSL",
+   "entidad": "MUNICIPALIDAD DISTRITAL DE SAN LUIS - SAN PABLO",
+   "descripcion": "ADQUISICIÓN DE INSUMOS PARA EL PROGRAMA VASO DE LECHE — Ítems: ADQUISICIÓN DE CIENTO TREINTA (130) TARROS DE LECHE EVAPORADA ENTERA X 410 G, CONFORME LAS INDICACIONES DE LAS ESPECIFICACIONES TÉCNICAS ADJUNTAS EN LA PRESENTE CONTRATACIÓN.",
+   "ganador": "URRUTIA TARRILLO MARY FLOR",
+   "ruc": "10452909567",
+   "monto": 551.0,
+   "moneda": "PEN",
+   "fechaBP": "2026-06-26",
+   "url": "https://prod6.seace.gob.pe/buscador-publico/contrataciones/75001",
+   "fuente": "SEACE (contrataciones hasta 8 UIT)",
+   "contacto": {
+    "ruc": "10452909567",
+    "telefonos": [],
+    "correos": [],
+    "ubicacion": "CAJAMARCA / CAJAMARCA / CAJAMARCA",
+    "direccion": "",
+    "estado_sunat": "ACTIVO - HABIDO",
+    "representante": "",
+    "habilitado_rnp": true,
+    "ficha_url": "https://apps.oece.gob.pe/perfilprov-ui/ficha/10452909567",
+    "fuentes": [
+     "Ficha RNP (OECE)",
+     "SUNAT vía OECE"
+    ]
+   },
+   "verif": {
+    "estado": "SIN REGISTRO SANITARIO",
+    "nota": "No se encontraron registros a nombre del ganador. Puede ser distribuidor de un producto cuyo titular es otra empresa (revise la oferta).",
+    "totalRegistros": 0,
+    "registros": [],
+    "relacionados": []
+   }
+  },
+  {
+   "categoria": "Avena",
+   "nomenclatura": "CM-249-2026-GDSSP",
+   "entidad": "MUNICIPALIDAD PROVINCIAL DE CHURCAMPA",
+   "descripcion": "ADQUISCION DE ARROZ Y AVENA PARA LA CELEBRACION DEL DIA DE LA MADRE CHURCAMPINA 2026 — Ítems: ARROZ PILADO EXTRA; HOJUELA DE AVENA CON QUINUA",
+   "ganador": "CARDENAS LIZANA EDILSON",
+   "ruc": "10476899198",
+   "monto": 18720.0,
+   "moneda": "PEN",
+   "fechaBP": "2026-04-29",
+   "url": "https://prod6.seace.gob.pe/buscador-publico/contrataciones/60427",
+   "fuente": "SEACE (contrataciones hasta 8 UIT)",
+   "contacto": {
+    "ruc": "10476899198",
+    "telefonos": [],
+    "correos": [],
+    "ubicacion": "AYACUCHO / HUAMANGA / AYACUCHO",
+    "direccion": "",
+    "estado_sunat": "ACTIVO - HABIDO",
+    "representante": "",
+    "habilitado_rnp": true,
+    "ficha_url": "https://apps.oece.gob.pe/perfilprov-ui/ficha/10476899198",
+    "fuentes": [
+     "Ficha RNP (OECE)",
+     "SUNAT vía OECE"
+    ]
+   },
+   "verif": {
+    "estado": "SIN REGISTRO SANITARIO",
+    "nota": "No se encontraron registros a nombre del ganador. Puede ser distribuidor de un producto cuyo titular es otra empresa (revise la oferta).",
+    "totalRegistros": 0,
+    "registros": [],
+    "relacionados": []
+   }
+  },
+  {
+   "categoria": "Avena",
+   "nomenclatura": "CM-3-2026-MDSRO",
+   "entidad": "MUNICIPALIDAD DISTRITAL DE SANTA ROSA DE OCOPA",
+   "descripcion": "ADQUISICION DE PRODUCTOS PARA PVL LECHE EVAPORADA DE 410 GR. HOJUELAS DE AVENA, QUINUA, CNIHUA Y KIWICHA FORTIFICADA CON VITAMINAS Y MINERALES (1570 KG, C/U) — Ítems: LECHE EVAPORADA ENTERA DE 410 G R; HOJUELAS DE AVENA. QUINUA, CAÑIHUA Y KIWICHA FORTIFICADO CON VITAMINAS Y MINERALES POR SACHETS DE 1570KG",
+   "ganador": "ALEMARO E.I.R.L.",
+   "ruc": "20611902329",
+   "monto": 46992.96,
+   "moneda": "PEN",
+   "fechaBP": "2026-02-26",
+   "url": "https://prod6.seace.gob.pe/buscador-publico/contrataciones/46389",
+   "fuente": "SEACE (contrataciones hasta 8 UIT)",
+   "contacto": {
+    "ruc": "20611902329",
+    "telefonos": [
+     "988331567"
+    ],
+    "correos": [
+     "alemaroeirl@gmail.com"
+    ],
+    "ubicacion": "LIMA / LIMA / SANTIAGO DE SURCO",
+    "direccion": "",
+    "estado_sunat": "ACTIVO - HABIDO",
+    "representante": "RUAS VDA DE MONTALVAN ISOLINA DEL CARMEN",
+    "habilitado_rnp": true,
+    "ficha_url": "https://apps.oece.gob.pe/perfilprov-ui/ficha/20611902329",
+    "fuentes": [
+     "Ficha RNP (OECE)",
+     "SUNAT vía OECE"
+    ]
+   },
+   "verif": {
+    "estado": "SIN REGISTRO SANITARIO",
+    "nota": "No se encontraron registros a nombre del ganador. Puede ser distribuidor de un producto cuyo titular es otra empresa (revise la oferta).",
+    "totalRegistros": 0,
+    "registros": [],
+    "relacionados": []
+   }
+  },
+  {
+   "categoria": "Vaso de Leche",
+   "nomenclatura": "CM-3-2026-MDSRO",
+   "entidad": "MUNICIPALIDAD DISTRITAL DE SANTA ROSA DE OCOPA",
+   "descripcion": "ADQUISICION DE PRODUCTOS PARA PVL LECHE EVAPORADA DE 410 GR. HOJUELAS DE AVENA, QUINUA, CNIHUA Y KIWICHA FORTIFICADA CON VITAMINAS Y MINERALES (1570 KG, C/U) — Ítems: LECHE EVAPORADA ENTERA DE 410 G R; HOJUELAS DE AVENA. QUINUA, CAÑIHUA Y KIWICHA FORTIFICADO CON VITAMINAS Y MINERALES POR SACHETS DE 1570KG",
+   "ganador": "ALEMARO E.I.R.L.",
+   "ruc": "20611902329",
+   "monto": 46992.96,
+   "moneda": "PEN",
+   "fechaBP": "2026-02-26",
+   "url": "https://prod6.seace.gob.pe/buscador-publico/contrataciones/46389",
+   "fuente": "SEACE (contrataciones hasta 8 UIT)",
+   "contacto": {
+    "ruc": "20611902329",
+    "telefonos": [
+     "988331567"
+    ],
+    "correos": [
+     "alemaroeirl@gmail.com"
+    ],
+    "ubicacion": "LIMA / LIMA / SANTIAGO DE SURCO",
+    "direccion": "",
+    "estado_sunat": "ACTIVO - HABIDO",
+    "representante": "RUAS VDA DE MONTALVAN ISOLINA DEL CARMEN",
+    "habilitado_rnp": true,
+    "ficha_url": "https://apps.oece.gob.pe/perfilprov-ui/ficha/20611902329",
+    "fuentes": [
+     "Ficha RNP (OECE)",
+     "SUNAT vía OECE"
+    ]
+   },
+   "verif": {
+    "estado": "SIN REGISTRO SANITARIO",
+    "nota": "No se encontraron registros a nombre del ganador. Puede ser distribuidor de un producto cuyo titular es otra empresa (revise la oferta).",
+    "totalRegistros": 0,
+    "registros": [],
+    "relacionados": []
+   }
+  },
+  {
+   "categoria": "Vaso de Leche",
+   "nomenclatura": "CM-1-2026-MDU",
+   "entidad": "MUNICIPALIDAD DISTRITAL DE UCO",
+   "descripcion": "REQUERIMIENTO DE ADQUSICION DE INSUMOS PARA EL PROGRAMA VASO DE LECHE PARA EL AÑO 2026 — Ítems: HOJUELAS DE AVENA CON QUINUA, KIWICHA PRECOCIDAS ENRIQUECIDAS CON FOSFATO TRICALCICO Y PREMIX VITAMINICO; LECHE EVAPORADA ENTERA X 410 G",
+   "ganador": "INVERSIONES MARYSA S.A.C.",
+   "ruc": "20610478329",
+   "monto": 84450.98,
+   "moneda": "PEN",
+   "fechaBP": "2026-01-23",
+   "url": "https://prod6.seace.gob.pe/buscador-publico/contrataciones/39559",
+   "fuente": "SEACE (contrataciones hasta 8 UIT)",
+   "contacto": {
+    "ruc": "20610478329",
+    "telefonos": [
+     "944951809"
+    ],
+    "correos": [
+     "palacios743@hotmail.com"
+    ],
+    "ubicacion": "ANCASH / HUARAZ / INDEPENDENCIA",
+    "direccion": "",
+    "estado_sunat": "ACTIVO - HABIDO",
+    "representante": "MAMANI PALACIOS JUAN HONORATO",
+    "habilitado_rnp": true,
+    "ficha_url": "https://apps.oece.gob.pe/perfilprov-ui/ficha/20610478329",
+    "fuentes": [
+     "Ficha RNP (OECE)",
+     "SUNAT vía OECE"
+    ]
+   },
+   "verif": {
+    "estado": "SIN REGISTRO SANITARIO",
+    "nota": "No se encontraron registros a nombre del ganador. Puede ser distribuidor de un producto cuyo titular es otra empresa (revise la oferta).",
+    "totalRegistros": 0,
+    "registros": [],
+    "relacionados": []
+   }
+  },
+  {
+   "categoria": "Vaso de Leche",
+   "nomenclatura": "CM-491-2025-ULO/MPT",
+   "entidad": "MUNICIPALIDAD PROVINCIAL DE TALARA - PARIÑAS",
+   "descripcion": "ADQUISICIÓN DE HOJUELA DE KIWICHA CON HARINA DE MAIZ Y ALGARROBA CON PANELA FORTIFICADA CON VITAMINAS Y MINERALES - PARA EL PROGRAMA VASO DE LECHE. — Ítems: ADQUISICIÓN DE HOJUELA DE KIWICHA CON HARINA DE MAIZ Y ALGARROBA CON PANELA FORTIFICADA CON VITAMINAS Y MINERALES - PARA EL PROGRAMA VASO DE LECHE.",
+   "ganador": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+   "ruc": "20479379735",
+   "monto": 41798.8,
+   "moneda": "PEN",
+   "fechaBP": "2025-12-29",
+   "url": "https://prod6.seace.gob.pe/buscador-publico/contrataciones/37045",
+   "fuente": "SEACE (contrataciones hasta 8 UIT)",
+   "contacto": {
+    "ruc": "20479379735",
+    "telefonos": [
+     "612678"
+    ],
+    "correos": [
+     "logistica@agrolac.pe"
+    ],
+    "ubicacion": "LAMBAYEQUE / CHICLAYO / LA VICTORIA",
+    "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+    "estado_sunat": "ACTIVO - HABIDO",
+    "representante": "SANTAMARIA ANAYA LADY ELIZABETH",
+    "habilitado_rnp": true,
+    "ficha_url": "https://apps.oece.gob.pe/perfilprov-ui/ficha/20479379735",
+    "fuentes": [
+     "Ficha RNP (OECE)",
+     "SUNAT vía OECE",
+     "Registro sanitario DIGESA"
+    ]
+   },
+   "verif": {
+    "estado": "CON REGISTRO SANITARIO",
+    "nota": "",
+    "totalRegistros": 111,
+    "registros": [
+     {
+      "codigo": "E4600426N/MAAIAR",
+      "producto": "Producto 1 : HARINA EXTRUIDA DE QUINUA Denominación Comercial: HARINA DE QUINUA EXTRUIDA Marca: \"TERRA MITICA, QORI MUYA\" Presentaciones: 1.- Envase primario: Bolsa de polietileno, polipropileno, BOPP (polipropileno biorentado) o aluminio de 50 g a 30 kg; desde 5 hasta 10 Kg. 2.- Envase secundario: saco; bolsón de Polietileno; polipropileno. de desde 10 hasta 100 unidades; desde 10 hasta 30 kg. Vida útil del Producto: 9 MESES",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2031-01-08",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E4600826N/MAAIAR",
+      "producto": "Producto 1 : HARINA DE ARROZ EXTRUIDO FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: HARINA DE ARROZ EXTRUIDO FORTIFICADO CON VITAMINAS Y MINERALES Marca: \"TERRA MITICA\" Presentaciones: 1.- Envase primario: bolsa de polietileno, polipropileno, BOPP (polipropileno biorentado) o aluminio de 50 g a 30 kg, desde 5 hasta 30 kg. 2.- Envase secundario: saco, bolsón de polietileno, polipropileno de 10 hasta 100 unidades, desde 10 hasta 30 kg. Vida útil del Producto: 12 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2031-01-13",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851 - LA VICTORIA - CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E4605726N/MAAIAR",
+      "producto": "Producto 1 : HARINA INSTANTANA DE MAIZ AMILACEO Denominación Comercial: HARINA EXTRUIDA DE MAIZ AMILACEO Marca: \"TERRA MITICA : QORI MUYA\" Presentaciones: 1.- Envase primario: Bolsa de polietileno, polipropileno, BOPP (polipropileno biorentado) o aluminio de 50 g a 30 kg.; desde 5 hasta 30 Kg. 2.- Envase secundario: saco; bolsón de Polietileno; polipropileno. de 10 hasta 100 unidades; desde 10 hasta 30 kg. Vida útil del Producto: 9 MESES",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2031-02-04",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5621126N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA PRECOCIDA DE AVENA CON QUINUA, CEBADA TOSTADA Y MOLIDA, HARINA DE MACA ENRIQUECIDA CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELA PRECOCIDA DE AVENA CON QUINUA, CEBADA TOSTADA Y MOLIDA(CHAQUEPA), HARINA DE MACA ENRIQUECIDA CON VITAMINAS Y MINERALES Marca: \"SUPERVITAL\", \"RICOLAC\" Presentaciones: 1.- Bolsa de polietileno; polipropileno; BOPP, de 10 g hasta 25 Kg; desde 5 hasta 25 kg.. 2.- Bolson, sacos, bolsas de polietileno, polipropileno de 10 hasta 100 unidades; desde 5 hasta 40 kg. Vida útil del Producto: 9 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2031-04-21",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851, LA VICTORIA -CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E4751816N/MAAIAR",
+      "producto": "Producto 1 : HARINA DE TRIGO EXTRUIDO FORTIFICADO Denominación Comercial: HARINA DE TRIGO EXTRUIDO - HARINA DE TRIGO EXTRUIDO FORTIFICADO TERRA MITICA, VITA CAMPO, QORI, MUYA Marca: \"TERRA MITICA\" Presentaciones: 1.- Envase primario: bolsa de polietileno, polipropileno, bopp ( polipropileno biorentado) de 50 g a 30 kg. 2.- Envase secundario: saco de polipropileno, bolsas de papel kraft multipliego, con o sin bolsa interior de 10 a 100 unidades, 5 a 30 kg. 3.- Envase secundario: bolsón de polietileno, polipropileno (alta densidad) de 10 a 100 unidades, 5 a 30 kg. 4.- Envase primario: bolsas de BOPP (polipropileno biorientado) de 50 g hasta 30 kg. 5.- Envase primario: bolsa de polietileno; polipropileno biorientado (BOPP) bilaminado, trilaminado de 50 g, 250 g, 500 g, 750 g, 1 kg. hasta 10 kg. Vida útil del Producto: 06 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2031-07-27",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 - LA VICTORIA - CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E5637826N/MAAIAR",
+      "producto": "Producto 1 : HOJUELAS PRECOCIDAS DE AVENA, CAÑIHUA, QUINUA, TRIGO Y MACA FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: . Marca: \"SUPERVITAL\", \"RICOLAC\" Presentaciones: 1.- ENVASE PRIMARIO de bolsa de polietileno; polipropileno; polietileno biorientado (BOPP) de 50 g hasta 1000 g; desde 1 kg hasta 10 kg.. 2.- ENVASE SECUNDARIO:Bolson; saco; de de polipropileno; bolson de polietileno de 10 hasta 100 unidades; desde 10 hasta 40 kg.. Vida útil del Producto: 8 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2031-09-10",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5638826N/MAAIAR",
+      "producto": "Producto 1 : HOJUELAS PRECOCIDAS DE AVENA QUINUA KIWICHA TRIGO HARINA DE MACA FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: - Marca: \"RICOLAC\" Presentaciones: 1.- Envase primario: bolsa de polietileno, polipropileno, polietileno biorientado (BOPP) de 50 g hasta 1000 g; desde 1 kg hasta 20 kg. 2.- Envase secundario: saco de polipropileno, bolsón de polietileno de 10 hasta 100 unidades; desde 20 hasta 40 kg. Vida útil del Producto: 8 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2031-09-22",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 - LA VICTORIA - CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E5606120N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA PRECOCIDA DE QUINUA, AVENA, KIWICHA FORTIFICADA CON VITAMINAS Y MINERALES Denominaci n Comercial: . Marca: \"SUPERVITAL\" Presentaciones: 1.- Envase primario: bolsa de polietileno de 100 g hasta 10 kg, 20 hasta 30 kg. 2.- Envase secundario: saco de polipropileno, bolsa de polietileno de 10 kg hasta 50 kg, 10 unidades hasta 50 unidades. 3.- Envase secundario: bolsa/bols n de polietileno (PE) y/o polipropileno, caja de cart n corrugado, caja de cart n prensado de 20 unidades hasta 100 unidades. Vida til del Producto: 8 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-01-28",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851, LA VICTORIA - CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E5605525N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA DE AVENA,QUINUA,KIWICHA,CA IHUA, AJONJOL Y HARINA DE MACA CON AZ CAR PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES. Denominaci n Comercial: - Marca: \"SUPERVITAL, RICOLAC\" Presentaciones: 1.- Envase primario bolsa de polietileno: polipropileno; polietileno biorientado (BOPP) de 50 g hasta 1000 g; desde 1 kg hasta 10 kg. 2.- Envase secundario saco de polipropileno; bolson de polietileno de 10 hasta 100 unidades; desde 20 hasta 40 kg. Vida til del Producto: 08 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-01-28",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5605625N/MAAIAR",
+      "producto": "Producto 2 : HOJUELA DE QUINUA,AVENA,KIWICHA, CEBADA, HARINA DE AJONJOL Y HARINA INTEGRAL DE SOYA PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES Denominaci n Comercial: - Marca: \"SUPERVITAL\" Presentaciones: 1.- Envase primario bolsa de polietileno: polipropileno; polietileno biorientado (BOPP) de 50 g hasta 1000 g; desde 1 kg hasta 10 kg. 2.- Envase secundario saco de polipropileno; bols n de polietileno de 10 hasta 100 unidades; desde 20 hasta 40 kg. Vida til del Producto: 08 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-01-28",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5605725N/MAAIAR",
+      "producto": "Producto 3 : MEZCLA DE HOJUELAS DE AVENA, QUINUA, KIWICHA, TRIGO, CEBADA, MACA CON AJONJOL DESHIDRATADO EN POLVO FORTIFICADO CON VITAMINAS Y MINERALES Denominaci n Comercial: - Marca: \"SUPERVITAL\" Presentaciones: 1.- Envase primario bolsa de polietileno: polipropileno; polietileno biorientado (BOPP) de 50 g hasta 1000 g; desde 1 kg hasta 10 kg. 2.- Envase secundario saco de polipropileno; bols n de polietileno de 10 hasta 100 unidades; desde 20 hasta 40 kg. Vida til del Producto: 08 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-01-28",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5612625N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA CRUDA DE AVENA, QUINUA, KIWICHA, CAÑIHUA, MACA CON HARINA INTEGRAL DE TRIGO AZUCARADA ENRIQUECIDA CON VITAMINAS Y MINERALES Denominación Comercial: MEZCLA DE HOJUELAS DE AVENA, QUINUA, KIWICHA, CAÑIHUA, MACA CON HARINA INTEGRAL DE TRIGO AZUCARADA ENRIQUECIDA CON VITAMINAS Y MINERALES Marca: \"SUPERVITAL\" Presentaciones: 1.- BOLSA de polietileno, polipropileno, BOPP de 50 gr hasta 30 kg; 5 hasta 25 kilos. 2.- sacos , bolsas de polipropileno, polietileno. de 10 hasta 100 unidades. Vida útil del Producto: 8 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-02-24",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 - LA VICTORIA - CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E5614925N/MAAIAR",
+      "producto": "Producto 1 : MEZCLA DE HOJUELA PRECOCIDA DE KIWICHA, AVENA, QUINUA CON HARINA DE CHIA Y POLENTA DE MAÍZ FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELA PRECOCIDA DE KIWICHA, AVENA, QUINUA CON HARINA DE CHIA Y POLENTA DE MAIZ FORTIFICADO CON VITAMINAS Y MINERALES Marca: \"SUPERVITAL\" Presentaciones: 1.- ENVASE PRIMARIO: de Polietileno, polipropileno, Polipropileno Biorientado de De 10 gr hasta 5 kg; desde 10 hasta 30 kg.. 2.- ENVASE SECUNDARIO: Saco, bolsa, bolsón de polietileno, polipropileno de desde 10 hasta 100 unidades. Desde 10 hasta 30 kg.. Vida útil del Producto: 08 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-03-04",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 - LA VICTORIA - CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E5626320N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA DE AVENA CON KIWICHA PRECOCIDAS Denominación Comercial: KIWICHA AVENA Marca: \"SUPERVITAL, RICOLAC\" Presentaciones: 1.- Envase primario de bolsa de polipropileno biorentado (bopp)bilaminado o trilaminado de 50 g hasta 5 kg. 2.- Envase primario de bolsa de polipropileno biorientado (bopp)bilaminado o trilaminado de 50g hasta 5 kg. 3.- Envase secundario de bolsa/bolsón de polietileno de alta densidad (pead) y/o polipropileno, caja de cartón corrugado, caja de cartón de 10 hasta 100 unidades. 4.- Envase secundario de bolsa/bolsón de polietileno de alta densidad (pead) y/o polipropileno, caja de cartón corrugado, bolsa de polietileno (PE) de 10 hasta 100 unidades. Vida útil del Producto: 08 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-07-14",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5622925N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA DE TRIGO PRECOCIDA FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: - Marca: \"SUPERVITAL\" Presentaciones: 1.- Envase primario: Bolsa de Polietileno; polipropileno; polietileno biorentado(BOOP) de 50 gr hasta 1000 g: desde 1 a 10 Kg.. 2.- Envase secundario: saco; bolsón de Polietileno; polipropileno. de 10 hasta 100 unidades; desde 20 a 40 kg.. Vida útil del Producto: 13 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-05-26",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     }
+    ],
+    "relacionados": [
+     {
+      "codigo": "E4600826N/MAAIAR",
+      "producto": "Producto 1 : HARINA DE ARROZ EXTRUIDO FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: HARINA DE ARROZ EXTRUIDO FORTIFICADO CON VITAMINAS Y MINERALES Marca: \"TERRA MITICA\" Presentaciones: 1.- Envase primario: bolsa de polietileno, polipropileno, BOPP (polipropileno biorentado) o aluminio de 50 g a 30 kg, desde 5 hasta 30 kg. 2.- Envase secundario: saco, bolsón de polietileno, polipropileno de 10 hasta 100 unidades, desde 10 hasta 30 kg. Vida útil del Producto: 12 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2031-01-13",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851 - LA VICTORIA - CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E5621126N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA PRECOCIDA DE AVENA CON QUINUA, CEBADA TOSTADA Y MOLIDA, HARINA DE MACA ENRIQUECIDA CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELA PRECOCIDA DE AVENA CON QUINUA, CEBADA TOSTADA Y MOLIDA(CHAQUEPA), HARINA DE MACA ENRIQUECIDA CON VITAMINAS Y MINERALES Marca: \"SUPERVITAL\", \"RICOLAC\" Presentaciones: 1.- Bolsa de polietileno; polipropileno; BOPP, de 10 g hasta 25 Kg; desde 5 hasta 25 kg.. 2.- Bolson, sacos, bolsas de polietileno, polipropileno de 10 hasta 100 unidades; desde 5 hasta 40 kg. Vida útil del Producto: 9 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2031-04-21",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851, LA VICTORIA -CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E4751816N/MAAIAR",
+      "producto": "Producto 1 : HARINA DE TRIGO EXTRUIDO FORTIFICADO Denominación Comercial: HARINA DE TRIGO EXTRUIDO - HARINA DE TRIGO EXTRUIDO FORTIFICADO TERRA MITICA, VITA CAMPO, QORI, MUYA Marca: \"TERRA MITICA\" Presentaciones: 1.- Envase primario: bolsa de polietileno, polipropileno, bopp ( polipropileno biorentado) de 50 g a 30 kg. 2.- Envase secundario: saco de polipropileno, bolsas de papel kraft multipliego, con o sin bolsa interior de 10 a 100 unidades, 5 a 30 kg. 3.- Envase secundario: bolsón de polietileno, polipropileno (alta densidad) de 10 a 100 unidades, 5 a 30 kg. 4.- Envase primario: bolsas de BOPP (polipropileno biorientado) de 50 g hasta 30 kg. 5.- Envase primario: bolsa de polietileno; polipropileno biorientado (BOPP) bilaminado, trilaminado de 50 g, 250 g, 500 g, 750 g, 1 kg. hasta 10 kg. Vida útil del Producto: 06 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2031-07-27",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 - LA VICTORIA - CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E5637826N/MAAIAR",
+      "producto": "Producto 1 : HOJUELAS PRECOCIDAS DE AVENA, CAÑIHUA, QUINUA, TRIGO Y MACA FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: . Marca: \"SUPERVITAL\", \"RICOLAC\" Presentaciones: 1.- ENVASE PRIMARIO de bolsa de polietileno; polipropileno; polietileno biorientado (BOPP) de 50 g hasta 1000 g; desde 1 kg hasta 10 kg.. 2.- ENVASE SECUNDARIO:Bolson; saco; de de polipropileno; bolson de polietileno de 10 hasta 100 unidades; desde 10 hasta 40 kg.. Vida útil del Producto: 8 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2031-09-10",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5638826N/MAAIAR",
+      "producto": "Producto 1 : HOJUELAS PRECOCIDAS DE AVENA QUINUA KIWICHA TRIGO HARINA DE MACA FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: - Marca: \"RICOLAC\" Presentaciones: 1.- Envase primario: bolsa de polietileno, polipropileno, polietileno biorientado (BOPP) de 50 g hasta 1000 g; desde 1 kg hasta 20 kg. 2.- Envase secundario: saco de polipropileno, bolsón de polietileno de 10 hasta 100 unidades; desde 20 hasta 40 kg. Vida útil del Producto: 8 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2031-09-22",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 - LA VICTORIA - CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E5606120N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA PRECOCIDA DE QUINUA, AVENA, KIWICHA FORTIFICADA CON VITAMINAS Y MINERALES Denominaci n Comercial: . Marca: \"SUPERVITAL\" Presentaciones: 1.- Envase primario: bolsa de polietileno de 100 g hasta 10 kg, 20 hasta 30 kg. 2.- Envase secundario: saco de polipropileno, bolsa de polietileno de 10 kg hasta 50 kg, 10 unidades hasta 50 unidades. 3.- Envase secundario: bolsa/bols n de polietileno (PE) y/o polipropileno, caja de cart n corrugado, caja de cart n prensado de 20 unidades hasta 100 unidades. Vida til del Producto: 8 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-01-28",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851, LA VICTORIA - CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E5605525N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA DE AVENA,QUINUA,KIWICHA,CA IHUA, AJONJOL Y HARINA DE MACA CON AZ CAR PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES. Denominaci n Comercial: - Marca: \"SUPERVITAL, RICOLAC\" Presentaciones: 1.- Envase primario bolsa de polietileno: polipropileno; polietileno biorientado (BOPP) de 50 g hasta 1000 g; desde 1 kg hasta 10 kg. 2.- Envase secundario saco de polipropileno; bolson de polietileno de 10 hasta 100 unidades; desde 20 hasta 40 kg. Vida til del Producto: 08 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-01-28",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5605625N/MAAIAR",
+      "producto": "Producto 2 : HOJUELA DE QUINUA,AVENA,KIWICHA, CEBADA, HARINA DE AJONJOL Y HARINA INTEGRAL DE SOYA PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES Denominaci n Comercial: - Marca: \"SUPERVITAL\" Presentaciones: 1.- Envase primario bolsa de polietileno: polipropileno; polietileno biorientado (BOPP) de 50 g hasta 1000 g; desde 1 kg hasta 10 kg. 2.- Envase secundario saco de polipropileno; bols n de polietileno de 10 hasta 100 unidades; desde 20 hasta 40 kg. Vida til del Producto: 08 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-01-28",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5605725N/MAAIAR",
+      "producto": "Producto 3 : MEZCLA DE HOJUELAS DE AVENA, QUINUA, KIWICHA, TRIGO, CEBADA, MACA CON AJONJOL DESHIDRATADO EN POLVO FORTIFICADO CON VITAMINAS Y MINERALES Denominaci n Comercial: - Marca: \"SUPERVITAL\" Presentaciones: 1.- Envase primario bolsa de polietileno: polipropileno; polietileno biorientado (BOPP) de 50 g hasta 1000 g; desde 1 kg hasta 10 kg. 2.- Envase secundario saco de polipropileno; bols n de polietileno de 10 hasta 100 unidades; desde 20 hasta 40 kg. Vida til del Producto: 08 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-01-28",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5612625N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA CRUDA DE AVENA, QUINUA, KIWICHA, CAÑIHUA, MACA CON HARINA INTEGRAL DE TRIGO AZUCARADA ENRIQUECIDA CON VITAMINAS Y MINERALES Denominación Comercial: MEZCLA DE HOJUELAS DE AVENA, QUINUA, KIWICHA, CAÑIHUA, MACA CON HARINA INTEGRAL DE TRIGO AZUCARADA ENRIQUECIDA CON VITAMINAS Y MINERALES Marca: \"SUPERVITAL\" Presentaciones: 1.- BOLSA de polietileno, polipropileno, BOPP de 50 gr hasta 30 kg; 5 hasta 25 kilos. 2.- sacos , bolsas de polipropileno, polietileno. de 10 hasta 100 unidades. Vida útil del Producto: 8 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-02-24",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 - LA VICTORIA - CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E5614925N/MAAIAR",
+      "producto": "Producto 1 : MEZCLA DE HOJUELA PRECOCIDA DE KIWICHA, AVENA, QUINUA CON HARINA DE CHIA Y POLENTA DE MAÍZ FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELA PRECOCIDA DE KIWICHA, AVENA, QUINUA CON HARINA DE CHIA Y POLENTA DE MAIZ FORTIFICADO CON VITAMINAS Y MINERALES Marca: \"SUPERVITAL\" Presentaciones: 1.- ENVASE PRIMARIO: de Polietileno, polipropileno, Polipropileno Biorientado de De 10 gr hasta 5 kg; desde 10 hasta 30 kg.. 2.- ENVASE SECUNDARIO: Saco, bolsa, bolsón de polietileno, polipropileno de desde 10 hasta 100 unidades. Desde 10 hasta 30 kg.. Vida útil del Producto: 08 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-03-04",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 - LA VICTORIA - CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E5626320N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA DE AVENA CON KIWICHA PRECOCIDAS Denominación Comercial: KIWICHA AVENA Marca: \"SUPERVITAL, RICOLAC\" Presentaciones: 1.- Envase primario de bolsa de polipropileno biorentado (bopp)bilaminado o trilaminado de 50 g hasta 5 kg. 2.- Envase primario de bolsa de polipropileno biorientado (bopp)bilaminado o trilaminado de 50g hasta 5 kg. 3.- Envase secundario de bolsa/bolsón de polietileno de alta densidad (pead) y/o polipropileno, caja de cartón corrugado, caja de cartón de 10 hasta 100 unidades. 4.- Envase secundario de bolsa/bolsón de polietileno de alta densidad (pead) y/o polipropileno, caja de cartón corrugado, bolsa de polietileno (PE) de 10 hasta 100 unidades. Vida útil del Producto: 08 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-07-14",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5622925N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA DE TRIGO PRECOCIDA FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: - Marca: \"SUPERVITAL\" Presentaciones: 1.- Envase primario: Bolsa de Polietileno; polipropileno; polietileno biorentado(BOOP) de 50 gr hasta 1000 g: desde 1 a 10 Kg.. 2.- Envase secundario: saco; bolsón de Polietileno; polipropileno. de 10 hasta 100 unidades; desde 20 a 40 kg.. Vida útil del Producto: 13 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-05-26",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5630920N/MAAIAR",
+      "producto": "Producto 1 : HOJUELAS DE AVENA CON QUINUA PRECOCIDAS Denominación Comercial: QUINUA AVENA EN HOJUELAS PRECOCIDAS Marca: \"SUPERVITAL, RICOLAC\" Presentaciones: 1.- Envase primario de bolsa de polipropileno biorientado (bopp)bilaminado o trilaminado de 50 g hasta 5 kg. 2.- Envase primario de bolsa de polietileno de baja o alta densidad de 50 g hasta 5 kg. 3.- Envase secundario de bolsa/bolsón de polietileno de alta densidad (pead) y/o polipropileno, caja de cartón corrugado, caja de cartón de 10 hasta 100 unidades. Vida útil del Producto: 7 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-09-09",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5625325N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA PRECOCIDA DE AVENA, KIWICHA TOSTADA CON HARINA DE MAIZ BLANCO, SOYA INTEGRAL Y PLÁTANO AZUCARADO FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELA PRECOCIDA DE AVENA, KIWICHA TOSTADA CON CHUFLA, SOYA INTEGRAL Y PLÁTANO AZUCARADO FORTIFICADO CON VITAMINAS Y MINERALES Marca: \"RICOLAC\" Presentaciones: 1.- Envase primario: Bolsa de polietileno; polipropileno; polietileno biorentado(BOOP) de 50 g a 30 kg. 2.- Envase secundario: saco; bolsón de Polietileno; polipropileno. de 5 a 100 unidades; de 50 g a 30 kg. Vida útil del Producto: 8 MESES",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-07-11",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851 - LA VICTORIA - CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E5627025N/MAAIAR",
+      "producto": "Producto 1 : HOJUELAS PRECOCIDAS DE AVENA, KIWICHA, QUINUA, , CAÑIHUA Y HARINA DE CEBADA CON SOYA PRECOCIDA ENRIQUECIDO CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELAS DE AVENA, QUINUA, KIWICHA, CAÑIHUA Y HARINA DE CEBADA CON SOYA PRECOCIDO ENRIQUECIDO CON VITAMINAS Y MINERALES Marca: \"SUPERVITAL\" Presentaciones: 1.- Envase primario: Bolsa de Polietileno; polipropileno; polietileno biorentado(BOOP) de 50 gr hasta 30 kg; Desde 5 kg hasta 30 kg. 2.- Envase secundario: saco/bolsón de Polietileno; polipropileno. de 10 hasta 100 unidades; desde 10 hasta 30 kg.. Vida útil del Producto: 8 MESES",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-08-05",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851, LA VICTORIA - CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E5627125N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA PRECOCIDA DE AVENA, QUINUA, KIWICHA Y HARINA DE CHIA FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELA DE AVENA, QUINUA, KIWICHA Y HARINA DE CHIA PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES Marca: \"SUPERVITAL\" Presentaciones: 1.- Envase primario: Bolsa de polietileno; polipropileno; polietileno biorentado(BOOP) de 50 gr. hasta 30 kg / 5 kg hasta 25 kg. 2.- Envase secundario: saco; bolsón de polietileno; polipropileno. de 10 hasta 100 unid / 10 hasta 30 kg. Vida útil del Producto: 8 MESES",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-08-08",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5627225N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA DE QUINUA, AVENA, KIWICHA PRECOCIDA AZUCARADA FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELA DE QUINUA, AVENA, KIWICHA PRECOCIDA AZUCARADA FORTIFICADA CON VITAMINAS Y MINERALES Marca: \"SUPERVITAL\" Presentaciones: 1.- PRIMARIO: Bolsas de Polietileno, polipropileno, POlitileno Biorentado ( BOPP) de 50 gr hasta 30 kg; desde 5 hasta 30 kg. 2.- SECUNDARIO:Saco, Bolsa, Bolsón de polietileno, polipropileno de 10 hasta 100 unidades; desde 10 hasta 30 kg.. Vida útil del Producto: 08 MESES",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-08-21",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5650025N/MAAIAR",
+      "producto": "Producto 1 : MEZCLA DE HOJUELAS PROCOCIDAS DE AVENA, HARINA DE MAIZ BLANCO, SOYA INTEGRAL, MACA, FORTIFICADA CON VITAMINAS Y MINERALES. Denominación Comercial: HOJUELAS DE AVENA, QUINUA, CON HARINA DE MAIZ BLANCO SOYA INTEGRAL TOSTADA Y HARINA DE MACA PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES. Marca: \"SUPERVITAL , RICOLAC\" Presentaciones: 1.- Envase primario: Bolsa de Polietileno; polipropileno; polietileno biorentado(BOOP) de 10 g hasta 30 kg; 5 kg hasta 30 kg. 2.- Envase secundario: saco; bolsón de Polietileno; polipropileno. de 10 hasta 100 unidades; desde 10 hasta 30 kg.. Vida útil del Producto: 8 MESES",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-11-22",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E4607120N/MAAIAR",
+      "producto": "Producto 1 : MEZCLA DE HARINAS EXTRUIDAS DE TRIGO, ARROZ, QUINUA Y CAÑIHUA Denominación Comercial: MEZCLA DE HARINAS EXTRUIDAS Marca: \"TERRA MITICA\" Presentaciones: 1.- Envase primario: bolsa de polipropileno biorientado (BOPP) bilaminado o trilaminado de 50 g hasta 10 kg. 2.- Envase primario: bolsa de polietileno de 50 g hasta 10 kg. 3.- Envase secundario: bolsa de polietileno de alta densidad (PEAD), polietileno (PE), saco de polipropileno, caja de cartón corrugado de 10 hasta 500 unidades. 4.- Envase primario: bolsa de polipropileno biorientado (BOPP) bilaminado o trilaminado de 50 g hasta 10 kg. 5.- Envase primario: bolsa de polietileno (PE), Bolsa de papel kraft de 50 g hasta 30 kg. 6.- Envase secundario: bolsa de polietileno (PE), saco de polipropileno con bolsa interior, caja de cartón corrugado de 10 hasta 100 unid. desde 10 hasta 30 kg. Vida útil del Producto: 06 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-02-01",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5654425N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA PRECOCIDA DE AVENA, CAÑIHUA, QUINUA, KIWICHA, AJONJOLI Y MACA FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELA PRECOCIDA DE AVENA, CAÑIHUA, QUINUA, KIWICHA, HARINA DE AJONJOLI Y HARINA DE MACA FORTIFICADA CON VITAMINAS Y MINERALES Marca: \"SUPERVITAL\", \"RICOLAC\" Presentaciones: 1.- Envase primario: Bolsa de polietileno; polipropileno; polietileno biorentado (BOPP) de 10 g hasta 10 kg; desde 10 g hasta 30 kg. 2.- Envase secundario: Saco; Bolsón; Bolsa de polietileno; polipropileno de 5 kg hasta 30 kg; desde 10 hasta 100 unidades. Vida útil del Producto: 8 MESES",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-12-10",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851, LA VICTORIA - CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E5602520N/MAAIAR",
+      "producto": "Producto 1 : MEZCLA DE HOJUELAS DE AVENA, QUINUA, KIWICHA, TRIGO, CEBADA, MACA CON AJONJOLÍ DESHIDRATADO EN POLVO FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: - Marca: \"SUPERVITAL\" Presentaciones: 1.- Envase primario: Bolsa con o sin impresión de polietileno, de alta o baja densidad de 100 g hasta 10 kg. 2.- Envase primario: Bolsa de bilaminada BOPP / polietileno ; polietileno bilaminado de 100 g hasta 10 kg. 3.- Envase secundario : Saco y/o Bolsa de polietileno, polipropileno de 10 hasta 50 unidades; desde 5 hasta 10 kg. Vida útil del Producto: 08 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2030-01-18",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851, LA VICTORIA - CHICLAYO - LAMBAYEQUE",
+      "vigente": true
+     },
+     {
+      "codigo": "E5635724N/MAAIAR",
+      "producto": "Producto 1 : HOJUELAS DE AVENA CON QUINUA Y AJONJOLI PRECOCIDO, FORTIFICADO CON VITAMINAS Y MINERALES. Denominación Comercial: HOJUELAS DE AVENA CON QUINUA Y AJONJOLI PRECOCIDO, FORTIFICADO CON VITAMINAS Y MINERALES. Marca: \"SUPERVITAL, RICOLAC,\" Presentaciones: 1.- ENVASE PRIMARIO: BOLSA de Polietileno (PE); Polipropileno (PP) ; Polipropileno Biorientado (BOPP); caja de cartón corrugado; caja de cartón prensado de 50 g hasta 30 Kg. 2.- ENVASE SECUNDARIO: SACOS, BOLSAS de POLIETILENO, PROLIPROPILENO, BILAMINAO COEXTRUIDO, OXOBIODEGRADABLE de 10 hasta 100 unidades; de 5 hasta 30 kg. Vida útil del Producto: 08 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-04-23",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5639224N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA DE AVENA CON QUINUA Y AJONJOLI CON MACA PRECOCIDO FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELA PRECOCIDA DE AVENA, QUINUA, AJONJOLI Y MACA FORTIFICADO CON VITAMINAS Y MINERALES Marca: \"SUPERVITAL\" Presentaciones: 1.- Envase primario: Bolsa de polietileno; polipropileno; polietileno biorientado (bopp); polietileno laminado de 50 gr hasta 25 kg: desde 5 hasta 25 kg. 2.- Envase secundario: Sacos, bolsas de polipropileno, polietileno, tejido de desde 10 hasta 100 unidades; desde 10 hasta 50 kg.. Vida útil del Producto: 08 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-05-13",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E6809919N/MAAIAR",
+      "producto": "Producto 1 : CEREALES EXTRUIDOS DE TRIGO, MAÍZ Y QUINUA CON AZÚCAR Denominación Comercial: - Marca: \"UKUMARI MIX, UCUMARI MIX, QORIMUYA\" Presentaciones: 1.- envase primario bolsa de polipropileno metalizado bilaminado o trilaminado, polipropileno cristal de 0.010 kg hasta 30 kg. 2.- envase secundario bolsa/bolsón de polietileno (PE) y/o polipropileno, caja de cartón corrugado, caja de cartón prensado de primer uso de 02 unidades hasta 500 unidades. 3.- envase primario bolsas de polietileno y/o polipropileno de 10 g hasta 30 kg.. Vida útil del Producto: 9 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-10-04",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E6810019N/MAAIAR",
+      "producto": "Producto 2 : CEREALES EXTRUIDOS DE TRIGO, ARROZ, MAIZ Y QUINUA Denominación Comercial: - Marca: \"UKUMARI MIX, UCUMARI MIX, QORIMUYA\" Presentaciones: 1.- envase primario bolsa de polipropileno metalizado bilaminado o trilaminado, polipropileno cristal de 10 g hasta 30 kg. 2.- envase primario bolsa de polietileno, polipropileno de 10 g hasta 30 kg. 3.- envase secundario bolsa de polietileno (PE), caja de cartón corrugado, caja de cartón prensado de 02 hasta 500 unidades.. Vida útil del Producto: 9 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-10-04",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E6810119N/MAAIAR",
+      "producto": "Producto 3 : CEREALES EXTRUIDOS DE MAIZ, QUINUA Y KIWICHA Denominación Comercial: - Marca: \"UKUMARI MIX, UCUMARI MIX, QORIMUYA\" Presentaciones: 1.- envase primario bolsa de polipropilenometalizado bilaminado o trilaminado; polipropileno cristal de 10 g hasta 30 kg. 2.- envase primario bolsa de polietileno, polipropileno de 10 g hasta 30 kg. 3.- envase secundario bolsa/bolsón de polietileno (PE) y/o polipropileno, caja de cartón corrugado, caja de cartón prensado de primer uso de 02 hasta 500 unidades.. Vida útil del Producto: 9 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-10-04",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E6809519N/MAAIAR",
+      "producto": "Producto 1 : MEZCLA DE CEREALES EXTRUIDOS DE MAIZ, TRIGO Y QUINUA CON AZÚCAR FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: CEREALES EXTRUIDOS DE MAIZ, TRIGO Y QUINUA CON AZÚCAR FORTIFICADO CON VITAMINAS Y MINERALES, EN FORMA DE AROS, BOLAS, ESTRELLAS Y COPOS Marca: \"UKUMARI MIX\" Presentaciones: 1.- Envase primario: bolsa de polipropileno biorientado (BOPP) metalizado bilaminado o trilaminado; polipropileno biorientado (BOPP) cristal de 10 g hasta 30 kg. 2.- Envase secundario : bolsa/bolsón de polietileno (PE) y/o polipropileno, caja de cartón corrugado, caja de cartón prensado de primer uso de 02 unidades hasta 500 unidades. 3.- Envase primario: bolsas de polietileno y/o polipropileno de 10 g hasta 30 g. Vida útil del Producto: 09 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-10-01",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E6809619N/MAAIAR",
+      "producto": "Producto 2 : MEZCLA DE CEREALES EXTRUIDOS DE TRIGO, MAÍZ, KIWICHA Y MACA CON AZÚCAR FORTIFICADA CON CON VITAMINAS Y MINERALES Denominación Comercial: CEREALES EXTRUIDOS DE TRIGO, MAIZ KIWICHA Y MACA CON AZUCAR FORTIFICADO CON VITAMINAS Y MINERALES EN FORMA DE AROS, BOLAS, ESTRELLAS Y COPOS Marca: \"UKUMARI MIX\" Presentaciones: 1.- Envase primario: bolsa de polipropileno biorientado (BOPP) metalizado bilaminado o trilaminado; polipropileno biorientado (BOPP) cristal de 10 g hasta 30 kg. 2.- Envase secundario: bolsa/bolsón de polietileno (PE) y/o polipropileno, caja de cartón corrugado, caja de cartón prensado de primer uso de 02 unidades hasta 500 unidades. 3.- Envase primario: bolsas de polietileno y/o polipropileno de 10 g hasta 30 kg. Vida útil del Producto: 09 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-10-01",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5666124N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA PRECOCIDA DE AVENA, QUINUA, KIWICHA, TRIGO, ALGARROBA CON HARINA DE MACA FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: - Marca: \"SUPERVITAL, RICOLAC\" Presentaciones: 1.- Envase primario: bolsa de polipropileno biorientado (bopp) bilaminado o trilaminado; polietileno ; Polipropileno de 50 gr hasta 5 kilos.; 10 hasta 50 kg. 2.- Envase secundario: bolsón de polietileno (pe) ; polietileno de alta (pead) o baja densidad (pebd), papel kraftt; caja de de cartón; polipropileno. de 10 hasta 100 unidades; 10 hasta 30 kg. 3.- Envase secundario: saco de polipropileno; polietileno de 10 hasta 100 unidades; 10 hasta 50 kg.. Vida útil del Producto: 08 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-09-19",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851, LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5649519N/MAAIAR",
+      "producto": "Producto 1 : HOJUELA PRECOCIDA DE AVENA, CAÑIHUA, QUINUA, KIWICHA, AJONJOLI Y MACA FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELA PRECOCIDA DE AVENA, CAÑIHUA, QUINUA, KIWICHA, AJONJOLI Y MACA FORTIFICADA CON VITAMINAS Y MINERALES Marca: \"SUPERVITAL\" Presentaciones: 1.- Envase primario: bolsa laminada de polietileno de 100 g a 5 kg. 2.- Envase secundario: saco de polipropileno, polietileno de 10 unidades a 50 unidades. Vida útil del Producto: 7 meses.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-10-26",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851 LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E6818124N/MAAIAR",
+      "producto": "Producto 1 : CEREALES EXTRUIDOS DE TRIGO, ARROZ, MAIZ Y QUINUA CON AZUCAR SABOR A VAINILLA Denominación Comercial: - Marca: \"UKUMARI MIX, UCUMARI MIX, QORIMUYA\" Presentaciones: 1.- envase primario de bolsa de polipropileno metalizado ; polipropileno ; Polietileno de 10 g hasta 10 kg. 2.- envase secundario de bolsa/bolsón de polietileno (PE) y/o polipropileno, caja de cartón de 2 unidades hasta 500 unidades. Vida útil del Producto: 9 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-11-13",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851, LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E6818224N/MAAIAR",
+      "producto": "Producto 2 : CEREALES EXTRUIDOS DE TRIGO, ARROZ, MAIZ Y KIWICHA CON AZUCAR SABOR A CHOCOLATE Denominación Comercial: - Marca: \"UKUMARI MIX, UCUMARI MIX, QORIMUYA\" Presentaciones: 1.- envase primario de bolsa de polipropileno metalizado ; polipropileno ; Polietileno de 10 g hasta 10 kg. 2.- envase secundario de bolsa/bolsón de polietileno (PE) y/o polipropileno, caja de cartón de 2 unidades hasta 500 unidades. Vida útil del Producto: 9 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-11-13",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851, LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E6818324N/MAAIAR",
+      "producto": "Producto 3 : CEREALES EXTRUIDOS DE QUINUA, AVENA, MAIZ, ARROZ Y CACAO EN POLVO CON AZUCAR, SABOR A CHOCOLATE, FORTIFICADO CON HIERRO HEMINICO Denominación Comercial: - Marca: \"UKUMARI MIX, UCUMARI MIX, QORIMUYA\" Presentaciones: 1.- envase primario de bolsa de polipropileno metalizado ; polipropileno ; Polietileno de 10 g hasta 10 kg. 2.- envase secundario de bolsa/bolsón de polietileno (PE) y/o polipropileno, caja de cartón de 10 hasta 500 unidades. Vida útil del Producto: 09 meses",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-11-13",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851, LAMBAYEQUE - CHICLAYO - LA VICTORIA",
+      "vigente": true
+     },
+     {
+      "codigo": "E4640723N/MAAIAR",
+      "producto": "HARINA DE ARROZ EXTRUIDO FORTIFICADO CON VITAMINAS Y MINERALES - HARINA DE ARROZ EXTRUIDO FORTIFICADO CON VITAMINAS Y MINERALES \"QORI MUYA\", \"TERRA MITICA\", en envase primario: bolsa de polietileno; polipropileno; polietileno biorientado (bopp); polietileno laminado de 50 gr hasta 30 kg, envase secundario: sacos, bolsas de polietileno (pe) o polipropileno; caja de cartón corrugado; caja de cartón prensado de 5 kg hasta 30 kg; desde 10 hasta 100 unidades",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-01-04",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E4640823N/MAAIAR",
+      "producto": "HARINA DE CAÑIHUA EXTRUIDA FORTIFICADA CON VITAMINAS Y MINERALES \"QORI MUYA\", \"TERRA MITICA\", en envase primario: bolsa de polietileno; polipropileno; polietileno biorientado (bopp); polietileno laminado de 50 gr hasta 30 kg, envase secundario: sacos, bolsas de polietileno (pe) o polipropileno; caja de cartón corrugado; caja de cartón prensado de 5 kg hasta 30 kg; desde 10 hasta 100 unidades",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-01-04",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E4640923N/MAAIAR",
+      "producto": "HARINA DE KIWICHA EXTRUIDA FORTIFICADA CON VITAMINAS Y MINERALES \"QORI MUYA\", \"TERRA MITICA\", en envase primario: bolsa de polietileno; polipropileno; polietileno biorientado (bopp); polietileno laminado de 50 gr hasta 30 kg, envase secundario: sacos, bolsas de polietileno (pe) o polipropileno; caja de cartón corrugado; caja de cartón prensado de 5 kg hasta 30 kg; desde 10 hasta 100 unidades",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-01-04",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5606424N/MAAIAR",
+      "producto": "HOJUELA DE AVENA, QUINUA, KIWICHA, SOYA CON AJONJOLI PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES \"SUPERVITAL\", en envase primario: bolsa de polietileno, polipropileno, polietileno biorientado (BOPP), polietileno laminado de 50 g hasta 30 kg, envase secundario: sacos, bolsas de polietileno (PE) o polipropileno, caja de cartón corrugado, caja de cartón prensado de 10 hasta 100 unidades, desde 10 hasta 30 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-01-15",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5606324N/MAAIAR",
+      "producto": "HOJUELA DE QUINUA, CEBADA, KIWICHA, AVENA, HARINA DE ALGARROBA AZUCARADA FORTIFICADO CON VITAMINAS Y MINERALES \"SUPERVITAL\", en envase primario: bolsa de polietileno, polipropileno, polietileno biorientado (BOPP), polietileno laminado de 50 g hasta 30 kg, envase secundario: sacos, bolsas de polietileno (PE) o polipropileno, caja de cartón corrugado, caja de cartón prensado de 10 hasta 100 unidades, desde 10 hasta 30 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-01-15",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5606224N/MAAIAR",
+      "producto": "HOJUELAS DE AVENA ,CAÑIHUA, CEBADA Y AJONJOLÍ CON HARINA DE CAMOTE PRECOCIDO FORTIFICADO CON VITAMINAS Y MINERALES. \"SUPERVITAL\", en envase primario: bolsa de polietileno, polipropileno, polietileno biorientado (BOPPp), polietileno laminado de 50 g hasta 30 kg, envase secundario: sacos, bolsas de polietileno (PE) o polipropileno, caja de cartón corrugado, caja de cartón prensado de 10 hasta 10 unidades, desde 10 hasta 30 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-01-15",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5606024N/MAAIAR",
+      "producto": "MEZCLA DE HOJUELAS PRECOCIDAS DE KIWICHA, AVENA. QUINUA, CON HARINA DE CHIA Y POLENTA DE MAIZ FORTIICADO CONN VITAMINAS Y MINERALES - HOJUELAS PRECOCIDAS DE KIWICHA, AVENA. QUINUA, CON HARINA DE CHIA Y POLENTA DE MAIZ FORTIICADO CONN VITAMINAS Y MINERALES \"SUPERVITAL, RICOLAC\", en envase primario: bolsa de polietileno, polipropileno; polietileno biorientado (BOPP), polietileno laminado de 50 g hasta 30 kg, envase secundario: sacos, bolsas de polietileno (PE) o polipropileno, caja de cartón corrugado, caja de cartón prensado de 10 hasta 100 unidades, desde 10 hasta 30 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-01-15",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5606124N/MAAIAR",
+      "producto": "MEZCLA PRECOCIDA DE HOJUELA DE KIWICHA, QUINUA, AVENA, SEMOLA DE TRIGO Y HARINA DE CEBADA CON MACA Y LINAZA FORTIFICADA CON VITAMINAS Y MINERALES \"SUPERVITAL\", en envase primario: bolsa de polietileno, polipropileno, polietileno biorientado (BOPP), polietileno laminado de 50 g hasta 30 kg, envase secundario: sacos, bolsas de polietileno (PE) o polipropileno, caja de cartón corrugado, caja de cartón prensado de 10 hasta 100 unidades, desde 10 hasta 30 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2029-01-15",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5601723N/MAAIAR",
+      "producto": "HOJUELA PRECOCIDA DE AVENA, QUINUA, KIWICHA, CHIA, AZUCARADA ENRIQUECIDA CON VITAMINAS Y MINERALES. - HOJUELA PRECOCIDA DE AVENA, QUINUA, KIWICHA, CHIA, AZUCARADA ENRIQUECIDA CON VITAMINAS Y MINERALES. \"SUPERVITAL , RICOLAC\", en envase primario: bolsa de polietileno, polipropileno, polipropileno biorentado capacidad desde 50 g hasta 20 kilos, envase secundario: saco de polipropileno de 10 hasta 100 unidades",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-01-23",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5630523N/MAAIAR",
+      "producto": "MEZCLA DE HOJUELAS DE QUINUA, KIWICHA, MACA, CAÑIHUA, AVENA Y HARINA DE SOYA PRECOCIDOS ENRIQUECIDOS CON VITAMINAS Y MINERALES \"SUPERVITAL, RICOLAC, \", en envase primario: bolsa de polietileno, polipropileno, polietileno biorientado (BOPP), polietileno laminado de 50 g hasta 30 kg, envase secundario: sacos, bolsas de polipropileno, polietileno, tejido de 10 hasta 50 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-07-21",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5631523N/MAAIAR",
+      "producto": "HOJUELA PRECOCIDA DE AVENA, KIWICHA TOSTADA, PLÁTANO, SOYA INTEGRAL Y CHUFLA AZUCARADA FORTIFICADA CON VITAMINAS Y MINERALES \"SUPERVITAL , RICOLAC\", en envase primario: bolsa de polietileno (PE); polipropileno biorientado (BOPP) de 50 g hasta 30 kg, envase secundario: sacos, bolsas de polietileno (PE) o polipropileno; caja de cartón corrugado; caja de cartón prensado de 5 hasta 100 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-08-10",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5633623N/MAAIAR",
+      "producto": "HOJUELA DE CAÑIHUA PRECOCIDA \"SUPERVITAL\", en envase primario: bolsa de polietileno; polipropileno; polietileno biorientado (BOPP); polietileno laminado de 50 g hasta 50 kg , envase secundario: sacos, bolsas de polietileno (PE) o polipropileno; caja de cartón corrugado; caja de cartón prensado de 10 hasta 100 unidades; desde 5 hasta 50 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-09-13",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5633523N/MAAIAR",
+      "producto": "HOJUELA DE CEBADA PRECOCIDA \"SUPERVITAL\", en envase primario: bolsa de polietileno; polipropileno; polietileno biorientado (BOPP); polietileno laminado de 50 g hasta 50 kg, envase secundario: sacos, bolsas de polietileno (PE) o polipropileno, caja de cartón corrugado, caja de cartón prensado de 10 hasta 100 unidades; desde 5 hasta 50 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-09-13",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5633423N/MAAIAR",
+      "producto": "HOJUELA DE TRIGO PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES - HOJUELA PRECOCIDA DE TRIGO \"SUPERVITAL\", en envase primario: bolsa de polietileno; polipropileno; polietileno biorientado (BOPP); polietileno laminado de 50 g hasta 50 kg, envase secundario: sacos, bolsas de polietileno (PE) o polipropileno; caja de cartón corrugado; caja de cartón prensado de 10 hasta 100 unidades; desde 10 hasta 50 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-09-13",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5603323N/MAAIAR",
+      "producto": "MEZCLA DE HOJUELAS PRECOCIDAS DE AVENA, QUINUA, KIWICHA CON HARINA PRECOCIDA DE MACA FORTIFICADA CON VITAMINAS Y MINERALES - . \"SUPERVITAL\", \"RICOLAC\", en envase inmediato: bolsa bilaminada de polietileno, polipropileno, polipropileno biorientado más polietileno de 50 g hasta 10 kg, envase secundario: saco de polipropileno laminado o bilaminado de 10 unid hasta 100 unid, envase primario: bolsa de polietileno de alta densidad (PEAD), polietileno (PE) de 5 kg hasta 50 kg, desde 10 hasta 100 unid.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-01-27",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5635623N/MAAIAR",
+      "producto": "MEZCLA DE HOJUELAS DE AVENA, HOJUELAS DE KIWICHA, HOJUELAS DE QUINUA Y HARINA DE PLATANO PRECOCIDAS FORTIFICADO CON VITAMINAS Y MINERALES - HOJUELA PRECOCIDA DE AVENA, QUINUA, KIWICHA CON HARINA DE PLATANO PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES \"SUPERVITAL\", \"RICOLAC\", en envase primario: bolsa de polietileno; polipropileno; polietileno biorientado (bopp); polietileno laminado de 50 g hasta 50 kg, envase secundario: saco, bolsa de polietileno (pe) o polipropileno; caja de cartón corrugado; caja de cartón de 10 hasta 100 unidades; desde 10 hasta 50 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-10-02",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5635523N/MAAIAR",
+      "producto": "MEZCLA DE HOJUELAS DE AVENA,HOJUELAS DE QUINUA CON HARINA DE MAIZ BLANCO, Y HARINA DE MACA PRECOCIDAS FORTIFICADO CON VITAMINAS Y MINERALES - HOJUELA PRECOCIDA DE QUINUA, AVENA, CON CHUFLA, MACA PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES \"SUPERVITAL\", \"RICOLAC\", en envase primario: bolsa de polietileno; polipropileno; polietileno biorientado (bopp); polietileno laminado de 50 g hasta 50 kg, envase secundario: saco, bolsa de polietileno (pe) o polipropileno; caja de cartón corrugado; caja de cartón prensado de 10 hasta 100 unidades; desde 10 hasta 50 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-10-02",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5753323N/MAAIAR",
+      "producto": "HOJUELA CRUDA DE AVENA - HOJUELA DE AVENA \"SUPERVITAL\", \"RICOLAC\", en envase primario: bolsa de polietileno; polipropileno, polietileno biorientado (BOPP), polietileno laminado de 50 g hasta 50 kg, envase secundario: sacos, bolsas de polietileno (PE) o polipropileno, caja de cartón corrugado, caja de cartón prensado de 10 hasta 100 unidades, desde 10 hasta 50 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-10-06",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5637723N/MAAIAR",
+      "producto": "HOJUELA PRECOCIDA DE QUINUA, CEBADA, KIWICHA AVENA Y HARINA DE ALGARROBA FORTIFICADA CON VITAMINAS Y MINERALES - HOJUELA PRECOCIDA DE QUINUA, CEBADA, KIWICHA AVENA Y HARINA DE ALGARROBA FORTIFICADA CON VITAMINAS Y MINERALES \"SUPERVITAL, RICOLAC \", en envase primario: bolsa de polietileno; polipropileno; polietileno biorientado (bopp); polietileno laminado de desde 10 gr hasta 50 kg , envase secundario: sacos, bolsas de polipropileno, polietileno, tejido de desde 5 kg hasta 50 kg; desde 10 hasta 100 unidades",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-10-13",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5637623N/MAAIAR",
+      "producto": "MEZCLA DE HOJUELA PRECOCIDA DE AVENA, QUINUA, KIWICHA, CON HARINA DE PLATANO FORTIFICADA CON VITAMINAS Y MINERALES - HOJUELA PRECOCIDA AVENA, QUINUA, KIWICHA, CON HARINA DE PLATANO FORTIFICADA CON VITAMINAS Y MINERALES \"SUPERVITAL, RICOLAC\", en envase primario: bolsa de polietileno; polipropileno; polietileno biorientado (bopp); polietileno laminado de desde 10 gr hasta 50 kg, envase secundario: sacos, bolsas de polipropileno, polietileno, tejido de desde 10 hasta 50kg; desde 10 hasta 100 unidades",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-10-13",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "N8320123N/MAAIAR",
+      "producto": "MEZCLAS DE HARINAS DE AVENA, QUINUA Y KIWICHA \"SUPERVITAL; TERRA MITICA\", en bolsa de polietileno; polipropileno; polietileno biorientado (bopp); polietileno laminado de 10 gr hasta 50 kg, envase secundario: sacos, bolsas de polipropileno, polietileno, tejido de 10 hasta 100 unidades, desde 10 hasta 50 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-10-20",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5639823N/MAAIAR",
+      "producto": "MEZCLA DE HOJUELAS PRECOCIDAS DE KIWICHA, AVENA, QUINUA, CON HARINA DE CHIA Y POLENTA DE MAIZ, AZUCARADOS FORTIFICADOS CON VITAMINAS Y MINERALES. - HOJUELAS PRECOCIDAS DE KIWICHA, AVENA, QUINUA, CON HARINA DE CHIA Y POLENTA DE MAIZ, AZUCARADOS FORTIFICADOS CON VITAMINAS Y MINERALES \"SUPERVITAL, RICOLAC\", en envase primario: bolsa de polietileno; polipropileno; polietileno biorientado (bopp); polietileno laminado de 10 gr hasta 50 kg, envase secundario: sacos, bolsas de polipropileno, polietileno, tejido de 10 hasta 50 kg; desde 10 hasta 100 unidades",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-10-26",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5639623N/MAAIAR",
+      "producto": "MEZCLA PRECOCIDA DE HOJUELA DE KIWICHA , QUINUA, AVENA, SEMOLA DE TRIGO Y HARINA DE CEBADA CON MACA Y LINAZA AZUCARADA FORTIFICADA CON VITAMINAS Y MINERALES - HOJUELA PRECOCIDA DE KIWICHA, QUINUA, AVENA, SÉMOLA DE TRIGO Y HARINA DE CEBADA , MACA Y LINAZA AZUCARADA FORTIFICADA CON VITAMINAS Y MINERALES \"SUPERVITAL , RICOLAC\", en envase primario: bolsa de polietileno; polipropileno; polietileno biorientado (bopp); polietileno laminado de 10 gr hasta 50 kg., envase secundario: sacos, bolsas de polipropileno, polietileno, tejido de 10 kg. hasta 50 kg; desde 10 hasta 100 unidades",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-10-26",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5639723N/MAAIAR",
+      "producto": "MEZCLA PRECOCIDA DE QUINUA, AVENA, HARINA DE MAIZ BLANCO CON MACA AZUCARADA FORTIFICADA CON VITAMINAS Y MINERALES - HOJUELAS PRECOCIDAS DE QUINUA, AVENA, HARINA DE MAIZ BLANCO CON MACA AZUCARADA FORTIFICADA CON VITAMINAS Y MINERALES \"SUPERVITAL; RICOLAC\", en envase primario: bolsa de polietileno; polipropileno; polietileno biorientado (bopp); polietileno laminado de 10 gr hasta 50 kg, envase secundario: sacos, bolsas de polipropileno, polietileno, tejido de 10 hasta 50 kg; desde 10 hasta 100 unidades",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-10-26",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5640423N/MAAIAR",
+      "producto": "HOJUELA PRECOCIDA DE AVENA, CEBADA, TRIGO, CAÑIUA, QUINUA Y HARINA DE KIWICHA FORTIFICADA CON VITAMINAS Y MINERALES \"SUPERVITAL\", \"RICOLAC\", en envase primario: bolsa de polietileno; polipropileno; polietileno biorientado (bopp); polietileno laminado de 10 gr hasta 25 kg; 5 hasta 25 kg., envase secundario: sacos, bolsas de polipropileno, polietileno, tejido de 10 hasta 100 unidades; 20 hasta 50 kg",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-11-10",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5642123N/MAAIAR",
+      "producto": "MEZCLA DE HOJUELAS PRECOCIDAS DE AVENA, CAÑIHUA , SEMOLA DE TRIGO CON HARINA DE MACA FORTIFICADO CON VITAMINAS Y MINERALES - MEZCLA DE HOJUELAS PRECOCIDAS DE AVENA, CAÑIHUA , SEMOLA DE TRIGO CON HARINA DE MACA FORTIFICADO CON VITAMINAS Y MINERALES \"RICOLAC, SUPERVITAL\", en bolsa de polietileno; polipropileno; polietileno biorientado (bopp); polietileno laminado de 50 gr hasta 30 kilos, sacos, bolsas de polietileno (pe) o polipropileno; caja de cartón corrugado; caja de cartón prensado de 5 hasta 30 kg; desde 10 hasta 100 unidades",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-12-05",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5642523N/MAAIAR",
+      "producto": "HOJUELA DE KIWICHA, HARINA DE MAIZ, EXTRACTO DE ALGARROBA EN POLVO CON PANELA FORTIFICADA CON VITAMINAS Y MINERALES - HOJUELA DE KIWICHA, HARINA DE MAIZ, ALGARROBA CON PANELA FORTIFICADA CON VITAMINAS Y MINERALES \"SUPERVITAL, RICOLAC, \", en envase primario: bolsa de polietileno; polipropileno; polietileno biorientado (bopp); polietileno laminado de 50 gr hasta 25 kg., envase secundario: sacos, bolsas de polietileno (pe) o polipropileno; caja de cartón corrugado; caja de cartón prensado de 5 hasta 30 kg; desde 10 hasta 100 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-12-07",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E4637923N/MAAIAR",
+      "producto": "HARINA DE AVENA EXTRUIDA - HARINA DE AVENA EXTRUIDA \"TERRA MITICA; RICOLAC; SUPERVITAL\", en bolsa de polipropileno biorientado (bopp); polietileno (pe) de 50 g hasta 10 kg, sacos, bolsas de polipropileno; polietileno de 10 kg hsta 30 kg; desde 10 hasta 100 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-12-15",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5645123N/MAAIAR",
+      "producto": "HOJUELAS PRECOCIDAS AVENA, QUINUA, MACA, CEBADA,CON AJONJOLÍ DESHIDRATADO EN POLVO ENRIQUECIDO CON VITAMINAS Y MINERALES. \"SUPERVITAL\", en envase primario: bolsa de polietileno; politileno coextruido; polipropileno; polietileno biorientado (bopp); polietileno laminado de 50 gr hasta 30 kg., envase secundario: sacos, bolsas de polietileno (pe) o polipropileno; caja de cartón corrugado; caja de cartón prensado de 50 gr hasta 50 kg; desde 10 hasta 100 unidades",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-12-19",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E4639623N/MAAIAR",
+      "producto": "HARINA DE MAIZ EXTRUIDO FORTIFICADO CON VITAMINAS Y MINERALES \"QORI MUYA\", TERRA MITICA\", en envase primario: bolsa de polietileno, polipropileno, polietileno biorientado (BOPP), polietileno laminado de 50 g hasta 30 kg, envase secundario: sacos, bolsas de polietileno (PE) o polipropileno, caja de cartón corrugado, caja de cartón prensado de 5 kg hasta 30 kg, desde 10 hasta 100 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-12-20",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E4639823N/MAAIAR",
+      "producto": "HARINA DE QUINUA EXTRUIDA FORTIFICADA CON VITAMINAS Y MINERALES \"\"QORI MUYA\", TERRA MITICA\", en envase primario: bolsa de polietileno, polipropileno, polietileno biorientado (BOPP), polietileno laminado de 50 g hasta 30 kg, envase secundario: sacos, bolsas de polietileno (PE) o polipropileno, caja de cartón corrugado, caja de cartón prensado de 5 kg hasta 30 kg, desde 10 hasta 100 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-12-20",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E4639723N/MAAIAR",
+      "producto": "MEZCLA DE HARINAS EXTRUIDAS DE ARROZ, TRIGO Y QUINUA FORTIFICADO CON VITAMINAS Y MINERALES \"\"QORI MUYA\", TERRA MITICA\", en envase primario: bolsa de polietileno, polipropileno, polietileno biorientado (BOPP), polietileno laminado de 50 g hasta 30 kg, envase secundario: sacos, bolsas de polietileno (PE) o polipropileno, caja de cartón corrugado, caja de cartón prensado de 5 kg hasta 30 kg, desde 10 hasta 100 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-12-20",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5649923N/MAAIAR",
+      "producto": "HOJUELAS PRECOCIDAS DE QUINUA, AVENA, CHUFLA, SOYA, INTEGRAL TOSTADA CON TRIGO FORTIFICADO CON VITAMINAS Y MINERALES \"SUPERVITAL, RICOLAC\", en envase primario: bolsa de polietileno, polipropileno, polietileno biorientado (BOPP), polietileno laminado de 50 g hasta 30 kg, envase secundario: sacos, bolsas de polietileno (PE) o polipropileno, caja de cartón corrugado, caja de cartón prensado de 5 kg hasta 30 kg, desde 10 hasta 100 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-12-27",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5606823N/MAAIAR",
+      "producto": "HOJUELAS PRECOCIDA DE AVENA, ARROZ, CEBADA, KIWICHA CON LECHE ENTERA EN POLVO, CON OMEGA 3 Y 6 ENRIQUECIDA CON VITAMINAS Y MINERALES. \"SUPERVITAL, RICOLAC\", en envase primario: bolsa de polipropileno biorientado (bopp) bilaminado o trilaminado; bolsa de polietileno (pe); polipropileno. de 50 gr. hasta 10 kg., envase secundario: saco, bolsa de polietileno; polipropileno; polipropileno bilaminado de 10 hasta 100 unidades",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-02-10",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5609323N/MAAIAR",
+      "producto": "HOJUELAS PRECOCIDAS DE AVENA, SÉMOLA DE QUINUA, TRIGO Y HARINA DE MACA CON AZÚCAR FORTIFICADA CON VITAMINAS Y MINERALES. \"SUPERVITAL\", en bolsa de polietileno, prolipropileno, bilaminao coextruido, oxobiodegradable de 50 g hasta 50 kg, sacos, bolsas de polipropileno, polietileno, tejido de 10 unidades hasta 10 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-02-21",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5623123N/MAAIAR",
+      "producto": "MEZCLA DE HOJUELAS PRECOCIDAS DE AVENA, QUINUA Y HARINA DE MACA PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES - MEZCLA DE HOJUELAS DE AVENA, QUINUA Y HARINA DE MACA FORTIFICADA CON VITAMINAS Y MINERALES \"RICOLAC\", en bolsa de polietileno; prolipropileno bilaminado coextruido; polipropileno biorientado (bopp) de desde 50 gr hasta 10 kg, sacos, bolsas de polipropileno, polietileno, tejido de desde 20 hasta 50 kg; desde 10 hasta 100 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-04-26",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5624823N/MAAIAR",
+      "producto": "MEZCLA DE HOJUELAS PRECOCIDAS DE CEBADA DE TRIGO, QUINUA, HARINA DE MACA, HARINA DE LINAZA AZUCARADA ENRIQUECIDA CON VITAMINAS Y MINERALES - HOJUELAS PRECOCIDAS DE CEBADA DE TRIGO, QUINUA, HARINA DE MACA, HARINA DE LINAZA AZUCARADA ENRIQUECIDA CON VITAMINAS Y MINERALES. \"RICOLAC - SUPERVITAL\", en envase primario: bolsa de polipropileno biorientado (bopp) metalizado bilaminado o trilaminado; bolsa de polipropileno biorientado (bopp) cristal de 50 gr. hasta 20 kg., envase primario: bolsa de polietileno (pe) o polipropileno; caja de cartón corrugado; caja de cartón prensado de 10 gr hasta 25 kg., envase secundario: sacos, bolsas de polipropileno, polietileno, tejido de 10 hasta 100 unidades, envase primario: bolsa de polietileno, prolipropileno, bilaminao coextruido de 10 gr . hasta 25 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-05-18",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5625223N/MAAIAR",
+      "producto": "HOJUELA PRECOCIDA DE AVENA, QUINUA CON HARINA DE CHOCLO, SEMILLAS DE GIRASOL, CON PROTEÍNA AISLADA DE SOYA, OMEGA 3 Y 6 CON VITAMINAS Y MINERALES SABOR A CLAVO DE OLOR Y CANELA \"SUPER VITAL, RICOLAC\", en envase primario: bolsa de polietileno, prolipropileno, bilaminao coextruido, oxobiodegradable de 50 gr hasta 10 kg; de 500 gr; de 1 kg., envase primario: bolsa de polipropileno biorientado (bopp) metalizado bilaminado o trilaminado; bolsa de polipropileno biorientado (bopp) cristal de 10 gr hasta 20 kg; de 500 gr; de 1 kg., envase secundario: sacos, bolsas de polipropileno, polietileno, tejido de 10 hasta 100 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2028-05-19",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5637322N/MAAIAR",
+      "producto": "HOJUELAS PRECOCIDAS DE KIWICHA, AVENA, TRIGO, SÉMOLA DE QUINUA AZUCARADA FORTIFICADA CON VITAMINAS Y MINERALES - HOJUELAS PRECOCIDAS DE KIWICHA, AVENA, TRIGO, SÉMOLA DE QUINUA AZUCARADA FORTIFICADA CON VITAMINAS Y MINERALES \"SUPERVITAL, RICOLAC, \", en envase primario: bolsa de polietileno; polipropileno de alta o baja densidad, biodegradable o no, laminado, bilamina, coextruido desde 2 a 5\" de espesor, color blanco o no de 50 g hasta 30 kg, envase secundario: sacos de polipropileno; polietileno laminado o no, de primer uso, biodegradable o no de 10 hasta 50 unidades , envase secundario: bolsón de polipropileno; polietileno laminado o no, de primer uso, biodegradable o no de 10 a 50 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2027-09-01",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5641722N/MAAIAR",
+      "producto": "MEZCLA DE HOJUELAS PRECOCIDAS DE AVENA Y QUINUA CON HARINAS PRECOCIDAS DE SOYA Y MACA, FORTIFICADO CON VITAMINAS Y MINERALES . - HOJUELA DE AVENA, QUINUA CON HARINA DE SOYA Y MACA FORTIFICADOS CON VITAMINAS Y MINERALES PRECOCIDOS \"SUPERVITAL\", en envase primario: bolsa de polietileno de 50 g hasta 1000 g, de 1 kg hasta 10 kg, envase secundario: saco de polipropileno de 10 hasta 100 unidades, envase secundario: bolsa de polietileno de 10 hasta 100 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2027-11-17",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5645022N/MAAIAR",
+      "producto": "HOJUELA DE KIWICHA TOSTADA, SOYA INTEGRAL , QUINUA , AVENA CON MACA FORTIFICADA CON VITAMINAS Y MINERALES PRECOCIDA \"SUPERVITAL\", en envase primario bolsa de polietileno de 10 g hasta 5 kg, envase secundario saco de polipropileno de 10 unidades hasta 50 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2027-12-05",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5624422N/MAAIAR",
+      "producto": "HOJUELAS PRE COCIDAS DE AVENA - HOJUELAS PRECOCIDAS DE AVENA \"SUPERVITAL\", en envase primario: bolsa de polietileno o polipropileno de alta o baja densidad; laminado, bilaminado, trilaminado coextruido de 50 g hasta 30 g, envase primario: bolsa de polipropileno biorientado (BOPP) bilaminado o trilaminado de 30 g hasta 30 kg, envase secundario: bolsa de polietileno de alta densidad (PEAD), caja cartón corrugado, sacos de polipropileno, polietileno de 10 unid hasta 100 unid.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2027-04-05",
+      "estado": "",
+      "direccion": "CAL.MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E4635416N/MAAIAR",
+      "producto": "HARINA DE TRIGO FORTIFICADA CON VITAMINAS Y MINERALES - . \"SUPERVITAL\", en envase secundario: sacos de polipropileno revestidos con polietileno de primer uso de 10 hasta 50 unidades, envase secundario: bolsón de polietileno, polipropileno transparente o de color, de primer uso de 10 a 50 unidades, envase primario: bolsa de polietileno, bopp (polipropileno biorentado) o aluminio, con capacidad de 50 g. hasta 5 kg. sellado hermeticamente",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2027-06-09",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5001321N/MAAIAR",
+      "producto": "HARINA DE PLATANO FORTIFICADA CON VITAMINAS Y MINERALES - HARINA DE PLATANO \"AGROLAC\", en bolsa de polipropileno biorientado (BOPP) bilaminado o trilaminado, polietileno de alta y baja densidad desde 2 a 5 milésimas de 50 g hasta 5 kg, bolsa, bolsón de polietileno (PE), polietileno de alta o baja densidad, papel kraft, de 10 unidades hasta 100 unidades, saco de polietileno, polipropileno laminado, bilaminado de 20 hasta 50 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2026-11-18",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5643721N/MAAIAR",
+      "producto": "HOJUELA PRECOCIDA DE AVENA FORTIFICADA CON VITAMINAS Y MINERALES \"SUPER VITAL\", en bolsa de polipropileno biorientado (bopp) bilaminado o trilaminado; polietileno de alta y baja densidad desde 2 a 5 milésimas. de desde 50 gr hasta 5 kg, bolsa, bolson de polietileno (pe) ; polietileno de alta (pead) o baja densidad (pebd), papel kraftt, de desde 10 unidades hasta 100 unidades., caja de de carton corrugado de desde 10 unidades hasta 100 unidades., saco de polietileno, polipropileno laminado, bilaminado. de desde 20 hasta 50 kilos",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2026-11-26",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5643621N/MAAIAR",
+      "producto": "HOJUELA PRECOCIDA DE KIWICHA FORTIFICADA CON VITAMINAS Y MINERALES \"SUPERVITAL \", en bolsa de polipropileno biorientado (bopp) bilaminado o trilaminado; polietileno de alta y baja densidad desde 2 a 5 milésimas. de desde 50 gr hasta 5 kg., bolsa, bolson de polietileno (pe) ; polietileno de alta (pead) o baja densidad (pebd), papel kraftt, de desde 10 unidades hasta 100 unidades., caja de de carton corrugado de desde 10 unidades hasta 100 unidades., saco de polietileno, polipropileno laminado, bilaminado. de desde 20 hasta 50 kilos",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2026-11-26",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5643521N/MAAIAR",
+      "producto": "HOJUELA PRECOCIDA DE QUINUA FORTIFICADA CON VITAMINA Y MINERALES \"SUPERVITAL \", en bolsa de polipropileno biorientado (bopp) bilaminado o trilaminado; polietileno de alta y baja densidad desde 2 a 5 milésimas. de desde 50 gr hasta 5 kg., bolsa, bolson de polietileno (pe) ; polietileno de alta (pead) o baja densidad (pebd), papel kraftt, de desde 10 unidades hasta 100 unidades., caja de de carton corrugado de desde 10 unidades hasta 100 unidades., saco de polietileno, polipropileno laminado, bilaminado. de desde 20 hasta 50 kilos",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2026-11-26",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "I8906521N/MAAIAR",
+      "producto": "MEZCLA EN POLVO A BASE DE HUEVO PARA PREPARAR TORTILLA - MEZCLA EN POLVO A BASE DE HUEVO \"TORTI - YA\", en envase multilaminado trilaminado o tetralaminado de 50 g hasta 1 kg, bolsa de polipropileno biorientado (BOPP) bilaminado o trilaminado de 50 g hasta 1 kg, bolsa de polietileno de alta densidad (PEAD) de 10 hasta 100 unidades, caja de cartón corrugado de 20 hasta 50 unidades, bolsa de polietileno color cristal o blanco de 50 g hasta 25 kg, bolsa de papel kraft de 5 a 25 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2026-11-24",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5646821N/MAAIAR",
+      "producto": "HOJUELA PRECOCIDA DE AVENA CON MACA - HOJUELA DE AVENA CON MACA \"RICOLAC\", en bolsa de polipropileno biorientado (BOPP) bilaminado o trilaminado; polietileno de alta y baja densidad desde 2 a 5 milésimas de 50 g hasta 10 kg, bolsa, bolsón de polietileno (PE) ; polietileno de alta (PEAD) o baja densidad (PEBD), papel kraft de 10 unidades hasta 100 unidades, caja de cartón corrugado de 10 unidades hasta 100 unidades, saco de polietileno, polipropileno laminado, bilaminado de 20 hasta 50 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2026-11-30",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5646921N/MAAIAR",
+      "producto": "HOJUELA PRECOCIDA DE KIWICHA - HOJUELA PRECOCIDA DE KIWICHA \"RICOLAC\", en bolsa de polipropileno biorientado (BOPP) bilaminado o trilaminado; polietileno de alta y baja densidad desde 2 a 5 milésimas de 50 g hasta 10 kg, bolsa, bolsón de polietileno (PE); polietileno de alta (PEAD) o baja densidad (PEBD); papel kraft de 10 unidades hasta 100 unidades, caja de cartón corrugado de 10 a 100 unidades, saco de polietileno, polipropileno laminado, bilaminado de 20 hasta 50 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2026-11-30",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5647021N/MAAIAR",
+      "producto": "HOJUELA PRECOCIDA DE QUINUA - HOJUELA PRECOCIDA DE QUINUA \"RICOLAC\", en bolsa de polipropileno biorientado (BOPP) bilaminado o trilaminado; polietileno de alta y baja densidad desde 2 a 5 milésimas de 50 g hasta 5 kg, bolsa, bolsón de polietileno (PE); polietileno de alta (PEAD) o baja densidad (PEBD), papel kraft de 10 unidades hasta 100 unidades, caja de cartón corrugado de 10 unidades hasta 100 unidades, saco de polietileno, polipropileno laminado, bilaminado de 20 hasta 50 kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2026-11-30",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851",
+      "vigente": true
+     },
+     {
+      "codigo": "E5608720N/MAAIAR",
+      "producto": "MEZCLA DE HOJUELAS PRECOCIDAS DE AVENA, TRIGO, CAÑIHUA CON SÉMOLA DE QUINUA CON HARINA DE MACA Y CAMOTE, AZUCARADA FORTIFICADA CON VITAMINAS Y MINERALES - HOJUELA PRECOCIDA DE AVENA, TRIGO, CAÑIHUA CON SÉMOLA DE QUINUA CON HARINA DE MACA Y CAMOTE AZUCARADAFORTIFICADA CON VITAMINAS Y MINERALES \"SUPERVITAL\", en envase primario bolsa de polietileno de color blanco o no, de baja o alta densidad, biodegradable o no, desde 2 hasta 5 milésimas de pulgadas de espesor de 50 g hasta 10 kg, envase secundario saco de polipropileno de color blanco de primer uso, bolsa de polietileno transparente o de color de 10 hasta 50 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2025-02-06",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851",
+      "vigente": false
+     },
+     {
+      "codigo": "E5609820N/MAAIAR",
+      "producto": "HOJUELA DE QUINUA, AVENA, KIWICHA PRECOCIDA AZUCARADA FORTIFICADA CON VITAMINAS Y MINERALES \"SUPERVITAL\", en envase primario: bolsa de polietileno litografiado o no, color blanco o no, biodegradable o no desde 2 hasta 5 milesimas de pulgadas de espesor de 50 g hasta 10 kg, envase secundario: saco de polipropileno de color blanco tramado de primer uso, bolsa de polietileno transparente o de color de 10 hasta 50 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2025-02-08",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851 P.J. LA VICTORIA",
+      "vigente": false
+     },
+     {
+      "codigo": "E5610620N/MAAIAR",
+      "producto": "HOJUELAS PRECOCIDAS DE AVENA, QUINUA, KIWICHA, TRIGO Y MACA FORTIFICADA CON VITAMINAS Y MINERALES \"SUPERVITAL\", en envase primario bolsa de polietileno de color blanco o no, de baja o alta densidad, biodegradable o no , desde 2 hasta 5 milesimas de pulgadas de espesor de 50 g hasta 30 kg, envase secundario saco de polipropileno de color blanco de primer uso, bolsa de polietileno transparente o de color de 10 hasta 50 unidades.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2025-02-11",
+      "estado": "",
+      "direccion": "CAL. MANUEL SEOANE NRO. 1851 P.J.",
+      "vigente": false
+     },
+     {
+      "codigo": "E5602315N/MAAIAR",
+      "producto": "HOJUELAS PRE COCIDAS DE AVENA - HOJUELA DE AVENA \"SUPERVITAL\", en envase primario: bolsa de polietileno o polipropileno de alta o baja densidad; laminado, bilaminado, trilaminado coextruido de 2 a 4 milésimas de espesor de 50 g hasta 30 kg, envase secundario: saco o bolsa de polietileno, polipropileno de alta densidad, bolsas de papel kraft de 3 pliegos, de primer uso de 1 hasta 30 kg., envase primario: bolsa de polietileno, polipropileno desde 2 hasta 4 milésimas de espesor, BOPP (polipropileno biorentado) o aluminio de primer uso, desde 50g. hasta 30kg., envase secundario: bolsón de polietileno, polipropileno transparente o de color, de primer uso y desde 3 milésimas de espesor (alta densidad) desde 10 hasta 100 unidades; saco de polipropileno trama fina o bolsas de papel kraft multipliego con o sin bolsa interior desde 5kg. hasta 30kg.",
+      "marca": "",
+      "titular": "ALIMENTOS AGRICOLAS Y LACTEOS SAC",
+      "ruc_titular": "20479379735",
+      "fecha_vencimiento": "2025-01-20",
+      "estado": "",
+      "direccion": "Calle MANUEL SEOANE NRO. 1851 P.J. LA VICTORIA",
+      "vigente": false
+     }
+    ]
+   }
+  },
+  {
+   "categoria": "Avena",
+   "nomenclatura": "CM-477-2025-ULO/MPT",
+   "entidad": "MUNICIPALIDAD PROVINCIAL DE TALARA - PARIÑAS",
+   "descripcion": "ADQUISICION DE MEZCLA PRECOCIDA DE HOJUELA DE KIWICHA, QUINUA, AVENA, SEMOLA DE TRIGO Y HARINA DE CEBADA CON MACA Y LINAZA FORTIFICADA CON VITAMINAS Y MINERALES — Ítems: ADQUISICION DE MEZCLA PRECOCIDA DE HOJUELA DE KIWICHA, QUINUA, AVENA, SEMOLA DE TRIGO Y HARINA DE CEBADA CON MACA Y LINAZA FORTIFICADA CON VITAMINAS Y MINERALES ",
+   "ganador": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+   "ruc": "20609935996",
+   "monto": 609285.6,
+   "moneda": "PEN",
+   "fechaBP": "2025-12-24",
+   "url": "https://prod6.seace.gob.pe/buscador-publico/contrataciones/36586",
+   "fuente": "SEACE (contrataciones hasta 8 UIT)",
+   "contacto": {
+    "ruc": "20609935996",
+    "telefonos": [
+     "976063975"
+    ],
+    "correos": [
+     "lucycastrose@gmail.com"
+    ],
+    "ubicacion": "PIURA / PIURA / PIURA",
+    "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+    "estado_sunat": "ACTIVO - HABIDO",
+    "representante": "CASTRO SANJINEZ LUCY ELIZABETH",
+    "habilitado_rnp": true,
+    "ficha_url": "https://apps.oece.gob.pe/perfilprov-ui/ficha/20609935996",
+    "fuentes": [
+     "Ficha RNP (OECE)",
+     "SUNAT vía OECE",
+     "Registro sanitario DIGESA"
+    ]
+   },
+   "verif": {
+    "estado": "CON REGISTRO SANITARIO",
+    "nota": "",
+    "totalRegistros": 15,
+    "registros": [
+     {
+      "codigo": "E5604026N/NEIVCI",
+      "producto": "Producto 1 : HOJUELAS PRECOCIDA DE AVENA CAÑIHUA QUINUA KIWICHA AJONJOLI Y MACA FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELAS PRECOCIDA DE AVENA CAÑIHUA QUINUA KIWICHA AJONJOLI Y MACA FORTIFICADO CON VITAMINAS Y MINERALES Marca: \"“CEREALES NUTRITIVOS LOS BETITOS”\" Presentaciones: 1.- bolsa (envase inmediato) de polietileno de 200 g hasta 5kg. 2.- aco (envase mediato) de polipropileno de 30 bolsas de 01 kilogramo. 3.- Envase primario, secundario, terciarios: bolsa de polietileno de alta/media/baja densidad de 100g a 10kg. 4.- Envase primario, secundario, terciarios: bolsa de polipropileno de alta/media/baja densidad de 100g a 10kg. 5.- Bolsas de bilaminados (BOPP/polietileno) de 100g a 10kg. 6.- Bolsas de bilaminado coextruido de 100g a 10kg. 7.- saco de polipropileno tramado de 10 kg hasta 50 kg. 8.- saco de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. 9.- saco de Polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2031-01-23",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5605125N/SASSLL",
+      "producto": "Producto 1 : HOJUELA DE QUINUA AVENA KIWICHA CEBADA, HARINA DE AJONJOL Y HARINA INTEGRAL DE SOYA PRECOCIDO FORTIFICADA CON VITAMINAS Y MINERALES Denominaci n Comercial: HOJUELA DE QUINUA AVENA KIWICHA CEBADA, HARINA DE AJONJOL Y HARINA INTEGRAL DE SOYA PRECOCIDO FORTIFICADA CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- Bolsas de polietileno de 1000 gramos (1kg) hasta 5kg. 2.- saco de Polietileno de 10 kg hasta 50 kg. 3.- saco (envase mediato) de polipropileno de 30 bolsas de 01 kilo. 4.- bolsa (envase inmediato) de polietileno de alta/media/baja de 100g a 10kg. 5.- Bolsas de polipropileno de alta/media/baja densidad de 100g a 10kg. 6.- Bolsas de polipropileno de alta/media/baja densidad de 100g a 10kg. 7.- Bolsas de bilaminados de 100g a 10kg. 8.- Bolsas de polietileno bilaminado coextruido de 100g a 10kg. 9.- saco de polipropileno tramado de 10 kg hasta 50 kg. 10.- saco (empaque) de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. Vida til del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2030-01-27",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5610125N/SACRAR",
+      "producto": "Producto 1 : MEZCLA DE HOJUELAS PRECOCIDAS DE KIWICHA, AVENA, QUINUA, CON HARINA DE CHIA Y POLENTA DE MAIZ FORTIFICADO CON VITAMINAS Y MINERALES. Denominación Comercial: MEZCLA DE HOJUELAS PRECOCIDAS DE KIWICHA, AVENA, QUINUA, CON HARINA DE CHIA Y POLENTA DE MAIZ FORTIFICADO CON VITAMINAS Y MINERALES. Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- bolsa (envase inmediato) de de polietileno de de 1000 gramos (1kg) hasta 5kg. 2.- saco (envase mediato) de de polipropileno de con capacidad para 30 bolsas de 01 kilo. 3.- bolsa (envase inmediato) de de polietileno de alta/media/baja densidad de desde 100g a 10kg. 4.- bolsas de de polipropileno de alta/media/baja densidad de desde 100g a 10kg. 5.- bolsa de bilaminadas de de 100g a 10kg. 6.- Bolsas de de polietileno bilaminado coextruido de desde 100g a 10kg. 7.- saco de de polipropileno tramado de desde 10 kg hasta 50 kg. 8.- saco (empaque) de de polipropileno de desde 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. 9.- saco de de Polietileno de desde 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2030-02-14",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5627425N/MAAIAR",
+      "producto": "Producto 1 : MEZCLA DE HOJUELAS PRECOCIDAS DE CEREALES CON KIWICHA TOSTADA, QUINUA Y AVENA CON HARINAS DE SOYA INTEGRAL Y MACA ENRIQUECIDA CON VITAMINAS Y MINERALES. Denominación Comercial: MEZCLA DE HOJUELAS PRECOCIDAS DE CEREALES CON KIWICHA TOSTADA, QUINUA Y AVENA CON HARINAS DE SOYA INTEGRAL Y MACA ENRIQUECIDA CON VITAMINAS Y MINERALES. Marca: \"“CEREALES NUTRITIVOS LOS BETITOS”\" Presentaciones: 1.- bolsa (envase inmediato) de polietileno de 1000 gramos (1kg) hasta 5kg. 2.- saco (envase mediato) de polipropileno de 30 bolsas de 01 kilo. 3.- bolsa (envase inmediato) de polietileno de alta/media/baja densidad de 100g a 10kg. 4.- bolsa (envase inmediato) de polipropileno de alta/media/baja densidad de 100g a 10kg. 5.- Bolsas (envase primario) de bilaminados de 100g a 10kg. 6.- Bolsas (envase primario) de polietileno bilaminado coextruido de 100g a 10kg. 7.- saco de polipropileno de 10 kg hasta 50 kg. 8.- saco de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. 9.- saco de Polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2030-08-25",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5634525N/MAAIAR",
+      "producto": "Producto 1 : MEZCLA DE HOJUELAS DE AVENA, QUINUA CON HARINA DE SOYA, MAIZ BLANCO Y MACA PRECOCIDAS FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: MEZCLA DE HOJUELAS DE AVENA, QUINUA CON HARINA DE SOYA, MAIZ BLANCO Y MACA PRECOCIDAS FORTIFICADO CON VITAMINAS Y MINERALES - HOJUELAS DE AVENA, QUINUA, HARINA DE MAÍZ BLANCO, HARINA DE SOYA, Y HARINA DE MACA PRECOCIDAS FORTIFICADO CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- bolsa (envase inmediato) de polietileno de 200 g hasta 5kg. 2.- Envase primario, secundario, terciarios: saco de polietileno de 10 kg hasta 50 kg. 3.- saco (envase mediato) de polipropileno de 30 bolsas de 01 kg. 4.- Envase primario, secundario, terciarios: bolsa de polietileno de alta/media/baja densidad de 100g a 10kg. 5.- Envase primario, secundario, terciarios: bolsa de polipropileno de alta/media/baja densidad de 100g a 10kg. 6.- Envase primario, secundario, terciarios: bolsa de polipropileno de alta/media/baja densidad de 100g a 10kg. 7.- Envase primario, secundario, terciarios: bolsa de bilaminados de 100g a 10kg. 8.- Envase primario, secundario, terciarios: bolsa de polietileno bilaminado coextruido de 100g a 10kg. 9.- Envase primario, secundario, terciarios: saco de polipropileno de 10 kg hasta 50 kg. 10.- Envase primario, secundario, terciarios: saco de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2030-09-26",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5634325N/SACRAR",
+      "producto": "Producto 1 : HOJUELAS PRECOCIDAS DE AVENA QUINUA MACA CEBADA CON AJONJOLI DESHIDRATADO EN POLVO FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELAS PRECOCIDAS DE AVENA QUINUA MACA CEBADA CON AJONJOLI DESHIDRATADO EN POLVO FORTIFICADO CON VITAMINAS Y MINERALES Marca: \"“CEREALES NUTRITIVOS LOS BETITOS”\" Presentaciones: 1.- bolsa (envase inmediato) de polietileno de 200 g hasta 5kg. 2.- saco (envase mediato) de polipropileno de primer uso de capacidad para 30 bolsas de 01 kilo. 3.- Envase primario, secundario, terciarios: bolsa de polietileno de alta/media/baja densidad de 100g a 10kg. 4.- Envase primario, secundario, terciarios: bolsa de polipropileno de alta/media/baja densidad de 100g a 10kg. 5.- Envase primario, secundario, terciarios: bolsa de bilaminados de 100g a 10kg. 6.- Envase primario, secundario, terciarios: bolsa de polietileno bilaminado coextruido de 100g a 10kg. 7.- Envase primario, secundario, terciarios: saco de polipropileno tramado de 10 kg hasta 50 kg. 8.- Envase primario, secundario, terciarios: saco de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. 9.- Envase primario, secundario, terciarios: saco de Polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2030-09-26",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5637225N/SACRAR",
+      "producto": "Producto 1 : HOJUELAS PRECOCIDA DE AVENA CAÑIHUA QUINUA KIWICHA AJONJOLI Y MACA FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELAS PRECOCIDA DE AVENA CAÑIHUA QUINUA KIWICHA AJONJOLI Y MACA FORTIFICADO CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- Bolsa (envase inmediato) de polietileno de 200 g hasta 5 kg. 2.- Saco (envase mediato) de polipropileno de primer uso de capacidad para 30 bolsas de 01 kilo. 3.- Envase primario, secundario, terciarios: bolsa de polietileno de alta/media/baja densidad de 100 g a 10 kg. 4.- Envase primario, secundario, terciarios: bolsa de polipropileno de alta/media/baja densidad de 100 g a 10 kg. 5.- Envase primario, secundario, terciarios: bolsa de bilaminados de 100 g a 10 kg. 6.- Envase primario, secundario, terciarios: bolsa de polietileno bilaminado coextruido de 100 g a 10 kg. 7.- Envase primario, secundario, terciarios: saco de polipropileno tramado de 10 kg hasta 50 kg. 8.- Envase primario, secundario, terciarios: saco de polipropileno de 10 kg a 30 kg (10 a 30 unidades de 1 kg) peso neto. 9.- Envase primario, secundario, terciarios: saco de polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2030-10-14",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5651425N/NEIVCI",
+      "producto": "Producto 1 : MEZCLA PRECOCIDA DE HOJUELAS DE KIWICHA, QUINUA, AVENA, SÉMOLA DE TRIGO Y HARINA DE CEBADA CON MACA Y LINAZA FORTIFICADA CON VITAMINAS Y MINERALES. Denominación Comercial: MEZCLA PRECOCIDA DE HOJUELAS DE KIWICHA, QUINUA, AVENA, SÉMOLA DE TRIGO Y HARINA DE CEBADA CON MACA Y LINAZA FORTIFICADA CON VITAMINAS Y MINERALES. Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- Bolsa (envase inmediato) de polietileno de 1000 g (1kg) hasta 5kg. 2.- Saco (envase mediado) de polipropileno de 30 bolsas de 01kg. 3.- Bolsa (envase inmediato) de polietileno de alta/media/baja densidad de 100g a 10kg. 4.- Bolsas de polipropileno de alta/media/baja densidad de 100g a 10kg. 5.- Bolsas de bilaminada (PET y PE) de 100g a 10kg. 6.- Bolsas de polietileno bilaminado coextruido de 100g a 10kg. 7.- Saco de polipropileno tramado de 10 kg hasta 50 kg. 8.- Saco (empaque) de polipropileno de 10 kg hasta 50 kg. 9.- Saco de Polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2030-11-26",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5632924N/SASSLL",
+      "producto": "Producto 1 : HOJUELA PRECOCIDA DE KIWICHA, HARINA DE MAIZ, ALGARROBA Y PANELA FORTIFICADO CON VITAMINA Y MINERALES Denominación Comercial: HOJUELA PRECOCIDA DE KIWICHA, HARINA DE MAIZ, ALGARROBA Y PANELA FORTIFICADO CON VITAMINA Y MINERALES Marca: \"\"CEREALES LOS BETITOS\"\" Presentaciones: 1.- Bolsa (envase inmediato) de polietileno de 1.00 Kg. 2.- Bolsa de polietileno bilaminado de alta/baja densidad de 100 g a 10 Kg. 3.- Bolsa de polietileno litografiado de media densidad de 100 g a 10 Kg. 4.- Bolsa de bilaminadas (interior de polietileno de baja densidad y exterior en polietileno cristal de baja densidad) de 100 g a 10 Kg. 5.- Saco (envase mediato) de polipropileno de 30 unidades (cada una es de 1 Kg). 6.- Saco de polipropileno tramado de 10 Kg hasta 50 Kg. 7.- Saco (empaque) de polipropileno de 10 Kg a 30 Kg (de 10 a 30 unidades de 1 Kg). 8.- Saco de Polietileno de 10 Kg hasta 50 Kg. 9.- Saco (empaque) de polipropileno de 30 bolsas de 1 Kg. Vida útil del Producto: 12 meses",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2029-04-12",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5649024N/SACRAR",
+      "producto": "Producto 1 : HOJUELAS PRECOCIDAS DE AVENA, CEBADA, TRIGO, CAÑIHUA, QUINUA Y HARINA DE KIWICHA PRECOCIDA CON VITAMINAS Y MINERALES. Denominación Comercial: HOJUELAS PRECOCIDAS DE AVENA, CEBADA, TRIGO, CAÑIHUA, QUINUA Y HARINA DE KIWICHA PRECOCIDA CON VITAMINAS Y MINERALES – HOJUELA PRECOCIDA DE AVENA, CEBADA, TRIGO, CAÑIHUA, QUINUA Y HARINA DE KIWICHA PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- Envase primario: bolsa de polietileno de 1 kg a 5kg. 2.- Envase primario: saco de polipropileno de 30 bolsas. 3.- Envase primario: bolsa de polietileno de alta, media y baja densidad de 100 g a 10 kg. 4.- Envase primario: bolsa de polipropileno de alta, media y baja densidad de 100 g a 10 kg. 5.- Envase primario: bolsa de bilaminado de 100 g a 10 kg. 6.- Envase primario: bolsa de polietileno bilaminado coextruido de 100 g a 10 kg. 7.- Envase primario: saco de polipropileno de 10 kg a 50 kg. 8.- Envase secundario: saco de polipropileno de 10 kg a 30kg, 10 unidades a 30 unidades. 9.- Envase secundario: saco de polietileno de 10 kg a 50 kg. Vida útil del Producto: 12 meses.",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2029-07-02",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5649124N/SACRAR",
+      "producto": "Producto 1 : HOJUELA DE AVENA CON QUINUA Y AJONJOLI CON MACA PRECOCIDO FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELA DE AVENA CON QUINUA Y AJONJOLI CON MACA PRECOCIDO FORTIFICADA CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- Bolsa (envase inmediato) de polietileno de 1000 gramos (1kg) hasta 5kg. 2.- Saco (envase mediado) de polipropileno de 30 bolsas de 01 kilo. 3.- Bolsa (envase inmediato) de polietileno de alta/media/baja densidad de 100g a 10kg. 4.- Bolsas de polipropileno de alta/media/baja densidad de 100g a 10kg. 5.- Bolsas de bilaminados de 100g a 10kg. 6.- Bolsas de polietileno bilaminado coextruido de 100g a 10kg. 7.- Saco de polipropileno tramado de 10 kg hasta 50 kg. 8.- Saco (empaque) de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. 9.- Saco de Polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2029-07-03",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5677224N/SACRAR",
+      "producto": "Producto 1 : MEZCLA DE HOJUELA PRECOCIDA DE TRIGO CON HARINA PRECOCIDA DE MACA CON HOJUELAS PRECOCIDAS DE AVENA, KIWICHA Y QUINUA CON VITAMINAS Y MINERALES Denominación Comercial: MEZCLA DE HOJUELA PRECOCIDA DE TRIGO CON HARINA DE MACA CON HOJUELAS PRECOCIDAS DE AVENA, KIWICHA Y QUINUA CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- Bolsa de polietileno de 1000 gramos (1kg) hasta 5kg. 2.- Saco de Polietileno de 10 kg hasta 50 kg. 3.- Saco (empaque) de polipropileno de 30 bolsas de 01 kilo. 4.- Bolsa de polietileno de alta/media/baja densidad de 100g a 10kg. 5.- Bolsas de polipropileno de alta/media/baja densidad de 100g a 10kg. 6.- Bolsas de bilaminados de 100g a 10kg. 7.- Bolsas de polietileno bilaminado de 100g a 10kg. 8.- Saco de polipropileno de 10 kg hasta 50 kg,. 9.- Saco (empaque) de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2029-11-20",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5677424N/SACRAR",
+      "producto": "Producto 1 : HOJUELAS DE AVENA, CEBADA, QUINUA, KIWICHA, TRIGO, AJONJOLÍ Y MACA PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELAS DE AVENA, CEBADA, QUINUA, KIWICHA, TRIGO, AJONJOLÍ Y MACA PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- Bolsa de polietileno de 1000 gramos (1kg) hasta 5kg. 2.- Saco (empaque) de polipropileno con capacidad para 30 bolsas de 01 kilo. 3.- Bolsa de polietileno de alta/media/baja densidad de 100g a 10kg. 4.- Bolsas de polipropileno de alta/media/baja densidad de 100g a 10kg. 5.- Bolsas de polietileno bilaminado de 100g a 10kg. 6.- Saco de polipropileno de 10 kg hasta 50 kg. 7.- Saco (empaque) de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. 8.- Saco de polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2029-11-21",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) - PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5677524N/SACRAR",
+      "producto": "Producto 1 : MEZCLA DE HOJUELAS PRECOCIDAS DE AVENA, QUINUA, KIWICHA, CAÑIHUA, AJONJOLÍ Y HARINA PRECOCIDA DE MACA CON AZUCAR FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELA DE AVENA QUINUA KIWICHA CAÑIHUA AJONJOLÍ Y HARINA DE MACA CON AZUCAR PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- Bolsa (envase inmediato) de polietileno de 1000 gramos (1 kg) hasta 5 kg. 2.- Saco de polietileno de 10 kg hasta 50 kg. 3.- Saco (empaque) de polipropileno de capacidad para 30 bolsas de 01 kg. 4.- Bolsa (envase inmediato) de polietileno de alta/media/baja densidad de 100 g a 10 kg. 5.- Bolsa de polipropileno de alta/media/baja densidad de 100 g a 10 kg. 6.- Bolsa de bilaminada de 100 g a 10 kg. 7.- Bolsa de polietileno bilaminado coextruido de 100 g a 10 kg. 8.- Saco de polipropileno de 10 kg hasta 50 kg. 9.- Saco (empaque) de polipropileno de 10 kg a 30 kg (de 10 a 30 unidades de 1 kg) peso neto. 10.- Saco de polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 meses",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2029-11-21",
+      "estado": "",
+      "direccion": "CAL. JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) - PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5677624N/SACRAR",
+      "producto": "Producto 1 : MEZCLA DE HOJUELAS DE QUINUA KIWICHA MACA CAÑIHUA AVENA Y HARINA DE SOYA PRECOCIDAS FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: MEZCLA DE HOJUELAS DE QUINUA KIWICHA MACA CAÑIHUA AVENA Y HARINA DE SOYA PRECOCIDAS FORTIFICADA CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- bolsa (envase inmediato) de polietileno de 1000 gr (1kg) hasta 5kg. 2.- saco (envase inmediato) de polipropileno de 30 bolsas de 01 kilo. 3.- bolsa (envase inmediato) de polietileno de alta/media/baja densidad de 100g a 10kg. 4.- Bolsas de polipropileno de alta/media/baja densidad de 100g a 10kg. 5.- Bolsas de bilaminadas de 100g a 10kg. 6.- Bolsas de polietileno bilaminado coextruido de 100g a 10kg. 7.- saco de polipropileno de 10 kg hasta 50 kg. 8.- saco (empaque) de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg). 9.- saco de Polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2029-11-21",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     }
+    ],
+    "relacionados": [
+     {
+      "codigo": "E5604026N/NEIVCI",
+      "producto": "Producto 1 : HOJUELAS PRECOCIDA DE AVENA CAÑIHUA QUINUA KIWICHA AJONJOLI Y MACA FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELAS PRECOCIDA DE AVENA CAÑIHUA QUINUA KIWICHA AJONJOLI Y MACA FORTIFICADO CON VITAMINAS Y MINERALES Marca: \"“CEREALES NUTRITIVOS LOS BETITOS”\" Presentaciones: 1.- bolsa (envase inmediato) de polietileno de 200 g hasta 5kg. 2.- aco (envase mediato) de polipropileno de 30 bolsas de 01 kilogramo. 3.- Envase primario, secundario, terciarios: bolsa de polietileno de alta/media/baja densidad de 100g a 10kg. 4.- Envase primario, secundario, terciarios: bolsa de polipropileno de alta/media/baja densidad de 100g a 10kg. 5.- Bolsas de bilaminados (BOPP/polietileno) de 100g a 10kg. 6.- Bolsas de bilaminado coextruido de 100g a 10kg. 7.- saco de polipropileno tramado de 10 kg hasta 50 kg. 8.- saco de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. 9.- saco de Polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2031-01-23",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5605125N/SASSLL",
+      "producto": "Producto 1 : HOJUELA DE QUINUA AVENA KIWICHA CEBADA, HARINA DE AJONJOL Y HARINA INTEGRAL DE SOYA PRECOCIDO FORTIFICADA CON VITAMINAS Y MINERALES Denominaci n Comercial: HOJUELA DE QUINUA AVENA KIWICHA CEBADA, HARINA DE AJONJOL Y HARINA INTEGRAL DE SOYA PRECOCIDO FORTIFICADA CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- Bolsas de polietileno de 1000 gramos (1kg) hasta 5kg. 2.- saco de Polietileno de 10 kg hasta 50 kg. 3.- saco (envase mediato) de polipropileno de 30 bolsas de 01 kilo. 4.- bolsa (envase inmediato) de polietileno de alta/media/baja de 100g a 10kg. 5.- Bolsas de polipropileno de alta/media/baja densidad de 100g a 10kg. 6.- Bolsas de polipropileno de alta/media/baja densidad de 100g a 10kg. 7.- Bolsas de bilaminados de 100g a 10kg. 8.- Bolsas de polietileno bilaminado coextruido de 100g a 10kg. 9.- saco de polipropileno tramado de 10 kg hasta 50 kg. 10.- saco (empaque) de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. Vida til del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2030-01-27",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5610125N/SACRAR",
+      "producto": "Producto 1 : MEZCLA DE HOJUELAS PRECOCIDAS DE KIWICHA, AVENA, QUINUA, CON HARINA DE CHIA Y POLENTA DE MAIZ FORTIFICADO CON VITAMINAS Y MINERALES. Denominación Comercial: MEZCLA DE HOJUELAS PRECOCIDAS DE KIWICHA, AVENA, QUINUA, CON HARINA DE CHIA Y POLENTA DE MAIZ FORTIFICADO CON VITAMINAS Y MINERALES. Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- bolsa (envase inmediato) de de polietileno de de 1000 gramos (1kg) hasta 5kg. 2.- saco (envase mediato) de de polipropileno de con capacidad para 30 bolsas de 01 kilo. 3.- bolsa (envase inmediato) de de polietileno de alta/media/baja densidad de desde 100g a 10kg. 4.- bolsas de de polipropileno de alta/media/baja densidad de desde 100g a 10kg. 5.- bolsa de bilaminadas de de 100g a 10kg. 6.- Bolsas de de polietileno bilaminado coextruido de desde 100g a 10kg. 7.- saco de de polipropileno tramado de desde 10 kg hasta 50 kg. 8.- saco (empaque) de de polipropileno de desde 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. 9.- saco de de Polietileno de desde 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2030-02-14",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5627425N/MAAIAR",
+      "producto": "Producto 1 : MEZCLA DE HOJUELAS PRECOCIDAS DE CEREALES CON KIWICHA TOSTADA, QUINUA Y AVENA CON HARINAS DE SOYA INTEGRAL Y MACA ENRIQUECIDA CON VITAMINAS Y MINERALES. Denominación Comercial: MEZCLA DE HOJUELAS PRECOCIDAS DE CEREALES CON KIWICHA TOSTADA, QUINUA Y AVENA CON HARINAS DE SOYA INTEGRAL Y MACA ENRIQUECIDA CON VITAMINAS Y MINERALES. Marca: \"“CEREALES NUTRITIVOS LOS BETITOS”\" Presentaciones: 1.- bolsa (envase inmediato) de polietileno de 1000 gramos (1kg) hasta 5kg. 2.- saco (envase mediato) de polipropileno de 30 bolsas de 01 kilo. 3.- bolsa (envase inmediato) de polietileno de alta/media/baja densidad de 100g a 10kg. 4.- bolsa (envase inmediato) de polipropileno de alta/media/baja densidad de 100g a 10kg. 5.- Bolsas (envase primario) de bilaminados de 100g a 10kg. 6.- Bolsas (envase primario) de polietileno bilaminado coextruido de 100g a 10kg. 7.- saco de polipropileno de 10 kg hasta 50 kg. 8.- saco de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. 9.- saco de Polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2030-08-25",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5634525N/MAAIAR",
+      "producto": "Producto 1 : MEZCLA DE HOJUELAS DE AVENA, QUINUA CON HARINA DE SOYA, MAIZ BLANCO Y MACA PRECOCIDAS FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: MEZCLA DE HOJUELAS DE AVENA, QUINUA CON HARINA DE SOYA, MAIZ BLANCO Y MACA PRECOCIDAS FORTIFICADO CON VITAMINAS Y MINERALES - HOJUELAS DE AVENA, QUINUA, HARINA DE MAÍZ BLANCO, HARINA DE SOYA, Y HARINA DE MACA PRECOCIDAS FORTIFICADO CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- bolsa (envase inmediato) de polietileno de 200 g hasta 5kg. 2.- Envase primario, secundario, terciarios: saco de polietileno de 10 kg hasta 50 kg. 3.- saco (envase mediato) de polipropileno de 30 bolsas de 01 kg. 4.- Envase primario, secundario, terciarios: bolsa de polietileno de alta/media/baja densidad de 100g a 10kg. 5.- Envase primario, secundario, terciarios: bolsa de polipropileno de alta/media/baja densidad de 100g a 10kg. 6.- Envase primario, secundario, terciarios: bolsa de polipropileno de alta/media/baja densidad de 100g a 10kg. 7.- Envase primario, secundario, terciarios: bolsa de bilaminados de 100g a 10kg. 8.- Envase primario, secundario, terciarios: bolsa de polietileno bilaminado coextruido de 100g a 10kg. 9.- Envase primario, secundario, terciarios: saco de polipropileno de 10 kg hasta 50 kg. 10.- Envase primario, secundario, terciarios: saco de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2030-09-26",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5634325N/SACRAR",
+      "producto": "Producto 1 : HOJUELAS PRECOCIDAS DE AVENA QUINUA MACA CEBADA CON AJONJOLI DESHIDRATADO EN POLVO FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELAS PRECOCIDAS DE AVENA QUINUA MACA CEBADA CON AJONJOLI DESHIDRATADO EN POLVO FORTIFICADO CON VITAMINAS Y MINERALES Marca: \"“CEREALES NUTRITIVOS LOS BETITOS”\" Presentaciones: 1.- bolsa (envase inmediato) de polietileno de 200 g hasta 5kg. 2.- saco (envase mediato) de polipropileno de primer uso de capacidad para 30 bolsas de 01 kilo. 3.- Envase primario, secundario, terciarios: bolsa de polietileno de alta/media/baja densidad de 100g a 10kg. 4.- Envase primario, secundario, terciarios: bolsa de polipropileno de alta/media/baja densidad de 100g a 10kg. 5.- Envase primario, secundario, terciarios: bolsa de bilaminados de 100g a 10kg. 6.- Envase primario, secundario, terciarios: bolsa de polietileno bilaminado coextruido de 100g a 10kg. 7.- Envase primario, secundario, terciarios: saco de polipropileno tramado de 10 kg hasta 50 kg. 8.- Envase primario, secundario, terciarios: saco de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. 9.- Envase primario, secundario, terciarios: saco de Polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2030-09-26",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5637225N/SACRAR",
+      "producto": "Producto 1 : HOJUELAS PRECOCIDA DE AVENA CAÑIHUA QUINUA KIWICHA AJONJOLI Y MACA FORTIFICADO CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELAS PRECOCIDA DE AVENA CAÑIHUA QUINUA KIWICHA AJONJOLI Y MACA FORTIFICADO CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- Bolsa (envase inmediato) de polietileno de 200 g hasta 5 kg. 2.- Saco (envase mediato) de polipropileno de primer uso de capacidad para 30 bolsas de 01 kilo. 3.- Envase primario, secundario, terciarios: bolsa de polietileno de alta/media/baja densidad de 100 g a 10 kg. 4.- Envase primario, secundario, terciarios: bolsa de polipropileno de alta/media/baja densidad de 100 g a 10 kg. 5.- Envase primario, secundario, terciarios: bolsa de bilaminados de 100 g a 10 kg. 6.- Envase primario, secundario, terciarios: bolsa de polietileno bilaminado coextruido de 100 g a 10 kg. 7.- Envase primario, secundario, terciarios: saco de polipropileno tramado de 10 kg hasta 50 kg. 8.- Envase primario, secundario, terciarios: saco de polipropileno de 10 kg a 30 kg (10 a 30 unidades de 1 kg) peso neto. 9.- Envase primario, secundario, terciarios: saco de polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2030-10-14",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5651425N/NEIVCI",
+      "producto": "Producto 1 : MEZCLA PRECOCIDA DE HOJUELAS DE KIWICHA, QUINUA, AVENA, SÉMOLA DE TRIGO Y HARINA DE CEBADA CON MACA Y LINAZA FORTIFICADA CON VITAMINAS Y MINERALES. Denominación Comercial: MEZCLA PRECOCIDA DE HOJUELAS DE KIWICHA, QUINUA, AVENA, SÉMOLA DE TRIGO Y HARINA DE CEBADA CON MACA Y LINAZA FORTIFICADA CON VITAMINAS Y MINERALES. Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- Bolsa (envase inmediato) de polietileno de 1000 g (1kg) hasta 5kg. 2.- Saco (envase mediado) de polipropileno de 30 bolsas de 01kg. 3.- Bolsa (envase inmediato) de polietileno de alta/media/baja densidad de 100g a 10kg. 4.- Bolsas de polipropileno de alta/media/baja densidad de 100g a 10kg. 5.- Bolsas de bilaminada (PET y PE) de 100g a 10kg. 6.- Bolsas de polietileno bilaminado coextruido de 100g a 10kg. 7.- Saco de polipropileno tramado de 10 kg hasta 50 kg. 8.- Saco (empaque) de polipropileno de 10 kg hasta 50 kg. 9.- Saco de Polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2030-11-26",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5649024N/SACRAR",
+      "producto": "Producto 1 : HOJUELAS PRECOCIDAS DE AVENA, CEBADA, TRIGO, CAÑIHUA, QUINUA Y HARINA DE KIWICHA PRECOCIDA CON VITAMINAS Y MINERALES. Denominación Comercial: HOJUELAS PRECOCIDAS DE AVENA, CEBADA, TRIGO, CAÑIHUA, QUINUA Y HARINA DE KIWICHA PRECOCIDA CON VITAMINAS Y MINERALES – HOJUELA PRECOCIDA DE AVENA, CEBADA, TRIGO, CAÑIHUA, QUINUA Y HARINA DE KIWICHA PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- Envase primario: bolsa de polietileno de 1 kg a 5kg. 2.- Envase primario: saco de polipropileno de 30 bolsas. 3.- Envase primario: bolsa de polietileno de alta, media y baja densidad de 100 g a 10 kg. 4.- Envase primario: bolsa de polipropileno de alta, media y baja densidad de 100 g a 10 kg. 5.- Envase primario: bolsa de bilaminado de 100 g a 10 kg. 6.- Envase primario: bolsa de polietileno bilaminado coextruido de 100 g a 10 kg. 7.- Envase primario: saco de polipropileno de 10 kg a 50 kg. 8.- Envase secundario: saco de polipropileno de 10 kg a 30kg, 10 unidades a 30 unidades. 9.- Envase secundario: saco de polietileno de 10 kg a 50 kg. Vida útil del Producto: 12 meses.",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2029-07-02",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5649124N/SACRAR",
+      "producto": "Producto 1 : HOJUELA DE AVENA CON QUINUA Y AJONJOLI CON MACA PRECOCIDO FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELA DE AVENA CON QUINUA Y AJONJOLI CON MACA PRECOCIDO FORTIFICADA CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- Bolsa (envase inmediato) de polietileno de 1000 gramos (1kg) hasta 5kg. 2.- Saco (envase mediado) de polipropileno de 30 bolsas de 01 kilo. 3.- Bolsa (envase inmediato) de polietileno de alta/media/baja densidad de 100g a 10kg. 4.- Bolsas de polipropileno de alta/media/baja densidad de 100g a 10kg. 5.- Bolsas de bilaminados de 100g a 10kg. 6.- Bolsas de polietileno bilaminado coextruido de 100g a 10kg. 7.- Saco de polipropileno tramado de 10 kg hasta 50 kg. 8.- Saco (empaque) de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. 9.- Saco de Polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2029-07-03",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5677224N/SACRAR",
+      "producto": "Producto 1 : MEZCLA DE HOJUELA PRECOCIDA DE TRIGO CON HARINA PRECOCIDA DE MACA CON HOJUELAS PRECOCIDAS DE AVENA, KIWICHA Y QUINUA CON VITAMINAS Y MINERALES Denominación Comercial: MEZCLA DE HOJUELA PRECOCIDA DE TRIGO CON HARINA DE MACA CON HOJUELAS PRECOCIDAS DE AVENA, KIWICHA Y QUINUA CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- Bolsa de polietileno de 1000 gramos (1kg) hasta 5kg. 2.- Saco de Polietileno de 10 kg hasta 50 kg. 3.- Saco (empaque) de polipropileno de 30 bolsas de 01 kilo. 4.- Bolsa de polietileno de alta/media/baja densidad de 100g a 10kg. 5.- Bolsas de polipropileno de alta/media/baja densidad de 100g a 10kg. 6.- Bolsas de bilaminados de 100g a 10kg. 7.- Bolsas de polietileno bilaminado de 100g a 10kg. 8.- Saco de polipropileno de 10 kg hasta 50 kg,. 9.- Saco (empaque) de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2029-11-20",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5677424N/SACRAR",
+      "producto": "Producto 1 : HOJUELAS DE AVENA, CEBADA, QUINUA, KIWICHA, TRIGO, AJONJOLÍ Y MACA PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELAS DE AVENA, CEBADA, QUINUA, KIWICHA, TRIGO, AJONJOLÍ Y MACA PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- Bolsa de polietileno de 1000 gramos (1kg) hasta 5kg. 2.- Saco (empaque) de polipropileno con capacidad para 30 bolsas de 01 kilo. 3.- Bolsa de polietileno de alta/media/baja densidad de 100g a 10kg. 4.- Bolsas de polipropileno de alta/media/baja densidad de 100g a 10kg. 5.- Bolsas de polietileno bilaminado de 100g a 10kg. 6.- Saco de polipropileno de 10 kg hasta 50 kg. 7.- Saco (empaque) de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg) peso neto. 8.- Saco de polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2029-11-21",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) - PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5677524N/SACRAR",
+      "producto": "Producto 1 : MEZCLA DE HOJUELAS PRECOCIDAS DE AVENA, QUINUA, KIWICHA, CAÑIHUA, AJONJOLÍ Y HARINA PRECOCIDA DE MACA CON AZUCAR FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: HOJUELA DE AVENA QUINUA KIWICHA CAÑIHUA AJONJOLÍ Y HARINA DE MACA CON AZUCAR PRECOCIDA FORTIFICADA CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- Bolsa (envase inmediato) de polietileno de 1000 gramos (1 kg) hasta 5 kg. 2.- Saco de polietileno de 10 kg hasta 50 kg. 3.- Saco (empaque) de polipropileno de capacidad para 30 bolsas de 01 kg. 4.- Bolsa (envase inmediato) de polietileno de alta/media/baja densidad de 100 g a 10 kg. 5.- Bolsa de polipropileno de alta/media/baja densidad de 100 g a 10 kg. 6.- Bolsa de bilaminada de 100 g a 10 kg. 7.- Bolsa de polietileno bilaminado coextruido de 100 g a 10 kg. 8.- Saco de polipropileno de 10 kg hasta 50 kg. 9.- Saco (empaque) de polipropileno de 10 kg a 30 kg (de 10 a 30 unidades de 1 kg) peso neto. 10.- Saco de polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 meses",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2029-11-21",
+      "estado": "",
+      "direccion": "CAL. JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) - PIURA - PIURA - PIURA",
+      "vigente": true
+     },
+     {
+      "codigo": "E5677624N/SACRAR",
+      "producto": "Producto 1 : MEZCLA DE HOJUELAS DE QUINUA KIWICHA MACA CAÑIHUA AVENA Y HARINA DE SOYA PRECOCIDAS FORTIFICADA CON VITAMINAS Y MINERALES Denominación Comercial: MEZCLA DE HOJUELAS DE QUINUA KIWICHA MACA CAÑIHUA AVENA Y HARINA DE SOYA PRECOCIDAS FORTIFICADA CON VITAMINAS Y MINERALES Marca: \"CEREALES NUTRITIVOS LOS BETITOS\" Presentaciones: 1.- bolsa (envase inmediato) de polietileno de 1000 gr (1kg) hasta 5kg. 2.- saco (envase inmediato) de polipropileno de 30 bolsas de 01 kilo. 3.- bolsa (envase inmediato) de polietileno de alta/media/baja densidad de 100g a 10kg. 4.- Bolsas de polipropileno de alta/media/baja densidad de 100g a 10kg. 5.- Bolsas de bilaminadas de 100g a 10kg. 6.- Bolsas de polietileno bilaminado coextruido de 100g a 10kg. 7.- saco de polipropileno de 10 kg hasta 50 kg. 8.- saco (empaque) de polipropileno de 10kg a 30kg (de 10 a 30 unidades de 1kg). 9.- saco de Polietileno de 10 kg hasta 50 kg. Vida útil del Producto: 12 MESES",
+      "marca": "",
+      "titular": "S & L INVERSIONES Y SERVICIOS SANTA MARIA EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA",
+      "ruc_titular": "20609935996",
+      "fecha_vencimiento": "2029-11-21",
+      "estado": "",
+      "direccion": "CAL.JOSE BERNARDO ALCEDO NRO. 287 URB. PIURA (A ESPALDA DE C PRINCIPAL H. CASTRO POZO) PIURA - PIURA - PIURA",
+      "vigente": true
+     }
+    ]
+   }
+  },
+  {
+   "categoria": "Vaso de Leche",
+   "nomenclatura": "CM-14-2025-MDSL",
+   "entidad": "MUNICIPALIDAD DISTRITAL DE SAN LUIS - SAN PABLO",
+   "descripcion": "COMPRA DE SUMINISTROS PARA EL PROGRAMA VASO DE LECHE AÑO 2026 — Ítems: HOJUELAS DE QUINUA, KIWICHA, HARINA DE MACA, AVENA EN HOJUELAS, HARINA DE SOYA Y AJONJOLI ENRIQUECIDAS CON VITAMINAS Y MINERALES, EMPAQUETADO EN BOLSA (3,193.5676 Kg); LECHE EVAPORADA ENTERA X 400 g  APROX.",
+   "ganador": "URRUTIA TARRILLO MARY FLOR",
+   "ruc": "10452909567",
+   "monto": 73690.4,
+   "moneda": "PEN",
+   "fechaBP": "2025-11-20",
+   "url": "https://prod6.seace.gob.pe/buscador-publico/contrataciones/31523",
+   "fuente": "SEACE (contrataciones hasta 8 UIT)",
+   "contacto": {
+    "ruc": "10452909567",
+    "telefonos": [],
+    "correos": [],
+    "ubicacion": "CAJAMARCA / CAJAMARCA / CAJAMARCA",
+    "direccion": "",
+    "estado_sunat": "ACTIVO - HABIDO",
+    "representante": "",
+    "habilitado_rnp": true,
+    "ficha_url": "https://apps.oece.gob.pe/perfilprov-ui/ficha/10452909567",
+    "fuentes": [
+     "Ficha RNP (OECE)",
+     "SUNAT vía OECE"
+    ]
+   },
+   "verif": {
+    "estado": "SIN REGISTRO SANITARIO",
+    "nota": "No se encontraron registros a nombre del ganador. Puede ser distribuidor de un producto cuyo titular es otra empresa (revise la oferta).",
+    "totalRegistros": 0,
+    "registros": [],
+    "relacionados": []
+   }
+  }
+ ],
+ "proximas": [
+  {
+   "categoria": "Avena",
+   "nomenclatura": "CM-158-2026-HR MNB PUNO",
+   "entidad": "GOBIERNO REGIONAL DE PUNO- HOSPITAL REGIONAL MANUEL NUÑEZ BUTRON",
+   "descripcion": "ADQUISICION DE HOJUELA DE AVENA PARA ACTIVIDADES DE BIENESTAR DE PERSONAL DE LA UNIDAD DE RECURSOS HUMANOS DEL HOSPITAL REGIONAL MANUEL NUÑEZ BUTRON PUNO",
+   "monto": null,
+   "moneda": "PEN",
+   "estado": "En Evaluación",
+   "fechaPub": "2026-09-22T13:04:59",
+   "fechaIniCot": "2026-09-22T13:15:00",
+   "fechaOfertas": "2026-09-23T11:00:00",
+   "url": "https://prod6.seace.gob.pe/buscador-publico/contrataciones/96341",
+   "fuente": "SEACE (contrataciones hasta 8 UIT)"
+  }
+ ]
+}
