@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
@@ -69,14 +70,14 @@ def datos_de_la_web(avisos: list[str]) -> tuple[list[ResultadoGanador], list[Con
     return res, prox
 
 
-def abrir_navegador(p, perfil: Path):
-    """Chrome instalado en la PC (mejor para el reCAPTCHA); si no, el Chromium de Playwright."""
-    opciones = dict(headless=False, accept_downloads=True, viewport={"width": 1300, "height": 850})
+def abrir_navegador(p):
+    """Chrome instalado en la PC; si no, Edge o el Chromium de Playwright.
+
+    Sesión limpia en cada revisión: con un perfil guardado (launch_persistent_context)
+    Chrome se cerraba solo al descargar el ZIP a partir de la segunda vez."""
     for canal in ("chrome", "msedge", None):
         try:
-            if canal:
-                return p.chromium.launch_persistent_context(str(perfil), channel=canal, **opciones)
-            return p.chromium.launch_persistent_context(str(perfil), **opciones)
+            return p.chromium.launch(channel=canal, headless=False) if canal else p.chromium.launch(headless=False)
         except Exception:
             continue
     raise RuntimeError("No se pudo abrir Chrome. Ejecuta: python -m playwright install chromium")
@@ -93,14 +94,17 @@ def main(argv: list[str] | None = None) -> int:
 
     avisos: list[str] = []
     cache = prod2.Cache(args.salida / "prod2_cache.json")
+    diag = args.salida / "diagnostico"
+    if diag.exists():  # solo interesan los problemas de esta revisión
+        shutil.rmtree(diag, ignore_errors=True)
     with sync_playwright() as p:
-        contexto = abrir_navegador(p, args.salida / "perfil_navegador")
-        page = contexto.pages[0] if contexto.pages else contexto.new_page()
-        robot = prod2.RobotSEACE(page, args.salida / "diagnostico")
+        navegador = abrir_navegador(p)
+        page = navegador.new_context(accept_downloads=True, viewport={"width": 1300, "height": 850}).new_page()
+        robot = prod2.RobotSEACE(page, diag, carpeta_zips=args.salida / "zips")
         try:
             adjs, pendientes = prod2.recolectar(robot, cache, dias=args.dias)
         finally:
-            contexto.close()
+            navegador.close()
 
     adjs = filtrar(adjs)
     print(f"\n{len(adjs)} ganadores en licitaciones; {len(pendientes)} procesos aún sin buena pro.")
@@ -119,8 +123,9 @@ def main(argv: list[str] | None = None) -> int:
     escribir(args.salida, rep, pendientes, args.dias, nombre_json=f"{nombre}.json", nombre_pdf=f"{nombre}.pdf")
     print(f"\nPDF: {args.salida / (nombre + '.pdf')}")
     print(f"Datos para la página (botón 'Revisar un archivo'): {args.salida / (nombre + '.json')}")
-    if (args.salida / "diagnostico").exists() and any((args.salida / "diagnostico").iterdir()):
-        print(f"Hubo pasos con problemas: envía la carpeta {args.salida / 'diagnostico'} para ajustar el robot.")
+    print(f"Documentos de buena pro descargados (para verificar a mano): {args.salida / 'zips'}")
+    if diag.exists() and any(diag.iterdir()):
+        print(f"Hubo pasos con problemas: envía la carpeta {diag} para ajustar el robot.")
     return 0
 
 

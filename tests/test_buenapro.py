@@ -36,3 +36,35 @@ def test_pdf_real_dentro_del_zip():
     assert (g1.ruc, g1.nombre, g1.monto) == ("20611902329", "ALEMARO E.I.R.L.", 4500.0)
     assert g2.consorcio == "CONSORCIO LACTEOS DEL SUR" and g2.integrantes == [("20111111111", "LACTEOS A SAC")]
     assert g2.monto == 2500.5
+
+
+def test_reporte_real_con_diseno():
+    """Texto (con diseño) de un reporte real del SEACE: la cabecera sale ordenada y el
+    segundo integrante del consorcio queda debajo de los montos."""
+    from pathlib import Path
+    texto = (Path(__file__).parent / "datos" / "reporte_bp_LP-SM-1-2026-MDM-C-1.txt").read_text(encoding="utf-8")
+    rep = leer_texto(texto)
+    assert rep.entidad == "MUNICIPALIDAD DISTRITAL DE MANANTAY"
+    assert rep.nomenclatura == "LP-SM-1-2026-MDM-C-1"
+    assert rep.descripcion.endswith("LECHE EVAPORADA ENTERA-PERIODO 2026")
+    (g,) = rep.ganadores
+    assert (g.item, g.resultado, g.ruc, g.nombre) == ("2", "Adjudicado", "20609822806", "CONSORCIO ATUMPAMPA")
+    assert (g.cantidad, g.monto) == (58853.0, 476709.30)
+    assert g.integrantes == [("20609822806", "INVERSIONES ATUMPAMPA S.A.C."),
+                             ("20600571916", "EMPRESA DE COMERCIALIZACION DE ALIMENTOS SHILCAYO S.A.C.")]
+    assert g.descripcion.startswith("ADQUISICION DE HOJUELAS DE AVENA, QUINUA PRECOCIDA")
+    assert g.descripcion.endswith("CON VITAMINAS Y MINERALES")
+
+
+def test_nombre_sin_el_final_de_la_descripcion():
+    """En este reporte real la descripción del ítem se monta sobre la tabla y, con diseño,
+    su final ("MINERALES¿") queda pegado al nombre; el texto sin diseño lo corrige."""
+    from pathlib import Path
+    from revisor.buenapro import corregir_nombres
+    datos = Path(__file__).parent / "datos"
+    rep = leer_texto((datos / "reporte_bp_LP-ABR-2-2026-MDT_CS-1_diseno.txt").read_text(encoding="utf-8"))
+    assert rep.ganadores[0].nombre.endswith("MINERALES¿")
+    corregir_nombres(rep, (datos / "reporte_bp_LP-ABR-2-2026-MDT_CS-1_simple.txt").read_text(encoding="utf-8"))
+    (g,) = rep.ganadores
+    assert (g.ruc, g.nombre, g.cantidad, g.monto) == ("20480786212", "PROCESADORA INDURLAC E.I.R.L.", 24666.0, 204727.80)
+    assert rep.nomenclatura == "LP-ABR-2-2026-MDT/CS-1"

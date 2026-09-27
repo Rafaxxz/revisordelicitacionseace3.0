@@ -11,3 +11,4 @@ data/digesa/*
 reportes/perfil_navegador/
 reportes/diagnostico/
 reportes/*.json
+reportes/zips/
