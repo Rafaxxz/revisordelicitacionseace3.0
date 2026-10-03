@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Revisor de licitaciones SEACE</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%231d3f73%22/%3E%3Cpath d=%22M9 17l5 5 9-11%22 stroke=%22white%22 stroke-width=%223.5%22 fill=%22none%22/%3E%3C/svg%3E">
+<style>
+  :root { --azul:#1d3f73; --verde:#1f7a3a; --rojo:#b3261e; --gris:#6b6b6b; --fondo:#f4f6fa; --borde:#dde3ec; --texto:#1c1c1c; --tarjeta:#fff; --suave:#eef2f8; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--fondo); color:var(--texto); }
+  header { background:var(--azul); color:#fff; padding:18px 16px; }
+  header h1 { margin:0 auto; max-width:1150px; font-size:20px; }
+  header p { margin:4px auto 0; max-width:1150px; opacity:.85; font-size:13px; }
+  main { max-width:1150px; margin:0 auto; padding:18px 16px 60px; }
+  .caja { background:var(--tarjeta); border:1px solid var(--borde); border-radius:10px; padding:16px; margin-bottom:18px; }
+  .pasos { margin:0 0 14px; padding-left:20px; font-size:14px; line-height:1.55; }
+  .fila { display:flex; flex-wrap:wrap; gap:14px 22px; align-items:flex-end; }
+  label { font-size:13px; display:flex; flex-direction:column; gap:4px; max-width:100%; }
+  input[type=file] { max-width:100%; font-size:13px; }
+  button { background:var(--azul); color:#fff; border:0; border-radius:7px; padding:9px 16px; font-size:14px; cursor:pointer; }
+  button.sec { background:#e4e9f2; color:var(--azul); }
+  button.pdf { background:var(--rojo); }
+  .sub { font-size:12px; color:var(--gris); }
+  a { color:var(--azul); }
+  .resumen { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin:14px 0; }
+  .tarjeta { border:1px solid var(--borde); border-radius:10px; padding:12px 14px; }
+  .tarjeta b { font-size:24px; display:block; } .tarjeta span { font-size:12px; color:var(--gris); }
+  .verde { color:var(--verde); } .rojo { color:var(--rojo); } .gris { color:var(--gris); } .azul { color:var(--azul); }
+  #avisos { background:#fff8e1; border:1px solid #f0d98a; color:#5c4800; border-radius:8px; padding:8px 14px; font-size:13px; }
+  #tabs { display:flex; flex-wrap:wrap; gap:6px; margin:16px 0 4px; }
+  #tabs button { background:#e4e9f2; color:var(--azul); font-size:13px; }
+  #tabs button.activo { background:var(--azul); color:#fff; }
+  .panel-tab { display:none; } .panel-tab.activo { display:block; }
+  details.item { border:1px solid var(--borde); border-radius:10px; margin:10px 0; background:var(--tarjeta); }
+  details.item > summary { list-style:none; cursor:pointer; padding:12px 14px; display:flex; justify-content:space-between; gap:10px; align-items:center; }
+  details.item > summary::-webkit-details-marker { display:none; }
+  .nombre { font-weight:600; } .nombre::before { content:"▸ "; color:var(--gris); }
+  details[open] .nombre::before { content:"▾ "; }
+  .badge { font-size:11px; font-weight:700; padding:4px 9px; border-radius:20px; white-space:nowrap; }
+  .badge.si { background:#e3f3e8; color:var(--verde); } .badge.no { background:#fbe6e4; color:var(--rojo); } .badge.nv { background:#ececec; color:#444; }
+  .cuerpo { border-top:1px solid var(--borde); padding:12px 14px 14px; font-size:13px; }
+  dl { display:grid; grid-template-columns:170px 1fr; gap:4px 12px; margin:0 0 12px; } dt { color:var(--gris); } dd { margin:0; }
+  .tabla { overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:12.5px; }
+  th, td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--borde); vertical-align:top; }
+  th { background:var(--suave); }
+  .nota { background:var(--suave); border-left:3px solid var(--gris); padding:6px 10px; margin-top:10px; }
+  .vacio { color:var(--gris); font-size:13px; }
+  code { background:var(--suave); padding:1px 5px; border-radius:4px; }
+  @media (max-width:640px) { dl { grid-template-columns:1fr; } details.item > summary { flex-direction:column; align-items:flex-start; } }
+  @media (prefers-color-scheme:dark) {
+    :root { --fondo:#12161d; --tarjeta:#1b212b; --borde:#2d3643; --texto:#e7ebf1; --gris:#9aa3b0; --suave:#232b37; --verde:#5cc47d; --rojo:#ff8a80; }
+    a, .azul { color:#8fb4ff; } #tabs button, button.sec { background:#26324a; color:#cfe0ff; }
+    .badge.si { background:#1d3a27; } .badge.no { background:#45201d; } .badge.nv { background:#2d333d; color:#ccd; }
+    #avisos { background:#3a3016; border-color:#6b5a1f; color:#f3e2a6; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Revisor de licitaciones SEACE</h1>
+  <p>Avena · Arroz símil · Arroz fortificado · Vaso de Leche — ganadores, próximas contrataciones y registro sanitario DIGESA</p>
+</header>
+<main>
+  <section class="caja" id="intro">
+    <p style="margin:0 0 6px"><b>Se actualiza sola todos los días (6:17 a. m., hora de Lima).</b> Cada mañana se revisa el SEACE,
+      se buscan los ganadores de avena, arroz símil, arroz fortificado y Vaso de Leche, y se verifica su registro sanitario
+      en DIGESA. Abajo verás los resultados; cada ganador se despliega con su detalle.</p>
+    <p class="sub" style="margin:0">Fuente automática: buscador público de contrataciones del SEACE (prod6), que cubre las
+      contrataciones de hasta 8 UIT. Las licitaciones mayores (buscador prod2) bloquean las consultas desde fuera del Perú:
+      para esas, usa la opción de subir el Excel.</p>
+  </section>
+
+  <details class="caja" id="subir">
+    <summary style="cursor:pointer"><b>Revisar un Excel del SEACE / OECE (licitaciones mayores)</b></summary>
+    <form id="form" style="margin-top:12px">
+    <ol class="pasos">
+      <li>Entra al <a href="https://prod2.seace.gob.pe/seacebus-uiwd-pub/buscadorPublico/buscadorPublico.xhtml" target="_blank" rel="noopener">buscador del SEACE</a>, busca <b>avena</b>, <b>arroz</b> o <b>vaso de leche</b> y exporta los resultados a Excel. También sirven los datos de adjudicaciones del OECE / CONOSCE (Excel, CSV o JSON).</li>
+      <li>Súbelos aquí (puedes subir varios a la vez). También puedes subir el archivo <code>ganadores_FECHA.json</code> que genera el robot de licitaciones (<code>revisar_licitaciones_grandes.bat</code>).</li>
+      <li>Opcional: sube la relación de registros sanitarios de DIGESA para verificar a los ganadores.</li>
+    </ol>
+    <div class="fila">
+      <label>Archivos del SEACE / OECE <input id="seace" type="file" multiple accept=".xlsx,.xls,.csv,.txt,.json"></label>
+      <label>Registros sanitarios DIGESA (opcional) <input id="digesa" type="file" multiple accept=".xlsx,.xls,.csv,.txt"></label>
+    </div>
+    <div class="fila" style="margin-top:12px">
+      <label>Buena pro desde <input id="desde" type="date"></label>
+      <label>hasta <input id="hasta" type="date"></label>
+      <button type="submit">Revisar</button>
+      <button type="button" class="sec" id="demo">Ver ejemplo (datos ficticios)</button>
+      <button type="button" class="sec" id="volver">Volver a la revisión automática</button>
+    </div>
+    <p class="sub">Los archivos se procesan en tu navegador; no se envían a ningún servidor.</p>
+    </form>
+  </details>
+
+  <section id="resultado" class="caja" hidden>
+    <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;align-items:center">
+      <div><b>Resultados</b><div class="sub" id="actualizado"></div><div class="sub" id="fuentes"></div></div>
+      <button type="button" class="pdf" id="pdf">⬇ Descargar PDF</button>
+    </div>
+    <div class="resumen" id="resumen"></div>
+    <div id="avisos" hidden></div>
+    <div id="tabs" role="tablist"></div>
+    <div id="paneles"></div>
+  </section>
+</main>
+<script src="vendor/xlsx.full.min.js"></script>
+<script src="vendor/jspdf.umd.min.js"></script>
+<script src="vendor/jspdf.plugin.autotable.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
